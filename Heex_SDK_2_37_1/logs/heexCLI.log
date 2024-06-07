@@ -1,0 +1,192 @@
+[2024-06-04 16:10:57,108][utilsParsingOperations][DEBUG] 
+Argument              Value
+--------------------------------
+verbose               False
+version               False
+subcommand            build
+build_examples        True
+with_python           False
+with_boost_version    None
+jobs                  None
+debug                 False
+with_legacy_cmake     False
+with_legacy_ubuntu18  False
+with_legacy_getrandom False
+rebuild               False
+func                  <function execute at 0x7888e9da12d0>
+main_arg_parser       <utils.utilsMainArgParser.MainArgParser object at 0x7888eaa26530>
+for_sdk               True
+for_kernel            False
+--------------------------------
+
+[2024-06-04 16:10:57,108][utilsParsingOperations][DEBUG] parseUtils.print_args_as_table(args): None
+[2024-06-04 16:10:57,108][build][INFO] Booststrap won't add extra necessary build args for 22.04.
+[2024-06-04 16:10:57,112][getEssentialsSdk][INFO] Getting Essentials for SDK
+[2024-06-04 16:10:57,159][getEssentialsSdk][INFO] The 'build-essential' package already installed
+[2024-06-04 16:10:57,159][getEssentialsSdk][INFO] The 'makeself' package isn't installed. Installing 'makeself' using 'sudo apt install makeself -y'
+[2024-06-04 16:11:08,858][getCMake][INFO] The 'cmake' package already installed
+[2024-06-04 16:11:08,880][utilsGetDependencies][INFO] Downloading archive boost_1_75_0.tar.gz ...
+[2024-06-04 16:11:32,542][getBoost][INFO] Extracting Boost to boost_1_75_0 ...
+[2024-06-04 16:11:39,990][getBoost][INFO] Building Boost 1.75.0 in boost_1_75_0 ...
+[2024-06-04 16:15:21,540][utilsGetDependencies][INFO] BOOST LIBS exists: /home/abhimanyu/Documents/Heex_SDK_2_37_1/3rdparty/boost_1_75_0/stage/lib/libboost_date_time*
+[2024-06-04 16:15:21,541][utilsGetDependencies][INFO] BOOST LIBS exists: /home/abhimanyu/Documents/Heex_SDK_2_37_1/3rdparty/boost_1_75_0/stage/lib/libboost_filesystem*
+[2024-06-04 16:15:21,542][utilsGetDependencies][INFO] BOOST LIBS exists: /home/abhimanyu/Documents/Heex_SDK_2_37_1/3rdparty/boost_1_75_0/stage/lib/libboost_program_options*
+[2024-06-04 16:15:21,542][utilsGetDependencies][INFO] BOOST LIBS exists: /home/abhimanyu/Documents/Heex_SDK_2_37_1/3rdparty/boost_1_75_0/stage/lib/libboost_regex*
+[2024-06-04 16:15:21,543][utilsGetDependencies][INFO] BOOST LIBS exists: /home/abhimanyu/Documents/Heex_SDK_2_37_1/3rdparty/boost_1_75_0/stage/lib/libboost_serialization*
+[2024-06-04 16:15:21,544][utilsGetDependencies][INFO] BOOST LIBS exists: /home/abhimanyu/Documents/Heex_SDK_2_37_1/3rdparty/boost_1_75_0/stage/lib/libboost_system*
+[2024-06-04 16:15:21,544][utilsGetDependencies][INFO] BOOST LIBS exists: /home/abhimanyu/Documents/Heex_SDK_2_37_1/3rdparty/boost_1_75_0/stage/lib/libboost_thread*
+[2024-06-04 16:15:21,545][utilsGetDependencies][INFO] Downloading archive units-0.7.0.zip ...
+[2024-06-04 16:15:22,450][getUnits][INFO] Extracting Units to units ...
+[2024-06-04 16:15:22,520][getUnits][INFO] Building Units 0.7.0 in units ...
+[2024-06-04 16:15:32,021][utilsBuildOperations][INFO] Version info:
+[2024-06-04 16:15:32,022][utilsBuildOperations][INFO] OS=Ubuntu_22.04
+[2024-06-04 16:15:32,022][utilsBuildOperations][INFO] CPU Architecture=x86_64
+[2024-06-04 16:15:32,023][utilsBuildOperations][INFO] boost=1.75.0
+[2024-06-04 16:15:32,023][utilsBuildOperations][INFO] units=0.7.0
+[2024-06-04 16:15:32,024][utilsBuildOperations][INFO] gcc=11.4.0
+[2024-06-04 16:15:32,024][utilsBuildOperations][INFO] cmake=3.22.1
+[2024-06-04 16:15:32,024][utilsBuildOperations][INFO] makeself=2.4.5
+[2024-06-04 16:15:32,025][utilsBuildOperations][INFO] Compiling HeexUtils
+[2024-06-04 16:15:32,025][utilsBuildOperations][INFO] Configure to build HeexUtils in Release with Examples for Boost 1.75.0
+[2024-06-04 16:15:32,383][utilsBuildOperations][INFO] Building in Release
+[2024-06-04 16:16:00,154][utilsBuildOperations][INFO] Compiling HeexConfig
+[2024-06-04 16:16:00,154][utilsBuildOperations][INFO] Configure to build HeexConfig in Release with Examples for Boost 1.75.0
+[2024-06-04 16:16:00,536][utilsBuildOperations][INFO] Building in Release
+[2024-06-04 16:16:03,289][utilsBuildOperations][INFO] Compiling HeexCom
+[2024-06-04 16:16:03,290][utilsBuildOperations][INFO] Configure to build HeexCom in Release with Examples for Boost 1.75.0
+[2024-06-04 16:16:03,656][utilsBuildOperations][INFO] Building in Release
+[2024-06-04 16:16:32,392][utilsBuildOperations][INFO] Compiling HeexMessages
+[2024-06-04 16:16:32,393][utilsBuildOperations][INFO] Configure to build HeexMessages in Release with Examples for Boost 1.75.0
+[2024-06-04 16:16:32,759][utilsBuildOperations][INFO] Building in Release
+[2024-06-04 16:16:45,092][utilsBuildOperations][INFO] Compiling sdk
+[2024-06-04 16:16:45,093][utilsBuildOperations][INFO] Configure to build sdk in Release with Examples for Boost 1.75.0
+[2024-06-04 16:16:45,490][utilsBuildOperations][INFO] Building in Release
+[2024-06-04 16:18:18,195][utilsBuildOperations][INFO] Compiling cpp
+[2024-06-04 16:18:18,195][utilsBuildOperations][INFO] Configure to build cpp in Release with Examples for Boost 1.75.0
+[2024-06-04 16:18:18,581][utilsBuildOperations][INFO] Building in Release
+[2024-06-04 16:18:30,486][utilsBuildOperations][INFO] Compiling cpp
+[2024-06-04 16:18:30,486][utilsBuildOperations][INFO] Configure to build cpp in Release with Examples for Boost 1.75.0
+[2024-06-04 16:18:30,989][utilsBuildOperations][INFO] Building in Release
+[2024-06-04 16:19:19,725][utilsBuildOperations][INFO] Build of Sdk complete.
+------------------------------------------------------------------------------------------------------------------------
+[2024-06-05 11:16:08,320][utilsParsingOperations][DEBUG] 
+Argument              Value
+--------------------------------
+verbose               False
+version               False
+subcommand            build
+build_examples        True
+with_python           False
+with_boost_version    None
+jobs                  None
+debug                 False
+with_legacy_cmake     False
+with_legacy_ubuntu18  False
+with_legacy_getrandom False
+rebuild               False
+func                  <function execute at 0x7b9fd946d2d0>
+main_arg_parser       <utils.utilsMainArgParser.MainArgParser object at 0x7b9fda10a6e0>
+for_sdk               True
+for_kernel            False
+--------------------------------
+
+[2024-06-05 11:16:08,320][utilsParsingOperations][DEBUG] parseUtils.print_args_as_table(args): None
+[2024-06-05 11:16:08,320][build][INFO] Booststrap won't add extra necessary build args for 22.04.
+[2024-06-05 11:16:08,323][utilsGetDependencies][INFO] BOOST LIBS exists: /home/abhimanyu/Documents/Heex_SDK_2_37_1/3rdparty/boost_1_75_0/stage/lib/libboost_date_time*
+[2024-06-05 11:16:08,324][utilsGetDependencies][INFO] BOOST LIBS exists: /home/abhimanyu/Documents/Heex_SDK_2_37_1/3rdparty/boost_1_75_0/stage/lib/libboost_filesystem*
+[2024-06-05 11:16:08,325][utilsGetDependencies][INFO] BOOST LIBS exists: /home/abhimanyu/Documents/Heex_SDK_2_37_1/3rdparty/boost_1_75_0/stage/lib/libboost_program_options*
+[2024-06-05 11:16:08,326][utilsGetDependencies][INFO] BOOST LIBS exists: /home/abhimanyu/Documents/Heex_SDK_2_37_1/3rdparty/boost_1_75_0/stage/lib/libboost_regex*
+[2024-06-05 11:16:08,327][utilsGetDependencies][INFO] BOOST LIBS exists: /home/abhimanyu/Documents/Heex_SDK_2_37_1/3rdparty/boost_1_75_0/stage/lib/libboost_serialization*
+[2024-06-05 11:16:08,328][utilsGetDependencies][INFO] BOOST LIBS exists: /home/abhimanyu/Documents/Heex_SDK_2_37_1/3rdparty/boost_1_75_0/stage/lib/libboost_system*
+[2024-06-05 11:16:08,330][utilsGetDependencies][INFO] BOOST LIBS exists: /home/abhimanyu/Documents/Heex_SDK_2_37_1/3rdparty/boost_1_75_0/stage/lib/libboost_thread*
+[2024-06-05 11:16:08,330][utilsBuildOperations][INFO] Version info:
+[2024-06-05 11:16:08,331][utilsBuildOperations][INFO] OS=Ubuntu_22.04
+[2024-06-05 11:16:08,332][utilsBuildOperations][INFO] CPU Architecture=x86_64
+[2024-06-05 11:16:08,333][utilsBuildOperations][INFO] boost=1.75.0
+[2024-06-05 11:16:08,334][utilsBuildOperations][INFO] units=0.7.0
+[2024-06-05 11:16:08,335][utilsBuildOperations][INFO] gcc=11.4.0
+[2024-06-05 11:16:08,335][utilsBuildOperations][INFO] cmake=3.22.1
+[2024-06-05 11:16:08,336][utilsBuildOperations][INFO] makeself=2.4.5
+[2024-06-05 11:16:08,337][utilsBuildOperations][INFO] Compiling HeexUtils
+[2024-06-05 11:16:08,338][utilsBuildOperations][INFO] Configure to build HeexUtils in Release with Examples for Boost 1.75.0
+[2024-06-05 11:16:08,403][utilsBuildOperations][INFO] Building in Release
+[2024-06-05 11:16:08,576][utilsBuildOperations][INFO] Compiling HeexConfig
+[2024-06-05 11:16:08,576][utilsBuildOperations][INFO] Configure to build HeexConfig in Release with Examples for Boost 1.75.0
+[2024-06-05 11:16:08,621][utilsBuildOperations][INFO] Building in Release
+[2024-06-05 11:16:08,716][utilsBuildOperations][INFO] Compiling HeexCom
+[2024-06-05 11:16:08,717][utilsBuildOperations][INFO] Configure to build HeexCom in Release with Examples for Boost 1.75.0
+[2024-06-05 11:16:08,783][utilsBuildOperations][INFO] Building in Release
+[2024-06-05 11:16:09,031][utilsBuildOperations][INFO] Compiling HeexMessages
+[2024-06-05 11:16:09,032][utilsBuildOperations][INFO] Configure to build HeexMessages in Release with Examples for Boost 1.75.0
+[2024-06-05 11:16:09,101][utilsBuildOperations][INFO] Building in Release
+[2024-06-05 11:16:09,219][utilsBuildOperations][INFO] Compiling sdk
+[2024-06-05 11:16:09,219][utilsBuildOperations][INFO] Configure to build sdk in Release with Examples for Boost 1.75.0
+[2024-06-05 11:16:09,311][utilsBuildOperations][INFO] Building in Release
+[2024-06-05 11:16:09,699][utilsBuildOperations][INFO] Compiling cpp
+[2024-06-05 11:16:09,699][utilsBuildOperations][INFO] Configure to build cpp in Release with Examples for Boost 1.75.0
+[2024-06-05 11:16:09,787][utilsBuildOperations][INFO] Building in Release
+[2024-06-05 11:16:23,886][utilsBuildOperations][INFO] Compiling cpp
+[2024-06-05 11:16:23,887][utilsBuildOperations][INFO] Configure to build cpp in Release with Examples for Boost 1.75.0
+[2024-06-05 11:16:23,987][utilsBuildOperations][INFO] Building in Release
+[2024-06-05 11:16:24,609][utilsBuildOperations][INFO] Build of Sdk complete.
+------------------------------------------------------------------------------------------------------------------------
+[2024-06-05 11:25:38,058][utilsParsingOperations][DEBUG] 
+Argument              Value
+--------------------------------
+verbose               False
+version               False
+subcommand            build
+build_examples        True
+with_python           False
+with_boost_version    None
+jobs                  None
+debug                 False
+with_legacy_cmake     False
+with_legacy_ubuntu18  False
+with_legacy_getrandom False
+rebuild               False
+func                  <function execute at 0x7aefece612d0>
+main_arg_parser       <utils.utilsMainArgParser.MainArgParser object at 0x7aefedb0a6e0>
+for_sdk               True
+for_kernel            False
+--------------------------------
+
+[2024-06-05 11:25:38,058][utilsParsingOperations][DEBUG] parseUtils.print_args_as_table(args): None
+[2024-06-05 11:25:38,059][build][INFO] Booststrap won't add extra necessary build args for 22.04.
+[2024-06-05 11:25:38,062][utilsGetDependencies][INFO] BOOST LIBS exists: /home/abhimanyu/Documents/Heex_SDK_2_37_1/3rdparty/boost_1_75_0/stage/lib/libboost_date_time*
+[2024-06-05 11:25:38,063][utilsGetDependencies][INFO] BOOST LIBS exists: /home/abhimanyu/Documents/Heex_SDK_2_37_1/3rdparty/boost_1_75_0/stage/lib/libboost_filesystem*
+[2024-06-05 11:25:38,064][utilsGetDependencies][INFO] BOOST LIBS exists: /home/abhimanyu/Documents/Heex_SDK_2_37_1/3rdparty/boost_1_75_0/stage/lib/libboost_program_options*
+[2024-06-05 11:25:38,065][utilsGetDependencies][INFO] BOOST LIBS exists: /home/abhimanyu/Documents/Heex_SDK_2_37_1/3rdparty/boost_1_75_0/stage/lib/libboost_regex*
+[2024-06-05 11:25:38,066][utilsGetDependencies][INFO] BOOST LIBS exists: /home/abhimanyu/Documents/Heex_SDK_2_37_1/3rdparty/boost_1_75_0/stage/lib/libboost_serialization*
+[2024-06-05 11:25:38,067][utilsGetDependencies][INFO] BOOST LIBS exists: /home/abhimanyu/Documents/Heex_SDK_2_37_1/3rdparty/boost_1_75_0/stage/lib/libboost_system*
+[2024-06-05 11:25:38,068][utilsGetDependencies][INFO] BOOST LIBS exists: /home/abhimanyu/Documents/Heex_SDK_2_37_1/3rdparty/boost_1_75_0/stage/lib/libboost_thread*
+[2024-06-05 11:25:38,068][utilsBuildOperations][INFO] Version info:
+[2024-06-05 11:25:38,069][utilsBuildOperations][INFO] OS=Ubuntu_22.04
+[2024-06-05 11:25:38,069][utilsBuildOperations][INFO] CPU Architecture=x86_64
+[2024-06-05 11:25:38,070][utilsBuildOperations][INFO] boost=1.75.0
+[2024-06-05 11:25:38,071][utilsBuildOperations][INFO] units=0.7.0
+[2024-06-05 11:25:38,071][utilsBuildOperations][INFO] gcc=11.4.0
+[2024-06-05 11:25:38,072][utilsBuildOperations][INFO] cmake=3.22.1
+[2024-06-05 11:25:38,072][utilsBuildOperations][INFO] makeself=2.4.5
+[2024-06-05 11:25:38,072][utilsBuildOperations][INFO] Compiling HeexUtils
+[2024-06-05 11:25:38,073][utilsBuildOperations][INFO] Configure to build HeexUtils in Release with Examples for Boost 1.75.0
+[2024-06-05 11:25:38,117][utilsBuildOperations][INFO] Building in Release
+[2024-06-05 11:25:38,292][utilsBuildOperations][INFO] Compiling HeexConfig
+[2024-06-05 11:25:38,292][utilsBuildOperations][INFO] Configure to build HeexConfig in Release with Examples for Boost 1.75.0
+[2024-06-05 11:25:38,334][utilsBuildOperations][INFO] Building in Release
+[2024-06-05 11:25:38,438][utilsBuildOperations][INFO] Compiling HeexCom
+[2024-06-05 11:25:38,438][utilsBuildOperations][INFO] Configure to build HeexCom in Release with Examples for Boost 1.75.0
+[2024-06-05 11:25:38,493][utilsBuildOperations][INFO] Building in Release
+[2024-06-05 11:25:38,757][utilsBuildOperations][INFO] Compiling HeexMessages
+[2024-06-05 11:25:38,758][utilsBuildOperations][INFO] Configure to build HeexMessages in Release with Examples for Boost 1.75.0
+[2024-06-05 11:25:38,819][utilsBuildOperations][INFO] Building in Release
+[2024-06-05 11:25:38,934][utilsBuildOperations][INFO] Compiling sdk
+[2024-06-05 11:25:38,934][utilsBuildOperations][INFO] Configure to build sdk in Release with Examples for Boost 1.75.0
+[2024-06-05 11:25:39,026][utilsBuildOperations][INFO] Building in Release
+[2024-06-05 11:25:39,414][utilsBuildOperations][INFO] Compiling cpp
+[2024-06-05 11:25:39,415][utilsBuildOperations][INFO] Configure to build cpp in Release with Examples for Boost 1.75.0
+[2024-06-05 11:25:39,513][utilsBuildOperations][INFO] Building in Release
+[2024-06-05 11:25:39,727][utilsBuildOperations][INFO] Compiling cpp
+[2024-06-05 11:25:39,728][utilsBuildOperations][INFO] Configure to build cpp in Release with Examples for Boost 1.75.0
+[2024-06-05 11:25:39,839][utilsBuildOperations][INFO] Building in Release
+[2024-06-05 11:25:40,504][utilsBuildOperations][INFO] Build of Sdk complete.

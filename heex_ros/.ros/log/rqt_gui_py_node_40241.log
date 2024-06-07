@@ -1,0 +1,74 @@
+[rospy.client][INFO] 2024-06-07 15:50:55,192: init_node, name[/rqt_gui_py_node_40241], pid[40241]
+[xmlrpc][INFO] 2024-06-07 15:50:55,192: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2024-06-07 15:50:55,192: Started XML-RPC server [http://ade:40677/]
+[rospy.init][INFO] 2024-06-07 15:50:55,192: ROS Slave URI: [http://ade:40677/]
+[rospy.impl.masterslave][INFO] 2024-06-07 15:50:55,193: _ready: http://ade:40677/
+[rospy.registration][INFO] 2024-06-07 15:50:55,193: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2024-06-07 15:50:55,193: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2024-06-07 15:50:55,293: registered with master
+[rospy.rosout][INFO] 2024-06-07 15:50:55,293: initializing /rosout core topic
+[rospy.rosout][INFO] 2024-06-07 15:50:55,296: connected to core topic /rosout
+[rospy.simtime][INFO] 2024-06-07 15:50:55,299: initializing /clock core topic
+[rospy.simtime][INFO] 2024-06-07 15:50:55,304: connected to core topic /clock
+[rospy.internal][INFO] 2024-06-07 15:50:55,364: topic[/clock] adding connection to [http://ade:33321/], count 0
+[rosgraph.graph][ERROR] 2024-06-07 15:51:29,908: cannot get stats info from node [/foxglove_28015]: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosgraph/impl/graph.py", line 395, in _node_refresh_businfo
+    code, msg, bus_info = api.getBusInfo(_ROS_NAME)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1165, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1278, in send_request
+    self.send_content(connection, request_body)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1308, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python3.8/http/client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1011, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 951, in send
+    self.connect()
+  File "/usr/lib/python3.8/http/client.py", line 922, in connect
+    self.sock = self._create_connection(
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+[rosgraph.graph][ERROR] 2024-06-07 15:51:31,246: cannot get stats info from node [/foxglove_28015]: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosgraph/impl/graph.py", line 395, in _node_refresh_businfo
+    code, msg, bus_info = api.getBusInfo(_ROS_NAME)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1165, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1278, in send_request
+    self.send_content(connection, request_body)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1308, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python3.8/http/client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1011, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 951, in send
+    self.connect()
+  File "/usr/lib/python3.8/http/client.py", line 922, in connect
+    self.sock = self._create_connection(
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+[rospy.core][INFO] 2024-06-07 15:51:32,937: signal_shutdown [atexit]
+[rospy.internal][INFO] 2024-06-07 15:51:32,941: topic[/clock] removing connection to http://ade:33321/
+[rospy.impl.masterslave][INFO] 2024-06-07 15:51:32,942: atexit

@@ -1,0 +1,20 @@
+[rospy.client][INFO] 2024-06-07 11:45:18,512: init_node, name[/rostopic_19843_1717753518486], pid[19843]
+[xmlrpc][INFO] 2024-06-07 11:45:18,512: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2024-06-07 11:45:18,513: Started XML-RPC server [http://ade:40759/]
+[rospy.init][INFO] 2024-06-07 11:45:18,513: ROS Slave URI: [http://ade:40759/]
+[rospy.impl.masterslave][INFO] 2024-06-07 11:45:18,513: _ready: http://ade:40759/
+[rospy.registration][INFO] 2024-06-07 11:45:18,513: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2024-06-07 11:45:18,514: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2024-06-07 11:45:18,613: registered with master
+[rospy.rosout][INFO] 2024-06-07 11:45:18,614: initializing /rosout core topic
+[rospy.rosout][INFO] 2024-06-07 11:45:18,618: connected to core topic /rosout
+[rospy.simtime][INFO] 2024-06-07 11:45:18,620: initializing /clock core topic
+[rospy.simtime][INFO] 2024-06-07 11:45:18,624: connected to core topic /clock
+[rospy.internal][INFO] 2024-06-07 11:45:18,660: topic[/clock] adding connection to [http://ade:44253/], count 0
+[rospy.internal][INFO] 2024-06-07 11:45:18,706: topic[/imu] adding connection to [http://ade:44253/], count 0
+[rospy.core][INFO] 2024-06-07 11:54:31,340: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2024-06-07 11:54:31,347: topic[/clock] removing connection to http://ade:44253/
+[rospy.internal][INFO] 2024-06-07 11:54:31,351: topic[/imu] removing connection to http://ade:44253/
+[rospy.internal][INFO] 2024-06-07 11:54:31,351: topic[/imu] removing connection to http://ade:44253/
+[rospy.impl.masterslave][INFO] 2024-06-07 11:54:31,352: signal-2
+[rospy.core][INFO] 2024-06-07 11:54:31,942: signal_shutdown [atexit]

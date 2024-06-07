@@ -1,0 +1,49 @@
+[2024-06-07 11:21:05.798638] [heexDataCollector] [info] HeexDataCollector 2.39.1
+[2024-06-07 11:21:05.798881] [heexDataCollector] [info] Logging to file at /home/abhimanyu/Heex_SDK_2_39_1/kernel/./logs/heexDataCollector.log
+[2024-06-07 11:21:05.806660] [heexDataCollector] [info] DatabaseManager | Opened database successfully
+[2024-06-07 11:21:07.327869] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-07 11:21:07.328143] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-5e724cdf-68c4-4a2a-acd0-750a31c9f619 has succeeded.
+[2024-06-07 11:21:07.580322] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-07 11:22:07.106918] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-07 11:22:07.107650] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-c4bdd36d-55d8-4e43-9502-049507b681c2 has succeeded.
+[2024-06-07 11:22:07.360356] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-07 11:22:10.361642] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-07 11:22:10.362283] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-45ed96d8-a3a0-44c5-bd0e-b629a256920f has succeeded.
+[2024-06-07 11:22:10.614988] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-07 11:22:38.404308] [heexDataCollector] [info] HeexDataCollector 2.39.1
+[2024-06-07 11:22:38.404366] [heexDataCollector] [info] Logging to file at /home/abhimanyu/Heex_SDK_2_39_1/kernel/./logs/heexDataCollector.log
+[2024-06-07 11:22:38.404789] [heexDataCollector] [info] DatabaseManager | Opened database successfully
+[2024-06-07 11:22:38.406318] [heexDataCollector] [fatal]  has been aborted by signal SIGABRT (6)
+[2024-06-07 11:22:59.177170] [heexDataCollector] [info] HeexDataCollector 2.39.1
+[2024-06-07 11:22:59.177270] [heexDataCollector] [info] Logging to file at /home/abhimanyu/Heex_SDK_2_39_1/kernel/./logs/heexDataCollector.log
+[2024-06-07 11:22:59.177693] [heexDataCollector] [info] DatabaseManager | Opened database successfully
+[2024-06-07 11:22:59.178370] [heexDataCollector] [fatal]  has been aborted by signal SIGABRT (6)
+[2024-06-07 11:23:10.143560] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-07 11:23:10.144257] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-ca63d79b-a2ed-4488-adf6-63950df770b0 has succeeded.
+[2024-06-07 11:23:10.396973] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-07 11:24:10.423128] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-07 11:24:10.424049] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-ab78e982-db5c-461a-91c4-cfe52199e1c8 has succeeded.
+[2024-06-07 11:24:10.676761] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-07 11:24:51.956796] [heexDataCollector] [info] HeexDataCollector 2.39.1
+[2024-06-07 11:24:51.956853] [heexDataCollector] [info] Logging to file at /home/abhimanyu/Heex_SDK_2_39_1/kernel/./logs/heexDataCollector.log
+[2024-06-07 11:24:51.957353] [heexDataCollector] [info] DatabaseManager | Opened database successfully
+[2024-06-07 11:24:51.958024] [heexDataCollector] [fatal]  has been aborted by signal SIGABRT (6)
+[2024-06-07 11:25:10.204319] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-07 11:25:10.205043] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-cde6471a-8624-499d-8994-ef711a862dd5 has succeeded.
+[2024-06-07 11:25:10.457916] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-07 11:30:09.216707] [heexDataCollector] [info] HeexDataCollector 2.39.1
+[2024-06-07 11:30:09.216773] [heexDataCollector] [info] Logging to file at /home/abhimanyu/Heex_SDK_2_39_1/kernel/./logs/heexDataCollector.log
+[2024-06-07 11:30:09.217362] [heexDataCollector] [info] DatabaseManager | Opened database successfully
+[2024-06-07 11:30:09.218210] [heexDataCollector] [fatal]  has been aborted by signal SIGABRT (6)
+[2024-06-07 11:33:55.760741] [heexDataCollector] [info] HeexDataCollector 2.39.1
+[2024-06-07 11:33:55.760825] [heexDataCollector] [info] Logging to file at /home/abhimanyu/Heex_SDK_2_39_1/kernel/./logs/heexDataCollector.log
+[2024-06-07 11:33:55.761296] [heexDataCollector] [info] DatabaseManager | Opened database successfully
+[2024-06-07 11:33:55.761932] [heexDataCollector] [fatal]  has been aborted by signal SIGABRT (6)
+[2024-06-07 14:42:52.999321] [heexDataCollector] [info] HeexDataCollector 2.39.1
+[2024-06-07 14:42:52.999607] [heexDataCollector] [info] Logging to file at /home/abhimanyu/Heex_SDK_2_39_1/kernel/./logs/heexDataCollector.log
+[2024-06-07 14:42:53.001441] [heexDataCollector] [info] DatabaseManager | Opened database successfully
+[2024-06-07 14:42:53.004420] [heexDataCollector] [fatal]  has been aborted by signal SIGABRT (6)
+[2024-06-07 15:31:27.531625] [heexDataCollector] [info] HeexDataCollector 2.39.1
+[2024-06-07 15:31:27.532612] [heexDataCollector] [info] Logging to file at /home/abhimanyu/Heex_SDK_2_39_1/kernel/./logs/heexDataCollector.log
+[2024-06-07 15:31:27.534808] [heexDataCollector] [info] DatabaseManager | Opened database successfully
+[2024-06-07 15:31:27.537864] [heexDataCollector] [fatal]  has been aborted by signal SIGABRT (6)

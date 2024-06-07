@@ -1,0 +1,2 @@
+ros_edge_in_memory_buffer_pkg:ros_edge_on_disk_buffer_pkg
+-DCATKIN_DEVEL_PREFIX=/home/abhimanyu/Heex_SDK_2_39_1/samples/ROS1/ros-edge/devel -DCMAKE_INSTALL_PREFIX=/home/abhimanyu/Heex_SDK_2_39_1/samples/ROS1/ros-edge/install -G Unix Makefiles

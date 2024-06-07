@@ -1,0 +1,5 @@
+2024-06-06 16:05:15.879 [info] update#setState idle
+2024-06-06 16:05:45.882 [info] update#setState checking for updates
+2024-06-06 16:05:45.893 [info] update#setState available for download
+2024-06-06 18:09:21.651 [error] ptyHost terminated unexpectedly with code 0
+2024-06-06 18:09:21.656 [info] Extension host with pid 9957 exited with code: 0, signal: unknown.

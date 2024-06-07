@@ -1,0 +1,16 @@
+[rospy.client][INFO] 2024-06-07 15:41:52,868: init_node, name[/rqt_gui_py_node_37041], pid[37041]
+[xmlrpc][INFO] 2024-06-07 15:41:52,869: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2024-06-07 15:41:52,869: Started XML-RPC server [http://ade:39881/]
+[rospy.init][INFO] 2024-06-07 15:41:52,869: ROS Slave URI: [http://ade:39881/]
+[rospy.impl.masterslave][INFO] 2024-06-07 15:41:52,869: _ready: http://ade:39881/
+[rospy.registration][INFO] 2024-06-07 15:41:52,870: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2024-06-07 15:41:52,870: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2024-06-07 15:41:52,970: registered with master
+[rospy.rosout][INFO] 2024-06-07 15:41:52,970: initializing /rosout core topic
+[rospy.rosout][INFO] 2024-06-07 15:41:52,974: connected to core topic /rosout
+[rospy.simtime][INFO] 2024-06-07 15:41:52,977: initializing /clock core topic
+[rospy.simtime][INFO] 2024-06-07 15:41:52,985: connected to core topic /clock
+[rospy.internal][INFO] 2024-06-07 15:41:53,036: topic[/clock] adding connection to [http://ade:44239/], count 0
+[rospy.core][INFO] 2024-06-07 15:42:24,815: signal_shutdown [atexit]
+[rospy.internal][INFO] 2024-06-07 15:42:24,819: topic[/clock] removing connection to http://ade:44239/
+[rospy.impl.masterslave][INFO] 2024-06-07 15:42:24,820: atexit

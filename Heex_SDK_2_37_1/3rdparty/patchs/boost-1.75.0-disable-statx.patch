@@ -1,0 +1,3 @@
+56,57d55
+<       [ check-target-builds ../config//has_statx "has statx" : <define>BOOST_FILESYSTEM_HAS_STATX ]
+<       [ check-target-builds ../config//has_statx_syscall "has statx syscall" : <define>BOOST_FILESYSTEM_HAS_STATX_SYSCALL ]

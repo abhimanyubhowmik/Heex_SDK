@@ -1,0 +1,103 @@
+[2024-06-07 10:54:49,205][utilsParsingOperations][DEBUG] 
+Argument              Value
+--------------------------------
+verbose               False
+version               False
+subcommand            build
+build_examples        True
+with_python           False
+with_boost_version    None
+jobs                  None
+debug                 False
+with_legacy_cmake     False
+with_legacy_ubuntu18  False
+with_legacy_getrandom False
+rebuild               False
+func                  <function execute at 0x7a58e4282e50>
+main_arg_parser       <utils.utilsMainArgParser.MainArgParser object at 0x7a58e4eaeeb0>
+for_sdk               True
+for_kernel            False
+--------------------------------
+
+[2024-06-07 10:54:49,206][utilsParsingOperations][DEBUG] parseUtils.print_args_as_table(args): None
+[2024-06-07 10:54:49,206][build][INFO] Booststrap won't add extra necessary build args for 20.04.
+[2024-06-07 10:54:49,213][getEssentialsSdk][INFO] Getting Essentials for SDK
+[2024-06-07 10:54:49,253][getEssentialsSdk][INFO] The 'build-essential' package already installed
+[2024-06-07 10:54:49,254][getEssentialsSdk][INFO] The 'makeself' package isn't installed. Installing 'makeself' using 'sudo apt install makeself -y'
+[2024-06-07 10:54:49,330][utilsRunCommands][ERROR] Command failed: sudo apt install makeself -y
+[2024-06-07 10:54:49,331][utilsRunCommands][ERROR] Return code: 100
+------------------------------------------------------------------------------------------------------------------------
+[2024-06-07 10:55:18,574][utilsParsingOperations][DEBUG] 
+Argument              Value
+--------------------------------
+verbose               False
+version               False
+subcommand            build
+build_examples        True
+with_python           False
+with_boost_version    None
+jobs                  None
+debug                 False
+with_legacy_cmake     False
+with_legacy_ubuntu18  False
+with_legacy_getrandom False
+rebuild               False
+func                  <function execute at 0x7e86618f5e50>
+main_arg_parser       <utils.utilsMainArgParser.MainArgParser object at 0x7e8662521eb0>
+for_sdk               True
+for_kernel            False
+--------------------------------
+
+[2024-06-07 10:55:18,575][utilsParsingOperations][DEBUG] parseUtils.print_args_as_table(args): None
+[2024-06-07 10:55:18,575][build][INFO] Booststrap won't add extra necessary build args for 20.04.
+[2024-06-07 10:55:18,579][getEssentialsSdk][INFO] Getting Essentials for SDK
+[2024-06-07 10:55:18,621][getEssentialsSdk][INFO] The 'build-essential' package already installed
+[2024-06-07 10:55:18,622][getEssentialsSdk][INFO] The 'makeself' package already installed
+[2024-06-07 10:55:18,661][getCMake][INFO] The 'cmake' package already installed
+[2024-06-07 10:55:18,685][utilsGetDependencies][INFO] Downloading archive boost_1_75_0.tar.gz ...
+[2024-06-07 10:55:38,213][getBoost][INFO] Extracting Boost to boost_1_75_0 ...
+[2024-06-07 10:55:46,528][getBoost][INFO] Building Boost 1.75.0 in boost_1_75_0 ...
+[2024-06-07 10:59:34,349][utilsGetDependencies][INFO] BOOST LIBS exists: /home/abhimanyu/Heex_SDK_2_39_1/3rdparty/boost_1_75_0/stage/lib/libboost_date_time*
+[2024-06-07 10:59:34,350][utilsGetDependencies][INFO] BOOST LIBS exists: /home/abhimanyu/Heex_SDK_2_39_1/3rdparty/boost_1_75_0/stage/lib/libboost_filesystem*
+[2024-06-07 10:59:34,350][utilsGetDependencies][INFO] BOOST LIBS exists: /home/abhimanyu/Heex_SDK_2_39_1/3rdparty/boost_1_75_0/stage/lib/libboost_program_options*
+[2024-06-07 10:59:34,351][utilsGetDependencies][INFO] BOOST LIBS exists: /home/abhimanyu/Heex_SDK_2_39_1/3rdparty/boost_1_75_0/stage/lib/libboost_regex*
+[2024-06-07 10:59:34,352][utilsGetDependencies][INFO] BOOST LIBS exists: /home/abhimanyu/Heex_SDK_2_39_1/3rdparty/boost_1_75_0/stage/lib/libboost_serialization*
+[2024-06-07 10:59:34,353][utilsGetDependencies][INFO] BOOST LIBS exists: /home/abhimanyu/Heex_SDK_2_39_1/3rdparty/boost_1_75_0/stage/lib/libboost_system*
+[2024-06-07 10:59:34,354][utilsGetDependencies][INFO] BOOST LIBS exists: /home/abhimanyu/Heex_SDK_2_39_1/3rdparty/boost_1_75_0/stage/lib/libboost_thread*
+[2024-06-07 10:59:34,355][utilsGetDependencies][INFO] Downloading archive units-0.7.0.zip ...
+[2024-06-07 10:59:35,115][getUnits][INFO] Extracting Units to units ...
+[2024-06-07 10:59:35,195][getUnits][INFO] Building Units 0.7.0 in units ...
+[2024-06-07 10:59:46,405][utilsBuildOperations][INFO] Version info:
+[2024-06-07 10:59:46,406][utilsBuildOperations][INFO] OS=Ubuntu_20.04
+[2024-06-07 10:59:46,407][utilsBuildOperations][INFO] CPU Architecture=x86_64
+[2024-06-07 10:59:46,408][utilsBuildOperations][INFO] boost=1.75.0
+[2024-06-07 10:59:46,409][utilsBuildOperations][INFO] units=0.7.0
+[2024-06-07 10:59:46,410][utilsBuildOperations][INFO] gcc=9.4.0
+[2024-06-07 10:59:46,411][utilsBuildOperations][INFO] cmake=3.16.3
+[2024-06-07 10:59:46,411][utilsBuildOperations][INFO] makeself=2.4.0
+[2024-06-07 10:59:46,412][utilsBuildOperations][INFO] Compiling HeexUtils
+[2024-06-07 10:59:46,414][utilsBuildOperations][INFO] Configure to build HeexUtils in Release with Examples for Boost 1.75.0
+[2024-06-07 10:59:47,203][utilsBuildOperations][INFO] Building in Release
+[2024-06-07 11:00:18,312][utilsBuildOperations][INFO] Compiling HeexConfig
+[2024-06-07 11:00:18,312][utilsBuildOperations][INFO] Configure to build HeexConfig in Release with Examples for Boost 1.75.0
+[2024-06-07 11:00:19,058][utilsBuildOperations][INFO] Building in Release
+[2024-06-07 11:00:22,302][utilsBuildOperations][INFO] Compiling HeexCom
+[2024-06-07 11:00:22,303][utilsBuildOperations][INFO] Configure to build HeexCom in Release with Examples for Boost 1.75.0
+[2024-06-07 11:00:23,106][utilsBuildOperations][INFO] Building in Release
+[2024-06-07 11:00:56,275][utilsBuildOperations][INFO] Compiling HeexMessages
+[2024-06-07 11:00:56,276][utilsBuildOperations][INFO] Configure to build HeexMessages in Release with Examples for Boost 1.75.0
+[2024-06-07 11:00:57,087][utilsBuildOperations][INFO] Building in Release
+[2024-06-07 11:01:10,807][utilsBuildOperations][INFO] Compiling sdk
+[2024-06-07 11:01:10,808][utilsBuildOperations][INFO] Configure to build sdk in Release with Examples for Boost 1.75.0
+[2024-06-07 11:01:11,411][utilsBuildOperations][INFO] Building in Release
+[2024-06-07 11:02:59,092][utilsBuildOperations][INFO] Compiling cpp
+[2024-06-07 11:02:59,092][utilsBuildOperations][INFO] Configure to build cpp in Release with Examples for Boost 1.75.0
+[2024-06-07 11:03:00,020][utilsBuildOperations][INFO] Building in Release
+[2024-06-07 11:03:13,741][utilsBuildOperations][INFO] Compiling cpp
+[2024-06-07 11:03:13,742][utilsBuildOperations][INFO] Configure to build cpp in Release with Examples for Boost 1.75.0
+[2024-06-07 11:03:14,897][utilsBuildOperations][INFO] Building in Release
+[2024-06-07 11:04:10,872][utilsBuildOperations][INFO] Compiling ros-datalake
+[2024-06-07 11:04:10,873][utilsBuildOperations][INFO] Configure to build ros-datalake in Release with Examples for Boost 1.75.0
+[2024-06-07 11:04:11,884][utilsBuildOperations][INFO] Building in Release
+[2024-06-07 11:04:37,492][build][INFO] The ros-edge example will be built in its own catkin workspace directory. For more details on usage, please refer to the README.md file.
+[2024-06-07 11:05:42,451][utilsBuildOperations][INFO] Build of Sdk complete.

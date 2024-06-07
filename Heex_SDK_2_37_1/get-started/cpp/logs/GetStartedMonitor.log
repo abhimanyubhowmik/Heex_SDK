@@ -1,0 +1,8 @@
+[2024-06-05 12:07:55.618548] [GetStartedMonitor] [info] ------------------- Running D-83321819-a6f0-44bf-8b8a-72a9b8f41784(1.0.0) (1.0.0) using SDK 2.37.1-------------------
+[2024-06-05 12:07:55.618822] [GetStartedMonitor] [info] Logging to file at /home/abhimanyu/Documents/Heex_SDK_2_37_1/get-started/cpp/./logs/GetStartedMonitor.log
+[2024-06-05 12:07:55.619282] [GetStartedMonitor] [info] GetStartedMonitor | D-83321819-a6f0-44bf-8b8a-72a9b8f41784(1.0.0) 127.0.0.1 4242 
+[2024-06-05 12:07:55.619673] [GetStartedMonitor] [info] Connection to heexCore service 127.0.0.1:4242 from D-83321819-a6f0-44bf-8b8a-72a9b8f41784
+[2024-06-05 12:07:55.629464] [GetStartedMonitor] [info] Identification "D-83321819-a6f0-44bf-8b8a-72a9b8f41784" "2024-06-05T10:07:55.629285" "1.0.0" "2.37.1" "DefaultType"
+
+[2024-06-05 12:07:55.679760] [GetStartedMonitor] [info] Setting constant value md5 = dd551ec3c1e4deef375344b1aef030f4
+[2024-06-05 12:07:55.679855] [GetStartedMonitor] [info] Receiving ValueConfiguration CV-5dbe75fa-f11d-4348-9112-664651f36cfa for sunny-weather-cv(D-83321819-a6f0-44bf-8b8a-72a9b8f41784) with values : ==["true"],==

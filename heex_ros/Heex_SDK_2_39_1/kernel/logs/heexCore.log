@@ -1,0 +1,173 @@
+[2024-06-07 11:21:04.792627] [heexCore] [info] HeexCore 2.39.1
+[2024-06-07 11:21:04.792699] [heexCore] [info] Logging to file at /home/abhimanyu/Heex_SDK_2_39_1/kernel/./logs/heexCore.log
+[2024-06-07 11:21:04.794316] [heexCore] [info] ---[Trigger Registry]---
+Trigger[T-HEEXfee95bcc-2892-41e1-bf0a-b70eb2f24750] :
+  Monitors : D-HEEX0c75df6c-397f-414e-9147-fae79a72b050 (false)
+  Recorders :
+
+[2024-06-07 11:21:04.794340] [heexCore] [info] ---[Monitor Values Registry]---
+Monitor[CV-HEEX96fe2a19-ae6c-4c06-a958-243f9702d146] = false
+[2024-06-07 11:21:04.889608] [heexCore] [info] Connection established with Recorder R-a5d42923-d4e8-4eb3-8f58-a19ee0b0370b as client token 0 Agent type : DefaultType.
+[2024-06-07 11:21:04.895194] [heexCore] [info] Connection established with Monitor D-c3e3f4ed-e3b9-4d39-921f-2e6e1c7834ca as client token 0.
+[2024-06-07 11:21:06.829503] [heexCore] [info] Connection established with Monitor D-HEEX0c75df6c-397f-414e-9147-fae79a72b050 as client token 1.
+[2024-06-07 11:21:06.829575] [heexCore] [info] Sending ValueConfiguration CV-HEEX96fe2a19-ae6c-4c06-a958-243f9702d146 periodic(threshold) with values : ==[["Above",60]]== ()
+[2024-06-07 11:21:06.829662] [heexCore] [info] ConditionEvaluator::configureDetector | Sending ConstantValues md5: ==09fe74935c8dc36e0ae4360d5272d144==
+[2024-06-07 11:21:06.917111] [heexCore] [info] ON SignalOnOff CV-HEEX96fe2a19-ae6c-4c06-a958-243f9702d146 timestamp[2024-06-07T09:21:06.874602] args[]
+[2024-06-07 11:21:07.018205] [heexCore] [info] Trigger TRUE [T-HEEXfee95bcc-2892-41e1-bf0a-b70eb2f24750]
+[2024-06-07 11:22:04.157680] [heexCore] [info] Recorder disconnection : R-a5d42923-d4e8-4eb3-8f58-a19ee0b0370b
+[2024-06-07 11:22:04.167974] [heexCore] [info] Monitor disconnection : D-c3e3f4ed-e3b9-4d39-921f-2e6e1c7834ca
+[2024-06-07 11:22:06.690513] [heexCore] [info] Connection established with Monitor D-c3e3f4ed-e3b9-4d39-921f-2e6e1c7834ca as client token 2.
+[2024-06-07 11:22:06.692675] [heexCore] [info] Connection established with Recorder R-a5d42923-d4e8-4eb3-8f58-a19ee0b0370b as client token 1 Agent type : DefaultType.
+[2024-06-07 11:22:06.887440] [heexCore] [info] ON SignalOnOff CV-HEEX96fe2a19-ae6c-4c06-a958-243f9702d146 timestamp[2024-06-07T09:22:06.884047] args[]
+[2024-06-07 11:22:06.988592] [heexCore] [info] Trigger TRUE [T-HEEXfee95bcc-2892-41e1-bf0a-b70eb2f24750]
+[2024-06-07 11:22:06.988752] [heexCore] [info] ::addContextValue Replacing older value 2024-06-07T09:21:06.874602 by 2024-06-07T09:22:06.884047 for key __hidden_local_timestamp
+[2024-06-07 11:22:09.801014] [heexCore] [info] FileWatcher::debounceAndSendEventsToCallback | Notifying 1 events
+[2024-06-07 11:22:09.801686] [heexCore] [info] ---[Trigger Registry]---
+Trigger[T-a59834a3-2277-4229-a427-ea54a45a7e26] :
+  Monitors : D-c3e3f4ed-e3b9-4d39-921f-2e6e1c7834ca (false)
+  Recorders : R-a5d42923-d4e8-4eb3-8f58-a19ee0b0370b
+
+Trigger[T-HEEXfee95bcc-2892-41e1-bf0a-b70eb2f24750] :
+  Monitors : D-HEEX0c75df6c-397f-414e-9147-fae79a72b050 (false)
+  Recorders :
+
+[2024-06-07 11:22:09.801804] [heexCore] [info] ---[Monitor Values Registry]---
+Monitor[CV-HEEX96fe2a19-ae6c-4c06-a958-243f9702d146] = false
+Monitor[CV-c4644aba-797b-42a9-9be0-c2a219df5b07] = false
+[2024-06-07 11:22:09.801889] [heexCore] [info] Sending ValueConfiguration CV-c4644aba-797b-42a9-9be0-c2a219df5b07 sunny-weather-cv(boolean) with values : ==["true"]== ()
+[2024-06-07 11:22:09.801952] [heexCore] [info] ConditionEvaluator::configureDetector | Sending ConstantValues md5: ==e1bb1f4f5dd2b0f5f6215c950966786f==
+[2024-06-07 11:22:09.802111] [heexCore] [info] Sending ValueConfiguration CV-HEEX96fe2a19-ae6c-4c06-a958-243f9702d146 periodic(threshold) with values : ==[["Above",60]]== ()
+[2024-06-07 11:22:09.802180] [heexCore] [info] ConditionEvaluator::configureDetector | Sending ConstantValues md5: ==e1bb1f4f5dd2b0f5f6215c950966786f==
+[2024-06-07 11:22:09.802291] [heexCore] [info] WriterWrapper::configureRecorder  | Sending ConstantValues md5: ==e1bb1f4f5dd2b0f5f6215c950966786f==
+[2024-06-07 11:22:09.820736] [heexCore] [info] ON SignalOnOff CV-HEEX96fe2a19-ae6c-4c06-a958-243f9702d146 timestamp[2024-06-07T09:22:09.811110] args[]
+[2024-06-07 11:22:09.921796] [heexCore] [info] Trigger TRUE [T-HEEXfee95bcc-2892-41e1-bf0a-b70eb2f24750]
+[2024-06-07 11:22:09.921853] [heexCore] [info] ::addContextValue Replacing older value 2024-06-07T09:22:06.884047 by 2024-06-07T09:22:09.811110 for key __hidden_local_timestamp
+[2024-06-07 11:22:37.404215] [heexCore] [info] HeexCore 2.39.1
+[2024-06-07 11:22:37.404285] [heexCore] [info] Logging to file at /home/abhimanyu/Heex_SDK_2_39_1/kernel/./logs/heexCore.log
+[2024-06-07 11:22:37.405071] [heexCore] [info] ---[Trigger Registry]---
+Trigger[T-a59834a3-2277-4229-a427-ea54a45a7e26] :
+  Monitors : D-c3e3f4ed-e3b9-4d39-921f-2e6e1c7834ca (false)
+  Recorders : R-a5d42923-d4e8-4eb3-8f58-a19ee0b0370b
+
+Trigger[T-HEEXfee95bcc-2892-41e1-bf0a-b70eb2f24750] :
+  Monitors : D-HEEX0c75df6c-397f-414e-9147-fae79a72b050 (false)
+  Recorders :
+
+[2024-06-07 11:22:37.405103] [heexCore] [info] ---[Monitor Values Registry]---
+Monitor[CV-HEEX96fe2a19-ae6c-4c06-a958-243f9702d146] = false
+Monitor[CV-c4644aba-797b-42a9-9be0-c2a219df5b07] = false
+[2024-06-07 11:22:37.406805] [heexCore] [error] bind: Address already in use
+[2024-06-07 11:22:39.425097] [heexCore] [error] ConditionEvaluator::onIdentification | The agentD-HEEX0c75df6c-397f-414e-9147-fae79a72b050connection is rejected. Reason: Agent already registered. Closing new socket 3
+[2024-06-07 11:22:39.425259] [heexCore] [error] TcpSession::handleRead Error (recv): Bad file descriptor
+[2024-06-07 11:22:58.175432] [heexCore] [info] HeexCore 2.39.1
+[2024-06-07 11:22:58.175624] [heexCore] [info] Logging to file at /home/abhimanyu/Heex_SDK_2_39_1/kernel/./logs/heexCore.log
+[2024-06-07 11:22:58.178710] [heexCore] [info] ---[Trigger Registry]---
+Trigger[T-a59834a3-2277-4229-a427-ea54a45a7e26] :
+  Monitors : D-c3e3f4ed-e3b9-4d39-921f-2e6e1c7834ca (false)
+  Recorders : R-a5d42923-d4e8-4eb3-8f58-a19ee0b0370b
+
+Trigger[T-HEEXfee95bcc-2892-41e1-bf0a-b70eb2f24750] :
+  Monitors : D-HEEX0c75df6c-397f-414e-9147-fae79a72b050 (false)
+  Recorders :
+
+[2024-06-07 11:22:58.178824] [heexCore] [info] ---[Monitor Values Registry]---
+Monitor[CV-HEEX96fe2a19-ae6c-4c06-a958-243f9702d146] = false
+Monitor[CV-c4644aba-797b-42a9-9be0-c2a219df5b07] = false
+[2024-06-07 11:22:58.179519] [heexCore] [error] bind: Address already in use
+[2024-06-07 11:23:00.208782] [heexCore] [error] ConditionEvaluator::onIdentification | The agentD-HEEX0c75df6c-397f-414e-9147-fae79a72b050connection is rejected. Reason: Agent already registered. Closing new socket 4
+[2024-06-07 11:23:00.209007] [heexCore] [error] TcpSession::handleRead Error (recv): Bad file descriptor
+[2024-06-07 11:23:09.819949] [heexCore] [info] ON SignalOnOff CV-HEEX96fe2a19-ae6c-4c06-a958-243f9702d146 timestamp[2024-06-07T09:23:09.816560] args[]
+[2024-06-07 11:23:09.921016] [heexCore] [info] Trigger TRUE [T-HEEXfee95bcc-2892-41e1-bf0a-b70eb2f24750]
+[2024-06-07 11:23:09.921239] [heexCore] [info] ::addContextValue Replacing older value 2024-06-07T09:22:09.811110 by 2024-06-07T09:23:09.816560 for key __hidden_local_timestamp
+[2024-06-07 11:23:52.791566] [heexCore] [info] Recorder disconnection : R-a5d42923-d4e8-4eb3-8f58-a19ee0b0370b
+[2024-06-07 11:23:52.795762] [heexCore] [info] Monitor disconnection : D-c3e3f4ed-e3b9-4d39-921f-2e6e1c7834ca
+[2024-06-07 11:24:09.830183] [heexCore] [info] ON SignalOnOff CV-HEEX96fe2a19-ae6c-4c06-a958-243f9702d146 timestamp[2024-06-07T09:24:09.826611] args[]
+[2024-06-07 11:24:09.931234] [heexCore] [info] Trigger TRUE [T-HEEXfee95bcc-2892-41e1-bf0a-b70eb2f24750]
+[2024-06-07 11:24:09.931318] [heexCore] [info] ::addContextValue Replacing older value 2024-06-07T09:23:09.816560 by 2024-06-07T09:24:09.826611 for key __hidden_local_timestamp
+[2024-06-07 11:24:24.491454] [heexCore] [info] Connection established with Monitor D-c3e3f4ed-e3b9-4d39-921f-2e6e1c7834ca as client token 5.
+[2024-06-07 11:24:24.491496] [heexCore] [info] Sending ValueConfiguration CV-c4644aba-797b-42a9-9be0-c2a219df5b07 sunny-weather-cv(boolean) with values : ==["true"]== ()
+[2024-06-07 11:24:24.491516] [heexCore] [info] ConditionEvaluator::configureDetector | Sending ConstantValues md5: ==e1bb1f4f5dd2b0f5f6215c950966786f==
+[2024-06-07 11:24:24.493299] [heexCore] [info] Connection established with Recorder R-a5d42923-d4e8-4eb3-8f58-a19ee0b0370b as client token 2 Agent type : DefaultType.
+[2024-06-07 11:24:24.493402] [heexCore] [info] WriterWrapper::configureRecorder  | Sending ConstantValues md5: ==e1bb1f4f5dd2b0f5f6215c950966786f==
+[2024-06-07 11:24:50.950983] [heexCore] [info] HeexCore 2.39.1
+[2024-06-07 11:24:50.951069] [heexCore] [info] Logging to file at /home/abhimanyu/Heex_SDK_2_39_1/kernel/./logs/heexCore.log
+[2024-06-07 11:24:50.951873] [heexCore] [info] ---[Trigger Registry]---
+Trigger[T-a59834a3-2277-4229-a427-ea54a45a7e26] :
+  Monitors : D-c3e3f4ed-e3b9-4d39-921f-2e6e1c7834ca (false)
+  Recorders : R-a5d42923-d4e8-4eb3-8f58-a19ee0b0370b
+
+Trigger[T-HEEXfee95bcc-2892-41e1-bf0a-b70eb2f24750] :
+  Monitors : D-HEEX0c75df6c-397f-414e-9147-fae79a72b050 (false)
+  Recorders :
+
+[2024-06-07 11:24:50.951915] [heexCore] [info] ---[Monitor Values Registry]---
+Monitor[CV-HEEX96fe2a19-ae6c-4c06-a958-243f9702d146] = false
+Monitor[CV-c4644aba-797b-42a9-9be0-c2a219df5b07] = false
+[2024-06-07 11:24:50.952143] [heexCore] [error] bind: Address already in use
+[2024-06-07 11:24:52.972581] [heexCore] [error] ConditionEvaluator::onIdentification | The agentD-HEEX0c75df6c-397f-414e-9147-fae79a72b050connection is rejected. Reason: Agent already registered. Closing new socket 6
+[2024-06-07 11:24:52.972669] [heexCore] [error] TcpSession::handleRead Error (recv): Bad file descriptor
+[2024-06-07 11:25:09.835051] [heexCore] [info] ON SignalOnOff CV-HEEX96fe2a19-ae6c-4c06-a958-243f9702d146 timestamp[2024-06-07T09:25:09.827208] args[]
+[2024-06-07 11:25:09.936106] [heexCore] [info] Trigger TRUE [T-HEEXfee95bcc-2892-41e1-bf0a-b70eb2f24750]
+[2024-06-07 11:25:09.936327] [heexCore] [info] ::addContextValue Replacing older value 2024-06-07T09:24:09.826611 by 2024-06-07T09:25:09.827208 for key __hidden_local_timestamp
+[2024-06-07 11:29:49.396873] [heexCore] [info] Recorder disconnection : R-a5d42923-d4e8-4eb3-8f58-a19ee0b0370b
+[2024-06-07 11:30:08.215443] [heexCore] [info] HeexCore 2.39.1
+[2024-06-07 11:30:08.215537] [heexCore] [info] Logging to file at /home/abhimanyu/Heex_SDK_2_39_1/kernel/./logs/heexCore.log
+[2024-06-07 11:30:08.216340] [heexCore] [info] ---[Trigger Registry]---
+Trigger[T-a59834a3-2277-4229-a427-ea54a45a7e26] :
+  Monitors : D-c3e3f4ed-e3b9-4d39-921f-2e6e1c7834ca (false)
+  Recorders : R-a5d42923-d4e8-4eb3-8f58-a19ee0b0370b
+
+Trigger[T-HEEXfee95bcc-2892-41e1-bf0a-b70eb2f24750] :
+  Monitors : D-HEEX0c75df6c-397f-414e-9147-fae79a72b050 (false)
+  Recorders :
+
+[2024-06-07 11:30:08.216373] [heexCore] [info] ---[Monitor Values Registry]---
+Monitor[CV-HEEX96fe2a19-ae6c-4c06-a958-243f9702d146] = false
+Monitor[CV-c4644aba-797b-42a9-9be0-c2a219df5b07] = false
+[2024-06-07 11:30:08.216535] [heexCore] [error] bind: Address already in use
+[2024-06-07 11:33:54.756824] [heexCore] [info] HeexCore 2.39.1
+[2024-06-07 11:33:54.756944] [heexCore] [info] Logging to file at /home/abhimanyu/Heex_SDK_2_39_1/kernel/./logs/heexCore.log
+[2024-06-07 11:33:54.757847] [heexCore] [info] ---[Trigger Registry]---
+Trigger[T-a59834a3-2277-4229-a427-ea54a45a7e26] :
+  Monitors : D-c3e3f4ed-e3b9-4d39-921f-2e6e1c7834ca (false)
+  Recorders : R-a5d42923-d4e8-4eb3-8f58-a19ee0b0370b
+
+Trigger[T-HEEXfee95bcc-2892-41e1-bf0a-b70eb2f24750] :
+  Monitors : D-HEEX0c75df6c-397f-414e-9147-fae79a72b050 (false)
+  Recorders :
+
+[2024-06-07 11:33:54.757915] [heexCore] [info] ---[Monitor Values Registry]---
+Monitor[CV-HEEX96fe2a19-ae6c-4c06-a958-243f9702d146] = false
+Monitor[CV-c4644aba-797b-42a9-9be0-c2a219df5b07] = false
+[2024-06-07 11:33:54.758119] [heexCore] [error] bind: Address already in use
+[2024-06-07 14:42:44.874331] [heexCore] [info] FileWatcher::debounceAndSendEventsToCallback | Notifying 1 events
+[2024-06-07 14:42:51.993972] [heexCore] [info] HeexCore 2.39.1
+[2024-06-07 14:42:51.994173] [heexCore] [info] Logging to file at /home/abhimanyu/Heex_SDK_2_39_1/kernel/./logs/heexCore.log
+[2024-06-07 14:42:51.996612] [heexCore] [info] ---[Trigger Registry]---
+Trigger[T-a59834a3-2277-4229-a427-ea54a45a7e26] :
+  Monitors : D-c3e3f4ed-e3b9-4d39-921f-2e6e1c7834ca (false)
+  Recorders : R-a5d42923-d4e8-4eb3-8f58-a19ee0b0370b
+
+Trigger[T-HEEXfee95bcc-2892-41e1-bf0a-b70eb2f24750] :
+  Monitors : D-HEEX0c75df6c-397f-414e-9147-fae79a72b050 (false)
+  Recorders :
+
+[2024-06-07 14:42:51.996740] [heexCore] [info] ---[Monitor Values Registry]---
+Monitor[CV-HEEX96fe2a19-ae6c-4c06-a958-243f9702d146] = false
+Monitor[CV-c4644aba-797b-42a9-9be0-c2a219df5b07] = false
+[2024-06-07 14:42:51.997283] [heexCore] [error] bind: Address already in use
+[2024-06-07 15:31:26.523743] [heexCore] [info] HeexCore 2.39.1
+[2024-06-07 15:31:26.524009] [heexCore] [info] Logging to file at /home/abhimanyu/Heex_SDK_2_39_1/kernel/./logs/heexCore.log
+[2024-06-07 15:31:26.527167] [heexCore] [info] ---[Trigger Registry]---
+Trigger[T-a59834a3-2277-4229-a427-ea54a45a7e26] :
+  Monitors : D-c3e3f4ed-e3b9-4d39-921f-2e6e1c7834ca (false)
+  Recorders : R-a5d42923-d4e8-4eb3-8f58-a19ee0b0370b
+
+Trigger[T-HEEXfee95bcc-2892-41e1-bf0a-b70eb2f24750] :
+  Monitors : D-HEEX0c75df6c-397f-414e-9147-fae79a72b050 (false)
+  Recorders :
+
+[2024-06-07 15:31:26.527348] [heexCore] [info] ---[Monitor Values Registry]---
+Monitor[CV-HEEX96fe2a19-ae6c-4c06-a958-243f9702d146] = false
+Monitor[CV-c4644aba-797b-42a9-9be0-c2a219df5b07] = false
+[2024-06-07 15:31:26.527982] [heexCore] [error] bind: Address already in use

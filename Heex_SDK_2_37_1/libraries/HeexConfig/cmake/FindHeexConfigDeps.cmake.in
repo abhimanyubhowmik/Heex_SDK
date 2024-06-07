@@ -1,0 +1,6 @@
+# #############################################
+# Find HeexUtils library dependencies.
+
+message(STATUS "Looking for HeexUtils version " @HEEX_BUILD_VERSION@)
+find_package(HeexUtils @HEEX_BUILD_VERSION@ REQUIRED PATHS ${HEEX_LIBRARIES_DIR}/HeexUtils/@HEEX_BUILD_DIR@ NO_DEFAULT_PATH)
+message(STATUS "HeexUtils_DIR=${HeexUtils_DIR}")

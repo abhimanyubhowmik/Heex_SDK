@@ -1,0 +1,55 @@
+2024-06-06 16:05:16.782 [error] Extension 'ms-vscode.remote-server' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): resolvers, tunnelFactory
+product.json (WINS): resolvers, tunnels, contribViewsWelcome
+2024-06-06 16:05:16.798 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2024-06-06 16:05:19.517 [error] a.actions is not iterable: TypeError: a.actions is not iterable
+    at h.f (vscode-file://vscode-app/opt/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:778:15550)
+    at h.c (vscode-file://vscode-app/opt/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:778:15305)
+    at l.a (vscode-file://vscode-app/opt/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:778:15148)
+    at l.d (vscode-file://vscode-app/opt/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:1532:1899)
+    at l.setHandler (vscode-file://vscode-app/opt/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:1532:1772)
+    at new h (vscode-file://vscode-app/opt/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:778:15096)
+    at g.j (vscode-file://vscode-app/opt/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:625:1241)
+    at g.createInstance (vscode-file://vscode-app/opt/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:625:733)
+    at new h (vscode-file://vscode-app/opt/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:1573:62726)
+    at g.j (vscode-file://vscode-app/opt/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:625:1241)
+    at g.createInstance (vscode-file://vscode-app/opt/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:625:733)
+    at y.k (vscode-file://vscode-app/opt/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:1573:57916)
+    at f (vscode-file://vscode-app/opt/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:1573:57698)
+2024-06-06 16:05:19.866 [info] [perf] Render performance baseline is 50ms
+2024-06-06 16:05:24.874 [error] Unable to read file '/home/abhimanyu/Heex_SDK_2_37_1/kernel/systemConfs/systemConf.json' (Error: Unable to resolve nonexistent file '/home/abhimanyu/Heex_SDK_2_37_1/kernel/systemConfs/systemConf.json'): Error: Unable to read file '/home/abhimanyu/Heex_SDK_2_37_1/kernel/systemConfs/systemConf.json' (Error: Unable to resolve nonexistent file '/home/abhimanyu/Heex_SDK_2_37_1/kernel/systemConfs/systemConf.json')
+    at r.w (vscode-file://vscode-app/opt/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:630:16409)
+    at r.v (vscode-file://vscode-app/opt/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:630:16204)
+    at async b.H (vscode-file://vscode-app/opt/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2340:37067)
+    at async b.readStream (vscode-file://vscode-app/opt/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2340:36824)
+    at async L.zb (vscode-file://vscode-app/opt/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2329:29196)
+    at async L.resolve (vscode-file://vscode-app/opt/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2329:27643)
+    at async vscode-file://vscode-app/opt/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2340:32937
+2024-06-06 16:05:24.883 [error] Error: The editor could not be opened because the file was not found.
+    at M.bc (vscode-file://vscode-app/opt/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2318:21886)
+    at async M.setInput (vscode-file://vscode-app/opt/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2318:20972)
+    at async s.M (vscode-file://vscode-app/opt/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2316:20423)
+    at async s.D (vscode-file://vscode-app/opt/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2316:19091)
+    at async s.openEditor (vscode-file://vscode-app/opt/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2316:18079)
+    at async vscode-file://vscode-app/opt/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2505:12564
+2024-06-06 16:05:28.541 [error] Error: The editor could not be opened because the file was not found.
+    at M.bc (vscode-file://vscode-app/opt/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2318:21886)
+    at async M.setInput (vscode-file://vscode-app/opt/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2318:20972)
+    at async s.M (vscode-file://vscode-app/opt/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2316:20423)
+    at async s.D (vscode-file://vscode-app/opt/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2316:19091)
+    at async s.openEditor (vscode-file://vscode-app/opt/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2316:18079)
+    at async vscode-file://vscode-app/opt/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2505:12564
+2024-06-06 16:05:28.975 [error] Error: The editor could not be opened because the file was not found.
+    at M.bc (vscode-file://vscode-app/opt/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2318:21886)
+    at async M.setInput (vscode-file://vscode-app/opt/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2318:20972)
+    at async s.M (vscode-file://vscode-app/opt/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2316:20423)
+    at async s.D (vscode-file://vscode-app/opt/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2316:19091)
+    at async s.openEditor (vscode-file://vscode-app/opt/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2316:18079)
+    at async vscode-file://vscode-app/opt/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2505:12564
+2024-06-06 16:05:29.619 [error] Error: The editor could not be opened because the file was not found.
+    at M.bc (vscode-file://vscode-app/opt/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2318:21886)
+    at async M.setInput (vscode-file://vscode-app/opt/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2318:20972)
+    at async s.M (vscode-file://vscode-app/opt/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2316:20423)
+    at async s.D (vscode-file://vscode-app/opt/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2316:19091)
+    at async s.openEditor (vscode-file://vscode-app/opt/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2316:18079)
+    at async vscode-file://vscode-app/opt/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2505:12564

@@ -1,0 +1,8 @@
+/home/abhimanyu/Heex_SDK_2_39_1/libraries/HeexCom/build/CMakeFiles/install/strip.dir
+/home/abhimanyu/Heex_SDK_2_39_1/libraries/HeexCom/build/CMakeFiles/install/local.dir
+/home/abhimanyu/Heex_SDK_2_39_1/libraries/HeexCom/build/CMakeFiles/install.dir
+/home/abhimanyu/Heex_SDK_2_39_1/libraries/HeexCom/build/CMakeFiles/list_install_components.dir
+/home/abhimanyu/Heex_SDK_2_39_1/libraries/HeexCom/build/CMakeFiles/rebuild_cache.dir
+/home/abhimanyu/Heex_SDK_2_39_1/libraries/HeexCom/build/CMakeFiles/edit_cache.dir
+/home/abhimanyu/Heex_SDK_2_39_1/libraries/HeexCom/build/CMakeFiles/TcpClient.dir
+/home/abhimanyu/Heex_SDK_2_39_1/libraries/HeexCom/build/CMakeFiles/TcpServer.dir

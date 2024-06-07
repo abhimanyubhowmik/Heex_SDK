@@ -1,0 +1,4 @@
+set (SOURCE_MONITOR_DISENGAGEMENT
+  ${CMAKE_CURRENT_SOURCE_DIR}/Ros2MonitorADTransitionDisengagement.cpp
+  PARENT_SCOPE
+)

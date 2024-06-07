@@ -1,0 +1,17 @@
+2024-06-05 16:33:28.672 [info] Extension host with pid 233 started
+2024-06-05 16:33:28.672 [info] Skipping acquiring lock for /home/abhimanyu/.config/Code/User/workspaceStorage/5852253686718b1f2cb0fe1a1a2dd61a.
+2024-06-05 16:33:28.741 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2024-06-05 16:33:28.803 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-06-05 16:33:28.868 [info] Eager extensions activated
+2024-06-05 16:33:28.903 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-06-05 16:33:28.907 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-06-05 16:33:29.101 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-06-05 16:33:29.248 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2024-06-05 16:33:32.299 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2024-06-05 16:34:08.132 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-06-05 16:34:18.445 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-06-05 16:34:18.537 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-06-05 16:43:35.513 [info] ExtensionService#_doActivateExtension ms-vscode.remote-server, startup: false, activationEvent: 'onStartupFinished'
+2024-06-05 17:00:41.710 [info] ExtensionService#_doActivateExtension ms-vscode.cpptools, startup: false, activationEvent: 'onLanguage:cpp'
+2024-06-05 17:00:42.123 [info] ExtensionService#_doActivateExtension ms-vscode.cmake-tools, startup: false, activationEvent: 'workspaceContains:*/CMakeLists.txt,*/*/CMakeLists.txt,*/*/*/CMakeLists.txt'
+2024-06-05 17:06:06.151 [info] ExtensionService#_doActivateExtension twxs.cmake, startup: false, activationEvent: 'onLanguage:cmake'

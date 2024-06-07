@@ -1,0 +1,10 @@
+/home/abhimanyu/Heex_SDK_2_39_1/samples/cpp/build/CMakeFiles/rebuild_cache.dir
+/home/abhimanyu/Heex_SDK_2_39_1/samples/cpp/build/CMakeFiles/edit_cache.dir
+/home/abhimanyu/Heex_SDK_2_39_1/samples/cpp/build/CMakeFiles/featureSampleRecorder_ConfChangedCallback.dir
+/home/abhimanyu/Heex_SDK_2_39_1/samples/cpp/build/CMakeFiles/basicSampleRecorder.dir
+/home/abhimanyu/Heex_SDK_2_39_1/samples/cpp/build/CMakeFiles/basicSampleMonitor_Zone.dir
+/home/abhimanyu/Heex_SDK_2_39_1/samples/cpp/build/CMakeFiles/featureSampleMonitor_ConfChangedCallback.dir
+/home/abhimanyu/Heex_SDK_2_39_1/samples/cpp/build/CMakeFiles/basicSampleMonitor_Threshold.dir
+/home/abhimanyu/Heex_SDK_2_39_1/samples/cpp/build/CMakeFiles/basicSampleMonitor_String.dir
+/home/abhimanyu/Heex_SDK_2_39_1/samples/cpp/build/CMakeFiles/basicSampleMonitor_Interval.dir
+/home/abhimanyu/Heex_SDK_2_39_1/samples/cpp/build/CMakeFiles/basicSampleMonitor_Boolean.dir

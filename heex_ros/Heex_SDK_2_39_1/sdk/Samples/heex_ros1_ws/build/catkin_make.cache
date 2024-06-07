@@ -1,0 +1,2 @@
+
+-DHEEX_SDK_DIR=/home/abhimanyu/Heex_SDK_2_39_1 -DCMAKE_BUILD_TYPE=Release -DCATKIN_DEVEL_PREFIX=/home/abhimanyu/Heex_SDK_2_39_1/sdk/Samples/heex_ros1_ws/devel -DCMAKE_INSTALL_PREFIX=/home/abhimanyu/Heex_SDK_2_39_1/sdk/Samples/heex_ros1_ws/install -G Unix Makefiles

@@ -1,0 +1,12 @@
+[2024-06-07 14:45:51.718221] [rosEdgeOnDiskBuffer] [info] ------------------- Running D-c3e3f4ed-e3b9-4d39-921f-2e6e1c7834ca(1.0.0) (1.0.0) using SDK 2.39.1-------------------
+[2024-06-07 14:45:51.718436] [rosEdgeOnDiskBuffer] [info] Logging to file at /home/abhimanyu/Heex_SDK_2_39_1/samples/ROS1/ros-edge/./logs/rosEdgeOnDiskBuffer.log
+[2024-06-07 14:45:51.718760] [rosEdgeOnDiskBuffer] [info] Connection to heexCore service 127.0.0.1:4242 from D-c3e3f4ed-e3b9-4d39-921f-2e6e1c7834ca
+[2024-06-07 14:45:51.721335] [rosEdgeOnDiskBuffer] [info] ------------------- Running R-a5d42923-d4e8-4eb3-8f58-a19ee0b0370b(1.0.0) (1.0.0) using SDK 2.39.1-------------------
+[2024-06-07 14:45:51.721613] [rosEdgeOnDiskBuffer] [info] Connection to heexCore service 127.0.0.1:4243 from R-a5d42923-d4e8-4eb3-8f58-a19ee0b0370b
+[2024-06-07 14:52:40.152955] [rosEdgeOnDiskBuffer] [info] RecorderInThePast::stopChunkGeneratorsWorkers | Threads are shutdown 
+[2024-06-07 14:52:41.760108] [rosEdgeOnDiskBuffer] [info] Garbage collector finished 
+[2024-06-07 15:29:58.589639] [rosEdgeOnDiskBuffer] [info] ------------------- Running D-c3e3f4ed-e3b9-4d39-921f-2e6e1c7834ca(1.0.0) (1.0.0) using SDK 2.39.1-------------------
+[2024-06-07 15:29:58.589712] [rosEdgeOnDiskBuffer] [info] Logging to file at /home/abhimanyu/Heex_SDK_2_39_1/samples/ROS1/ros-edge/./logs/rosEdgeOnDiskBuffer.log
+[2024-06-07 15:29:58.589897] [rosEdgeOnDiskBuffer] [info] Connection to heexCore service 127.0.0.1:4242 from D-c3e3f4ed-e3b9-4d39-921f-2e6e1c7834ca
+[2024-06-07 15:29:58.591958] [rosEdgeOnDiskBuffer] [info] ------------------- Running R-a5d42923-d4e8-4eb3-8f58-a19ee0b0370b(1.0.0) (1.0.0) using SDK 2.39.1-------------------
+[2024-06-07 15:29:58.592139] [rosEdgeOnDiskBuffer] [info] Connection to heexCore service 127.0.0.1:4243 from R-a5d42923-d4e8-4eb3-8f58-a19ee0b0370b

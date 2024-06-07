@@ -1,0 +1,13 @@
+#export ADE_DISABLE_NVIDIA_DOCKER=1
+
+export ADE_IMAGES="
+docker.robopec.com/ade/noetic-desktop-full-focal:latest
+docker.robopec.com/ade/qtcreator:4.13.3-cmake
+docker.robopec.com/ade/vscode:1.82.0
+"
+ 
+export ADE_DOCKER_RUN_ARGS="
+--add-host=ade:127.0.0.1
+--net=host
+--privileged
+"

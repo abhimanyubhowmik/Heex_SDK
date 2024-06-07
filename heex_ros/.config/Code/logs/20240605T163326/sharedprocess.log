@@ -1,0 +1,62 @@
+2024-06-05 16:33:28.476 [info] Started initializing default profile extensions in extensions installation folder. file:///home/abhimanyu/.vscode/extensions
+2024-06-05 16:33:28.772 [warning] Failed to create default profile extensions manifest in extensions installation folder. file:///home/abhimanyu/.vscode/extensions Unable to create file 'vscode-userdata:/home/abhimanyu/.vscode/extensions/extensions.json' that already exists when overwrite flag is not set
+2024-06-05 16:33:28.772 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/abhimanyu/.vscode/extensions
+2024-06-05 16:34:16.015 [info] Getting Manifest... huytd.tokyo-city
+2024-06-05 16:34:16.032 [info] Installing extension: huytd.tokyo-city
+2024-06-05 16:34:18.307 [info] Extension signature is verified: huytd.tokyo-city
+2024-06-05 16:34:18.376 [info] Extracted extension to file:///home/abhimanyu/.vscode/extensions/huytd.tokyo-city-0.2.4: huytd.tokyo-city
+2024-06-05 16:34:18.381 [info] Renamed to /home/abhimanyu/.vscode/extensions/huytd.tokyo-city-0.2.4
+2024-06-05 16:34:18.383 [info] Extracting extension completed. huytd.tokyo-city
+2024-06-05 16:34:18.390 [info] Extension installed successfully: huytd.tokyo-city
+2024-06-05 16:34:45.962 [info] Uninstalling extension from the profile: huytd.tokyo-city@0.2.4 vscode-userdata:/home/abhimanyu/.vscode/extensions/extensions.json
+2024-06-05 16:34:45.993 [info] Marked extension as uninstalled huytd.tokyo-city-0.2.4
+2024-06-05 16:34:46.198 [info] Successfully uninstalled extension from the profile huytd.tokyo-city@0.2.4 vscode-userdata:/home/abhimanyu/.vscode/extensions/extensions.json
+2024-06-05 16:43:32.011 [info] Getting Manifest... ms-vscode.remote-server
+2024-06-05 16:43:32.086 [info] Installing extension: ms-vscode.remote-server
+2024-06-05 16:43:32.684 [info] Getting Manifest... ms-vscode.remote-explorer
+2024-06-05 16:43:32.794 [info] Installing extension: ms-vscode.remote-explorer ms-vscode.remote-server
+2024-06-05 16:43:34.088 [info] Extension signature is verified: ms-vscode.remote-explorer
+2024-06-05 16:43:34.126 [info] Extracted extension to file:///home/abhimanyu/.vscode/extensions/ms-vscode.remote-explorer-0.4.1: ms-vscode.remote-explorer
+2024-06-05 16:43:34.132 [info] Renamed to /home/abhimanyu/.vscode/extensions/ms-vscode.remote-explorer-0.4.1
+2024-06-05 16:43:34.134 [info] Extracting extension completed. ms-vscode.remote-explorer
+2024-06-05 16:43:35.370 [info] Extension signature is verified: ms-vscode.remote-server
+2024-06-05 16:43:35.439 [info] Extracted extension to file:///home/abhimanyu/.vscode/extensions/ms-vscode.remote-server-1.4.3: ms-vscode.remote-server
+2024-06-05 16:43:35.442 [info] Renamed to /home/abhimanyu/.vscode/extensions/ms-vscode.remote-server-1.4.3
+2024-06-05 16:43:35.444 [info] Extracting extension completed. ms-vscode.remote-server
+2024-06-05 16:43:35.452 [info] Extension installed successfully: ms-vscode.remote-explorer
+2024-06-05 16:43:35.452 [info] Extension installed successfully: ms-vscode.remote-server
+2024-06-05 17:00:23.059 [info] Getting Manifest... ms-vscode.cpptools-extension-pack
+2024-06-05 17:00:23.073 [info] Installing extension: ms-vscode.cpptools-extension-pack
+2024-06-05 17:00:23.575 [info] Getting Manifest... ms-vscode.cpptools
+2024-06-05 17:00:23.633 [info] Getting Manifest... ms-vscode.cmake-tools
+2024-06-05 17:00:23.812 [info] Getting Manifest... twxs.cmake
+2024-06-05 17:00:23.872 [info] Getting Manifest... ms-vscode.cpptools-themes
+2024-06-05 17:00:23.973 [info] Installing extension: ms-vscode.cpptools ms-vscode.cpptools-extension-pack
+2024-06-05 17:00:23.973 [info] Installing extension: ms-vscode.cmake-tools ms-vscode.cpptools-extension-pack
+2024-06-05 17:00:23.973 [info] Installing extension: twxs.cmake ms-vscode.cpptools-extension-pack
+2024-06-05 17:00:23.973 [info] Installing extension: ms-vscode.cpptools-themes ms-vscode.cpptools-extension-pack
+2024-06-05 17:00:25.909 [info] Extension signature is verified: ms-vscode.cpptools-themes
+2024-06-05 17:00:25.928 [info] Extracted extension to file:///home/abhimanyu/.vscode/extensions/ms-vscode.cpptools-themes-2.0.0: ms-vscode.cpptools-themes
+2024-06-05 17:00:25.933 [info] Renamed to /home/abhimanyu/.vscode/extensions/ms-vscode.cpptools-themes-2.0.0
+2024-06-05 17:00:25.934 [info] Extracting extension completed. ms-vscode.cpptools-themes
+2024-06-05 17:00:26.144 [info] Extension signature is verified: ms-vscode.cmake-tools
+2024-06-05 17:00:26.460 [info] Extracted extension to file:///home/abhimanyu/.vscode/extensions/ms-vscode.cmake-tools-1.18.41: ms-vscode.cmake-tools
+2024-06-05 17:00:26.469 [info] Renamed to /home/abhimanyu/.vscode/extensions/ms-vscode.cmake-tools-1.18.41
+2024-06-05 17:00:26.478 [info] Extracting extension completed. ms-vscode.cmake-tools
+2024-06-05 17:00:28.050 [info] Extension signature is verified: twxs.cmake
+2024-06-05 17:00:28.209 [info] Extracted extension to file:///home/abhimanyu/.vscode/extensions/twxs.cmake-0.0.17: twxs.cmake
+2024-06-05 17:00:28.212 [info] Renamed to /home/abhimanyu/.vscode/extensions/twxs.cmake-0.0.17
+2024-06-05 17:00:28.213 [info] Extracting extension completed. twxs.cmake
+2024-06-05 17:00:37.318 [info] Extension signature is verified: ms-vscode.cpptools
+2024-06-05 17:00:40.150 [info] Extracted extension to file:///home/abhimanyu/.vscode/extensions/ms-vscode.cpptools-1.20.5-linux-x64: ms-vscode.cpptools
+2024-06-05 17:00:40.162 [info] Renamed to /home/abhimanyu/.vscode/extensions/ms-vscode.cpptools-1.20.5-linux-x64
+2024-06-05 17:00:40.181 [info] Extracting extension completed. ms-vscode.cpptools
+2024-06-05 17:00:41.345 [info] Extension signature is verified: ms-vscode.cpptools-extension-pack
+2024-06-05 17:00:41.352 [info] Extracted extension to file:///home/abhimanyu/.vscode/extensions/ms-vscode.cpptools-extension-pack-1.3.0: ms-vscode.cpptools-extension-pack
+2024-06-05 17:00:41.357 [info] Renamed to /home/abhimanyu/.vscode/extensions/ms-vscode.cpptools-extension-pack-1.3.0
+2024-06-05 17:00:41.361 [info] Extracting extension completed. ms-vscode.cpptools-extension-pack
+2024-06-05 17:00:41.371 [info] Extension installed successfully: ms-vscode.cpptools-themes
+2024-06-05 17:00:41.371 [info] Extension installed successfully: ms-vscode.cmake-tools
+2024-06-05 17:00:41.372 [info] Extension installed successfully: twxs.cmake
+2024-06-05 17:00:41.372 [info] Extension installed successfully: ms-vscode.cpptools
+2024-06-05 17:00:41.373 [info] Extension installed successfully: ms-vscode.cpptools-extension-pack

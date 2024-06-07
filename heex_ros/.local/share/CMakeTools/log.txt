@@ -1,0 +1,141 @@
+2024-06-07T07:25:54.019Z [debug] [expand] expanding cmake
+2024-06-07T07:25:54.046Z [info] [proc] Executing command: /usr/bin/cmake --version
+2024-06-07T07:25:54.122Z [info] [proc] Executing command: /usr/bin/cmake -E capabilities
+2024-06-07T07:25:54.189Z [debug] [main] Safe constructing new CMakeProject instance
+2024-06-07T07:25:54.189Z [debug] [variant] Constructing VariantManager
+2024-06-07T07:25:54.190Z [debug] [main] Constructing new CMakeProject instance
+2024-06-07T07:25:54.191Z [debug] [main] Starting CMake Tools second-phase init
+2024-06-07T07:25:54.191Z [debug] [expand] expanding ${workspaceFolder}
+2024-06-07T07:25:54.271Z [info] [variant] Loaded new set of variants
+2024-06-07T07:25:54.272Z [debug] [kit] Reading kits file /home/abhimanyu/.local/share/CMakeTools/cmake-tools-kits.json
+2024-06-07T07:25:54.305Z [info] [kit] Successfully loaded 2 kits from /home/abhimanyu/.local/share/CMakeTools/cmake-tools-kits.json
+2024-06-07T07:25:54.305Z [debug] [expand] expanding /usr/bin/gcc-8
+2024-06-07T07:25:54.306Z [debug] [expand] expanding /usr/bin/gcc
+2024-06-07T07:25:54.307Z [debug] [expand] expanding /usr/bin/g++
+2024-06-07T07:25:54.308Z [debug] [expand] expanding cmake
+2024-06-07T07:25:54.321Z [debug] [kit] Not reading non-existent kits file: /home/abhimanyu/.vscode/cmake-kits.json
+2024-06-07T07:25:54.321Z [debug] [expand] expanding /home/abhimanyu
+2024-06-07T07:25:54.324Z [debug] [main] CMakeProject instance initialization complete.
+2024-06-07T08:36:11.152Z [debug] [main] Not starting CMake driver: no kit selected
+2024-06-07T08:41:13.925Z [debug] [main] Not starting CMake driver: no kit selected
+2024-06-07T08:41:37.465Z [debug] [main] Not starting CMake driver: no kit selected
+2024-06-07T08:49:30.117Z [debug] [main] Not starting CMake driver: no kit selected
+2024-06-07T08:49:51.808Z [debug] [main] Not starting CMake driver: no kit selected
+2024-06-07T08:50:22.391Z [debug] [main] Not starting CMake driver: no kit selected
+2024-06-07T08:50:33.271Z [debug] [main] Not starting CMake driver: no kit selected
+2024-06-07T08:51:04.264Z [debug] [main] Not starting CMake driver: no kit selected
+2024-06-07T09:32:14.839Z [debug] [main] Not starting CMake driver: no kit selected
+2024-06-07T09:32:23.466Z [debug] [main] Not starting CMake driver: no kit selected
+g scan of not existing path undefined\LLVM\bin
+2024-06-05T15:00:42.738Z [debug] [kit] Found 0 kits in directory undefined\LLVM\bin
+2024-06-05T15:00:42.739Z [debug] [kit] Skipping scan of not existing path undefined\msys64\mingw32\bin
+2024-06-05T15:00:42.739Z [debug] [kit] Found 0 kits in directory undefined\msys64\mingw32\bin
+2024-06-05T15:00:42.739Z [debug] [kit] Skipping scan of not existing path undefined\msys64\mingw64\bin
+2024-06-05T15:00:42.739Z [debug] [kit] Found 0 kits in directory undefined\msys64\mingw64\bin
+2024-06-05T15:00:42.739Z [debug] [kit] Skipping scan of not existing path undefined\msys64\clang32\bin
+2024-06-05T15:00:42.740Z [debug] [kit] Found 0 kits in directory undefined\msys64\clang32\bin
+2024-06-05T15:00:42.740Z [debug] [kit] Skipping scan of not existing path undefined\msys64\clang64\bin
+2024-06-05T15:00:42.740Z [debug] [kit] Found 0 kits in directory undefined\msys64\clang64\bin
+2024-06-05T15:00:42.740Z [debug] [kit] Skipping scan of not existing path undefined\msys64\clangarm64\bin
+2024-06-05T15:00:42.740Z [debug] [kit] Found 0 kits in directory undefined\msys64\clangarm64\bin
+2024-06-05T15:00:42.741Z [debug] [kit] Skipping scan of not existing path undefined\msys64\ucrt64\bin
+2024-06-05T15:00:42.741Z [debug] [kit] Found 0 kits in directory undefined\msys64\ucrt64\bin
+2024-06-05T15:00:42.743Z [debug] [kit] Found 0 kits in directory /usr/local/sbin
+2024-06-05T15:00:42.743Z [debug] [kit] Found 0 kits in directory /usr/local/bin
+2024-06-05T15:00:42.746Z [debug] [kit] Found 0 kits in directory /opt/ros/noetic/bin
+2024-06-05T15:00:42.756Z [debug] [kit] Found 0 kits in directory /usr/sbin
+2024-06-05T15:00:42.757Z [debug] [kit] Found 0 kits in directory /opt/Qt/Tools/QtCreator/bin
+2024-06-05T15:00:42.765Z [debug] [kit] Found 0 kits in directory /sbin
+2024-06-05T15:00:42.765Z [debug] [kit] Found 0 kits in directory /opt/vscode/bin
+2024-06-05T15:00:42.769Z [debug] [kit] Testing GCC binary: /usr/bin/c89-gcc
+2024-06-05T15:00:42.770Z [info] [proc] Executing command: /usr/bin/c89-gcc -v
+2024-06-05T15:00:42.779Z [debug] [kit] Testing GCC binary: /usr/bin/c99-gcc
+2024-06-05T15:00:42.780Z [info] [proc] Executing command: /usr/bin/c99-gcc -v
+2024-06-05T15:00:42.802Z [debug] [kit] Testing GCC binary: /usr/bin/gcc
+2024-06-05T15:00:42.802Z [info] [proc] Executing command: /usr/bin/gcc -v
+2024-06-05T15:00:42.811Z [debug] [kit] Testing GCC binary: /usr/bin/gcc-8
+2024-06-05T15:00:42.812Z [info] [proc] Executing command: /usr/bin/gcc-8 -v
+2024-06-05T15:00:42.820Z [debug] [kit] Testing GCC binary: /usr/bin/gcc-9
+2024-06-05T15:00:42.821Z [info] [proc] Executing command: /usr/bin/gcc-9 -v
+2024-06-05T15:00:42.857Z [debug] [kit] Testing GCC binary: /usr/bin/x86_64-linux-gnu-gcc
+2024-06-05T15:00:42.858Z [info] [proc] Executing command: /usr/bin/x86_64-linux-gnu-gcc -v
+2024-06-05T15:00:42.865Z [debug] [kit] Testing GCC binary: /usr/bin/x86_64-linux-gnu-gcc-8
+2024-06-05T15:00:42.866Z [info] [proc] Executing command: /usr/bin/x86_64-linux-gnu-gcc-8 -v
+2024-06-05T15:00:42.874Z [debug] [kit] Testing GCC binary: /usr/bin/x86_64-linux-gnu-gcc-9
+2024-06-05T15:00:42.875Z [info] [proc] Executing command: /usr/bin/x86_64-linux-gnu-gcc-9 -v
+2024-06-05T15:00:42.890Z [debug] [kit] Testing GCC binary: /bin/c89-gcc
+2024-06-05T15:00:42.891Z [info] [proc] Executing command: /bin/c89-gcc -v
+2024-06-05T15:00:42.898Z [debug] [kit] Testing GCC binary: /bin/c99-gcc
+2024-06-05T15:00:42.899Z [info] [proc] Executing command: /bin/c99-gcc -v
+2024-06-05T15:00:42.916Z [debug] [kit] Testing GCC binary: /bin/gcc
+2024-06-05T15:00:42.917Z [info] [proc] Executing command: /bin/gcc -v
+2024-06-05T15:00:42.926Z [debug] [kit] Testing GCC binary: /bin/gcc-8
+2024-06-05T15:00:42.926Z [info] [proc] Executing command: /bin/gcc-8 -v
+2024-06-05T15:00:42.933Z [debug] [kit] Testing GCC binary: /bin/gcc-9
+2024-06-05T15:00:42.934Z [info] [proc] Executing command: /bin/gcc-9 -v
+2024-06-05T15:00:42.973Z [debug] [kit] Testing GCC binary: /bin/x86_64-linux-gnu-gcc
+2024-06-05T15:00:42.974Z [info] [proc] Executing command: /bin/x86_64-linux-gnu-gcc -v
+2024-06-05T15:00:42.982Z [debug] [kit] Testing GCC binary: /bin/x86_64-linux-gnu-gcc-8
+2024-06-05T15:00:42.983Z [info] [proc] Executing command: /bin/x86_64-linux-gnu-gcc-8 -v
+2024-06-05T15:00:42.994Z [debug] [kit] Testing GCC binary: /bin/x86_64-linux-gnu-gcc-9
+2024-06-05T15:00:42.994Z [info] [proc] Executing command: /bin/x86_64-linux-gnu-gcc-9 -v
+2024-06-05T15:00:43.023Z [debug] [kit] Detected GCC compiler: /bin/x86_64-linux-gnu-gcc-9
+2024-06-05T15:00:43.025Z [debug] [kit] Detected GCC compiler: /bin/x86_64-linux-gnu-gcc-8
+2024-06-05T15:00:43.027Z [debug] [kit] Detected GCC compiler: /bin/x86_64-linux-gnu-gcc
+2024-06-05T15:00:43.029Z [debug] [kit] Detected GCC compiler: /bin/gcc-9
+2024-06-05T15:00:43.033Z [debug] [kit] Detected GCC compiler: /bin/gcc-8
+2024-06-05T15:00:43.037Z [debug] [kit] Detected GCC compiler: /bin/gcc
+2024-06-05T15:00:43.041Z [debug] [kit] Detected GCC compiler: /bin/c99-gcc
+2024-06-05T15:00:43.045Z [debug] [kit] Detected GCC compiler: /bin/c89-gcc
+2024-06-05T15:00:43.049Z [debug] [kit] Detected GCC compiler: /usr/bin/x86_64-linux-gnu-gcc-9
+2024-06-05T15:00:43.053Z [debug] [kit] Detected GCC compiler: /usr/bin/x86_64-linux-gnu-gcc-8
+2024-06-05T15:00:43.056Z [debug] [kit] Detected GCC compiler: /usr/bin/x86_64-linux-gnu-gcc
+2024-06-05T15:00:43.060Z [debug] [kit] Detected GCC compiler: /usr/bin/gcc-9
+2024-06-05T15:00:43.063Z [debug] [kit] Detected GCC compiler: /usr/bin/gcc-8
+2024-06-05T15:00:43.067Z [debug] [kit] Detected GCC compiler: /usr/bin/gcc
+2024-06-05T15:00:43.070Z [debug] [kit] Detected GCC compiler: /usr/bin/c99-gcc
+2024-06-05T15:00:43.074Z [debug] [kit] Detected GCC compiler: /usr/bin/c89-gcc
+2024-06-05T15:00:43.099Z [debug] [kit] Testing GCC binary: /bin/x86_64-linux-gnu-gcc
+2024-06-05T15:00:43.100Z [info] [proc] Executing command: /bin/x86_64-linux-gnu-gcc -v
+2024-06-05T15:00:43.113Z [debug] [kit] Testing GCC binary: /bin/gcc
+2024-06-05T15:00:43.114Z [info] [proc] Executing command: /bin/gcc -v
+2024-06-05T15:00:43.126Z [debug] [kit] Testing GCC binary: /bin/c99-gcc
+2024-06-05T15:00:43.127Z [info] [proc] Executing command: /bin/c99-gcc -v
+2024-06-05T15:00:43.138Z [debug] [kit] Testing GCC binary: /bin/c89-gcc
+2024-06-05T15:00:43.140Z [info] [proc] Executing command: /bin/c89-gcc -v
+2024-06-05T15:00:43.148Z [debug] [kit] Testing GCC binary: /usr/bin/x86_64-linux-gnu-gcc
+2024-06-05T15:00:43.149Z [info] [proc] Executing command: /usr/bin/x86_64-linux-gnu-gcc -v
+2024-06-05T15:00:43.158Z [debug] [kit] Testing GCC binary: /usr/bin/gcc
+2024-06-05T15:00:43.159Z [info] [proc] Executing command: /usr/bin/gcc -v
+2024-06-05T15:00:43.167Z [debug] [kit] Testing GCC binary: /usr/bin/c99-gcc
+2024-06-05T15:00:43.168Z [info] [proc] Executing command: /usr/bin/c99-gcc -v
+2024-06-05T15:00:43.177Z [debug] [kit] Testing GCC binary: /usr/bin/c89-gcc
+2024-06-05T15:00:43.178Z [info] [proc] Executing command: /usr/bin/c89-gcc -v
+2024-06-05T15:00:43.269Z [debug] [kit] Detected GCC compiler: /usr/bin/c89-gcc
+2024-06-05T15:00:43.272Z [debug] [kit] Detected GCC compiler: /usr/bin/c99-gcc
+2024-06-05T15:00:43.274Z [debug] [kit] Detected GCC compiler: /usr/bin/gcc
+2024-06-05T15:00:43.277Z [debug] [kit] Detected GCC compiler: /usr/bin/x86_64-linux-gnu-gcc
+2024-06-05T15:00:43.279Z [debug] [kit] Detected GCC compiler: /bin/c89-gcc
+2024-06-05T15:00:43.281Z [debug] [kit] Detected GCC compiler: /bin/c99-gcc
+2024-06-05T15:00:43.283Z [debug] [kit] Detected GCC compiler: /bin/gcc
+2024-06-05T15:00:43.286Z [debug] [kit] Detected GCC compiler: /bin/x86_64-linux-gnu-gcc
+2024-06-05T15:00:43.303Z [debug] [kit] Found 8 kits in directory /usr/bin
+2024-06-05T15:00:43.304Z [debug] [kit] Found 8 kits in directory /bin
+2024-06-05T15:00:43.304Z [info] [kit] Found Kit (trusted): GCC 9.4.0 x86_64-linux-gnu
+2024-06-05T15:00:43.305Z [info] [kit] Found Kit (trusted): GCC 9.4.0 x86_64-linux-gnu
+2024-06-05T15:00:43.305Z [info] [kit] Found Kit (trusted): GCC 9.4.0 x86_64-linux-gnu
+2024-06-05T15:00:43.305Z [info] [kit] Found Kit (trusted): GCC 8.4.0 x86_64-linux-gnu
+2024-06-05T15:00:43.306Z [info] [kit] Found Kit (trusted): GCC 9.4.0 x86_64-linux-gnu
+2024-06-05T15:00:43.306Z [info] [kit] Found Kit (trusted): GCC 9.4.0 x86_64-linux-gnu
+2024-06-05T15:00:43.306Z [info] [kit] Found Kit (trusted): GCC 8.4.0 x86_64-linux-gnu
+2024-06-05T15:00:43.306Z [info] [kit] Found Kit (trusted): GCC 9.4.0 x86_64-linux-gnu
+2024-06-05T15:00:43.307Z [info] [kit] Found Kit (trusted): GCC 9.4.0 x86_64-linux-gnu
+2024-06-05T15:00:43.307Z [info] [kit] Found Kit (trusted): GCC 9.4.0 x86_64-linux-gnu
+2024-06-05T15:00:43.307Z [info] [kit] Found Kit (trusted): GCC 9.4.0 x86_64-linux-gnu
+2024-06-05T15:00:43.307Z [info] [kit] Found Kit (trusted): GCC 8.4.0 x86_64-linux-gnu
+2024-06-05T15:00:43.308Z [info] [kit] Found Kit (trusted): GCC 9.4.0 x86_64-linux-gnu
+2024-06-05T15:00:43.308Z [info] [kit] Found Kit (trusted): GCC 9.4.0 x86_64-linux-gnu
+2024-06-05T15:00:43.308Z [info] [kit] Found Kit (trusted): GCC 8.4.0 x86_64-linux-gnu
+2024-06-05T15:00:43.308Z [info] [kit] Found Kit (trusted): GCC 9.4.0 x86_64-linux-gnu
+2024-06-05T15:00:43.310Z [debug] [kitsController] Saving kits to /home/abhimanyu/.local/share/CMakeTools/cmake-tools-kits.json
+2024-06-05T15:00:43.310Z [debug] [kitsController] Saving new kits to /home/abhimanyu/.local/share/CMakeTools/cmake-tools-kits.json

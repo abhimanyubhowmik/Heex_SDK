@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../lib/libHeexMessages.a CMakeFiles/HeexMessages.dir/Common/Tools.cpp.o CMakeFiles/HeexMessages.dir/RecorderMessages/RecorderTools.cpp.o
+/usr/bin/ranlib ../lib/libHeexMessages.a

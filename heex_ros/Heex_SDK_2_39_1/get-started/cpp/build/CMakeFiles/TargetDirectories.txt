@@ -1,0 +1,4 @@
+/home/abhimanyu/Heex_SDK_2_39_1/get-started/cpp/build/CMakeFiles/rebuild_cache.dir
+/home/abhimanyu/Heex_SDK_2_39_1/get-started/cpp/build/CMakeFiles/edit_cache.dir
+/home/abhimanyu/Heex_SDK_2_39_1/get-started/cpp/build/CMakeFiles/GetStartedRecorder.dir
+/home/abhimanyu/Heex_SDK_2_39_1/get-started/cpp/build/CMakeFiles/GetStartedMonitor.dir

@@ -1,0 +1,73 @@
+cmake_minimum_required(VERSION 3.5)
+
+# Path works for build. Mostly relative to Heex.
+if(HEEX_SDK_DIR)
+  message(STATUS "Heex SDK path set to: ${HEEX_SDK_DIR}")
+else()
+  message(FATAL_ERROR "HEEX_SDK_DIR variable isn't set. Consider setting it when building your catkin workspace using 'catkin_make -DHEEX_SDK_DIR=pathToHeexSDKdir' cmake flag. You can also hard set it in this CMakeLists.txt directly by uncommenting and modifying the 'set(HEEX_SDK_DIR ~/heex/)' line.")
+  set(HEEX_SDK_DIR "/path/to/your/Heex_SDK")
+endif()
+
+# Resolve any path issues
+get_filename_component(HEEX_SDK_DIR "${HEEX_SDK_DIR}" REALPATH)
+
+# Set the HeexCustomerSide path
+set(HEEX_CUSTOMER_SIDE_DIR "${HEEX_SDK_DIR}/sdk/CustomerSide")
+
+file(STRINGS "${HEEX_SDK_DIR}/version" HEEX_BUILD_VERSION)
+project("ros_edge_in_memory_buffer_pkg"
+  VERSION ${HEEX_BUILD_VERSION}
+  LANGUAGES CXX
+  DESCRIPTION "Example of the SDK usage for ROS that implements Monitors and Recorders for the edge (online) use case."
+)
+message(STATUS "${CMAKE_PROJECT_NAME} version: ${CMAKE_PROJECT_VERSION}")
+message(STATUS "Using Heex SDK version: ${HEEX_BUILD_VERSION}")
+
+find_package(catkin REQUIRED COMPONENTS
+  roscpp
+  rospy
+  std_msgs
+)
+
+catkin_package(
+  CATKIN_DEPENDS roscpp rospy std_msgs
+)
+
+include_directories(
+  include
+  ${catkin_INCLUDE_DIRS}
+)
+
+find_package(rosbag)
+
+if(NOT DEFINED HEEX_BOOST_VERSION)
+  set(HEEX_BOOST_VERSION 1.75.0)
+  if(legacy1804HeexSdk)
+    set(HEEX_BOOST_VERSION 1.65.1)
+  endif()
+endif()
+
+set(HEEX_BUILD_DIR "build/")
+if(CMAKE_BUILD_TYPE MATCHES "Debug")
+  set(HEEX_BUILD_DIR "debugBuild/")
+endif()
+
+# Import the C++ Heex SDK and its libraries
+find_package(HeexCustomerSide ${HEEX_BUILD_VERSION} REQUIRED PATHS ${HEEX_CUSTOMER_SIDE_DIR} NO_DEFAULT_PATH)
+message(STATUS "HeexCustomerSide_DIR=${HeexCustomerSide_DIR}")
+
+add_subdirectory(src/MonitorADTransitionDisengagement)
+add_subdirectory(src/RosbagRecorderSnapshotter)
+
+add_executable(rosEdgeInMemoryBuffer src/RosEdgeInMemoryBuffer.cpp ${SOURCE_MONITOR_DISENGAGEMENT} ${SOURCE_RECORDER_ROSBAGRECORDERSNAPSHOTTER})
+target_include_directories(rosEdgeInMemoryBuffer
+  PRIVATE
+    src/MonitorADTransitionDisengagement
+    src/RosbagRecorderSnapshotter
+    ${rosbag_INCLUDE_DIRS}
+)
+target_link_libraries(rosEdgeInMemoryBuffer
+  ${catkin_LIBRARIES}
+  HeexCustomerSide::HeexCustomerSide
+  ${rosbag_LIBRARIES}
+)

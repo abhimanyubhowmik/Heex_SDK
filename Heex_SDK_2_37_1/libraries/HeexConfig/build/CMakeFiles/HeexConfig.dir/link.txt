@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../libHeexConfig.a CMakeFiles/HeexConfig.dir/HeexConfig.cpp.o
+/usr/bin/ranlib ../libHeexConfig.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../libTcpClient.a  CMakeFiles/TcpClient.dir/TcpHandler.cpp.o CMakeFiles/TcpClient.dir/TcpSession.cpp.o CMakeFiles/TcpClient.dir/TcpClient.cpp.o CMakeFiles/TcpClient.dir/CallbackClient.cpp.o
+/usr/bin/ranlib ../libTcpClient.a

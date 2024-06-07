@@ -1,0 +1,41 @@
+[roslaunch][INFO] 2024-06-06 11:04:48,897: Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+[roslaunch][INFO] 2024-06-06 11:04:48,901: Done checking log file disk usage. Usage is <1GB.
+[roslaunch][INFO] 2024-06-06 11:04:48,901: roslaunch starting with args ['roscore', '--core']
+[roslaunch][INFO] 2024-06-06 11:04:48,902: roslaunch env is environ({'ROS_VERSION': '1', 'NVIDIA_VISIBLE_DEVICES': 'all', 'ADE_IMAGE_VSCODE_COMMIT_TAG': '', 'COLORTERM': 'truecolor', 'ADE_IMAGE_QTCREATOR_COMMIT_SHA': '', 'USER_ID': '1001', 'TERM_PROGRAM_VERSION': '1.82.0', 'GROUP': 'abhimanyu', 'PKG_CONFIG_PATH': '/opt/ros/noetic/lib/pkgconfig', 'ROS_PYTHON_VERSION': '3', 'HOSTNAME': 'ade', 'LANGUAGE': 'en_US.UTF-8', 'SSH_AUTH_SOCK': '/tmp/ssh-XXXXXXK0Dp4u/agent.3326', 'NO_AT_BRIDGE': '1', 'ROS_PACKAGE_PATH': '/opt/ros/noetic/share', 'ROSLISP_PACKAGE_DIRECTORIES': '', 'PWD': '/home/abhimanyu', 'ADE_IMAGE_VSCODE_FQN': 'docker.robopec.com/ade/vscode:1.82.0', 'NVIDIA_DRIVER_CAPABILITIES': 'compute,utility,graphics,display', 'ADE_IMAGE_QTCREATOR_COMMIT_TAG': '', 'HOME': '/home/abhimanyu', 'LANG': 'en_US.UTF-8', 'ROS_ETC_DIR': '/opt/ros/noetic/etc/ros', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ADE_IMAGE_NOETIC_DESKTOP_FULL_FOCAL_COMMIT_SHA': '', 'CMAKE_PREFIX_PATH': '/opt/ros/noetic', 'TIMEZONE': 'Europe/Paris', 'ADE_IMAGE_QTCREATOR_FQN': 'docker.robopec.com/ade/qtcreator:4.13.3-cmake', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'ADE_HOME_HOSTPATH': '/home/abhimanyu/Documents/heex_ros', 'PYTHONPATH': '/opt/ros/noetic/lib/python3/dist-packages', 'TERM': 'xterm-256color', 'ADE_IMAGE_NOETIC_DESKTOP_FULL_FOCAL_FQN': 'docker.robopec.com/ade/noetic-desktop-full-focal:latest', 'USER': 'abhimanyu', 'COLORFGBG': '15;0', 'DISPLAY': ':2', 'SHLVL': '2', 'ROS_MASTER_URI': 'http://localhost:11311', 'LD_LIBRARY_PATH': '/opt/ros/noetic/lib:/usr/local/nvidia/lib64', 'GROUP_ID': '1001', 'VIDEO_GROUP_ID': '44', 'LC_ALL': 'en_US.UTF-8', 'ADE_IMAGE_NOETIC_DESKTOP_FULL_FOCAL_COMMIT_TAG': '', 'GDK_BACKEND': 'x11', 'PATH': '/opt/ros/noetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/Qt/Tools/QtCreator/bin:/opt/vscode/bin', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'undefined', 'DBUS_SESSION_BUS_ADDRESS': 'disabled:', 'ADE_CLI_VERSION': '4.4.0', 'ROS_ROOT': '/opt/ros/noetic/share/ros', 'ROS_DISTRO': 'noetic', 'ADE_IMAGE_VSCODE_COMMIT_SHA': '', 'OLDPWD': '/', 'TERM_PROGRAM': 'vscode', '_': '/opt/ros/noetic/bin/roscore', 'ROS_LOG_FILENAME': '/home/abhimanyu/.ros/log/b9a09d08-23d7-11ef-9177-00e04c02597e/roslaunch-ade-579.log'})
+[roslaunch][INFO] 2024-06-06 11:04:48,902: starting in server mode
+[roslaunch.parent][INFO] 2024-06-06 11:04:48,902: starting roslaunch parent run
+[roslaunch][INFO] 2024-06-06 11:04:48,903: loading roscore config file /opt/ros/noetic/etc/ros/roscore.xml
+[roslaunch][INFO] 2024-06-06 11:04:49,060: Added core node of type [rosout/rosout] in namespace [/]
+[roslaunch.pmon][INFO] 2024-06-06 11:04:49,061: start_process_monitor: creating ProcessMonitor
+[roslaunch.pmon][INFO] 2024-06-06 11:04:49,061: created process monitor <ProcessMonitor(ProcessMonitor-1, initial daemon)>
+[roslaunch.pmon][INFO] 2024-06-06 11:04:49,061: start_process_monitor: ProcessMonitor started
+[roslaunch.parent][INFO] 2024-06-06 11:04:49,062: starting parent XML-RPC server
+[roslaunch.server][INFO] 2024-06-06 11:04:49,062: starting roslaunch XML-RPC server
+[roslaunch.server][INFO] 2024-06-06 11:04:49,062: waiting for roslaunch XML-RPC server to initialize
+[xmlrpc][INFO] 2024-06-06 11:04:49,062: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2024-06-06 11:04:49,062: Started XML-RPC server [http://ade:43513/]
+[xmlrpc][INFO] 2024-06-06 11:04:49,062: xml rpc node: starting XML-RPC server
+[roslaunch][INFO] 2024-06-06 11:04:49,074: started roslaunch server http://ade:43513/
+[roslaunch.parent][INFO] 2024-06-06 11:04:49,074: ... parent XML-RPC server started
+[roslaunch][INFO] 2024-06-06 11:04:49,074: master.is_running[http://ade:11311/]
+[roslaunch][ERROR] 2024-06-06 11:04:49,075: RLException: roscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://ade:11311/
+[roslaunch][ERROR] 2024-06-06 11:04:49,076: The traceback for the exception was written to the log file
+[roslaunch][ERROR] 2024-06-06 11:04:49,076: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/__init__.py", line 347, in main
+    p.start()
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/parent.py", line 316, in start
+    self.runner.launch()
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 676, in launch
+    self._setup()
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 651, in _setup
+    launched = self._launch_master()
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 410, in _launch_master
+    raise RLException("roscore cannot run as another roscore/master is already running. \nPlease kill other roscore/master processes before relaunching.\nThe ROS_MASTER_URI is %s"%(m.uri))
+roslaunch.core.RLException: roscore cannot run as another roscore/master is already running. 
+Please kill other roscore/master processes before relaunching.
+The ROS_MASTER_URI is http://ade:11311/
+
+[rospy.core][INFO] 2024-06-06 11:04:49,076: signal_shutdown [atexit]

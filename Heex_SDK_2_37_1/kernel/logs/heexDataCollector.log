@@ -1,0 +1,894 @@
+[2024-06-05 12:06:59.472152] [heexDataCollector] [info] HeexDataCollector 2.37.1
+[2024-06-05 12:06:59.472234] [heexDataCollector] [info] Logging to file at /home/abhimanyu/Documents/Heex_SDK_2_37_1/kernel/./logs/heexDataCollector.log
+[2024-06-05 12:06:59.475883] [heexDataCollector] [info] DatabaseManager | Opened database successfully
+[2024-06-05 12:07:00.987363] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 12:07:00.987673] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-f6e7bd33-f4e0-446c-ae66-c7f7199abad0 has succeeded.
+[2024-06-05 12:07:01.239874] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 12:07:56.265076] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 12:07:56.265323] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-f78dde41-45e3-41fd-ac7e-39107ed89d0b has succeeded.
+[2024-06-05 12:07:56.519241] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 12:07:56.519421] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 12:07:56.519486] [heexDataCollector] [info] ::addContextValue Replacing older value 0 by 1 for key __hidden_nb_ready_to_ship_jobs
+[2024-06-05 12:07:56.519587] [heexDataCollector] [info] ::addContextValue Replacing older value 0 by 1331 for key __hidden_hosted_files_size
+[2024-06-05 12:07:56.519645] [heexDataCollector] [info] ::addContextValue Replacing older value 2024-06-05T10:07:56.265206 by 2024-06-05T10:07:56.519614 for key __hidden_collected_at
+[2024-06-05 12:07:56.531010] [heexDataCollector] [info] [7zip]	7-Zip (z) 22.01 (x64) : Copyright (c) 1999-2022 Igor Pavlov : 2022-07-15
+[2024-06-05 12:07:56.531061] [heexDataCollector] [info] [7zip]	 64-bit locale=en_US.UTF-8 Threads:8, ASM
+[2024-06-05 12:07:56.531082] [heexDataCollector] [info] [7zip]	Scanning the drive:
+[2024-06-05 12:07:56.531108] [heexDataCollector] [info] [7zip]	  0M Scan  /home/abhimanyu/Documents/Heex_SDK_2_37_1/                                                     1 file, 24 bytes (1 KiB)
+[2024-06-05 12:07:56.532196] [heexDataCollector] [info] [7zip]	Creating archive: /home/abhimanyu/Documents/Heex_SDK_2_37_1/kernel/outbox/Recording-E-f78dde41-45e3-41fd-ac7e-39107ed89d0b.zip
+[2024-06-05 12:07:56.532229] [heexDataCollector] [info] [7zip]	Add new data to archive: 1 file, 24 bytes (1 KiB)
+[2024-06-05 12:07:56.532545] [heexDataCollector] [info] [7zip]	  0%    
+[2024-06-05 12:07:56.532575] [heexDataCollector] [info] [7zip]	Files read from disk: 1
+[2024-06-05 12:07:56.532594] [heexDataCollector] [info] [7zip]	Archive size: 174 bytes (1 KiB)
+[2024-06-05 12:07:56.532611] [heexDataCollector] [info] [7zip]	Everything is Ok
+[2024-06-05 12:07:56.532815] [heexDataCollector] [info] DataCollector::performRequest | Generating event recording archive for event E-f78dde41-45e3-41fd-ac7e-39107ed89d0b has succeeded.
+[2024-06-05 12:07:56.784815] [heexDataCollector] [info] DataCollector::handleJobLogic | Recording has been successfully collected! Recording is now ready to upload.
+
+[2024-06-05 12:08:00.786567] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 12:08:00.787257] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-bb0e2824-de80-4b65-ac4d-b45a982fed34 has succeeded.
+[2024-06-05 12:08:01.041649] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 13:19:45.946500] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 13:19:45.947340] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-6952110f-6e77-4c5c-8936-84feb61be476 has succeeded.
+[2024-06-05 13:19:46.200333] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 13:20:46.226938] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 13:20:46.227660] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-0ad1be30-f8c0-482c-be05-5871c9a2d4d4 has succeeded.
+[2024-06-05 13:20:46.482302] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 13:21:46.009926] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 13:21:46.010590] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-b7f9a813-c9b7-4498-8c6f-66593e8c4389 has succeeded.
+[2024-06-05 13:21:46.263228] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 13:22:45.790139] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 13:22:45.790795] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-5322a741-7536-40f1-b151-f547f32e504f has succeeded.
+[2024-06-05 13:22:46.043317] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 13:23:46.069790] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 13:23:46.070482] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-af6a7a58-c46c-47da-8a36-ff6122e12a03 has succeeded.
+[2024-06-05 13:23:46.323342] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 13:24:45.850571] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 13:24:45.851164] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-5fcd3ca7-79db-4027-97a1-a5bda2957ec6 has succeeded.
+[2024-06-05 13:24:46.106460] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 13:25:46.134684] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 13:25:46.135302] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-a8ce90f4-687a-4cdf-ac56-ac4232691aa3 has succeeded.
+[2024-06-05 13:25:46.389286] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 13:26:45.916570] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 13:26:45.916932] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-6955d9ba-1952-47ab-a7ec-e3a6e13ce769 has succeeded.
+[2024-06-05 13:26:46.169142] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 13:27:46.195604] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 13:27:46.195943] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-0da69493-efc3-4dfc-a845-a8dd6770bb45 has succeeded.
+[2024-06-05 13:27:46.448259] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 13:28:45.975484] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 13:28:45.976230] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-51ce383a-61de-40cf-867f-0616e464769f has succeeded.
+[2024-06-05 13:28:46.228926] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 13:29:46.257035] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 13:29:46.257656] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-4601a9e8-2cff-43e6-a6ba-f0190361db20 has succeeded.
+[2024-06-05 13:29:46.510529] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 13:30:46.034421] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 13:30:46.034648] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-d791ff5e-29fb-40cb-a198-070b3bb87bfd has succeeded.
+[2024-06-05 13:30:46.286593] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 13:31:45.812207] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 13:31:45.812917] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-1dea807e-07dd-4e6f-b381-5f287b330b31 has succeeded.
+[2024-06-05 13:31:46.065594] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 13:32:46.092439] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 13:32:46.093139] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-5a771f94-d395-486d-b4d6-3f948c5c7ef0 has succeeded.
+[2024-06-05 13:32:46.345816] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 13:33:45.873978] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 13:33:45.874695] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-54a9f3cb-f0d8-4061-a29e-10b924ff5617 has succeeded.
+[2024-06-05 13:33:46.127258] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 13:34:46.154164] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 13:34:46.154754] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-921f1319-4273-4ac0-8586-6635520a9c6b has succeeded.
+[2024-06-05 13:34:46.407524] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 13:35:45.934812] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 13:35:45.935414] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-abab8d52-9e98-4796-be5c-a4d3630df701 has succeeded.
+[2024-06-05 13:35:46.188050] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 13:36:46.215971] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 13:36:46.216697] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-8b0d34de-938e-4f70-aca8-411604c8fc9e has succeeded.
+[2024-06-05 13:36:46.469403] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 13:37:45.996735] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 13:37:45.997310] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-510751e3-ed62-45b2-a77c-cf2b452e5bd6 has succeeded.
+[2024-06-05 13:37:46.250039] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 13:38:46.277831] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 13:38:46.278511] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-e3967874-b03e-471c-a6a0-9ad181036ead has succeeded.
+[2024-06-05 13:38:46.532834] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 13:39:46.060424] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 13:39:46.061146] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-e3cfe08f-9690-4c59-bc3a-f33268a67813 has succeeded.
+[2024-06-05 13:39:46.314146] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 13:40:46.341725] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 13:40:46.342330] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-95ca5f00-2f90-4571-8edb-f1f47df2fbf8 has succeeded.
+[2024-06-05 13:40:46.595057] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 13:41:46.122616] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 13:41:46.123341] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-2e071e1a-da75-46d6-8ba9-c227e283860c has succeeded.
+[2024-06-05 13:41:46.377831] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 13:42:45.904565] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 13:42:45.905363] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-23cfe9f1-70a1-4e24-966c-e9dedd43dd5f has succeeded.
+[2024-06-05 13:42:46.158104] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 13:43:46.185043] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 13:43:46.185758] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-89929f46-60d4-414b-854a-7f46d4557b5c has succeeded.
+[2024-06-05 13:43:46.438420] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 13:44:45.965738] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 13:44:45.966309] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-e60f1805-f84b-4254-9673-7fcf111ce6f9 has succeeded.
+[2024-06-05 13:44:46.219302] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 13:45:46.246198] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 13:45:46.246799] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-9c6a3b27-f427-447a-b0d2-b51cc210d462 has succeeded.
+[2024-06-05 13:45:46.499539] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 13:46:46.027030] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 13:46:46.027270] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-0b135461-af98-4d9f-a1ed-81d82190edd5 has succeeded.
+[2024-06-05 13:46:46.279373] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 13:47:46.306773] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 13:47:46.307513] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-e587b937-c2b8-4c9c-8431-036462628181 has succeeded.
+[2024-06-05 13:47:46.562036] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 13:48:46.089249] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 13:48:46.089927] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-259f1326-a1e6-4b39-92ca-755722b4e93a has succeeded.
+[2024-06-05 13:48:46.342567] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 13:49:46.368273] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 13:49:46.368565] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-722dcae9-40a1-4525-b4d9-02050c1c5b3a has succeeded.
+[2024-06-05 13:49:46.620679] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 13:50:46.144614] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 13:50:46.145235] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-dc63919e-76b7-4203-bb2d-65d609bd5f13 has succeeded.
+[2024-06-05 13:50:46.398053] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 13:51:46.424009] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 13:51:46.424724] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-ff84d165-a597-49ce-9edd-1116a1b00c75 has succeeded.
+[2024-06-05 13:51:46.677509] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 13:52:46.202644] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 13:52:46.203339] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-8d217a3a-6d91-420e-b926-543feca04074 has succeeded.
+[2024-06-05 13:52:46.458586] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 13:53:46.741935] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 13:53:46.742590] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-10c9bed3-7319-4dfd-afe4-3d0f0d6395a8 has succeeded.
+[2024-06-05 13:53:46.995191] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 13:54:47.019821] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 13:54:47.020038] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-d78eb7c3-4b1f-4197-bd16-d96f49e03351 has succeeded.
+[2024-06-05 13:54:47.272213] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 13:55:46.797724] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 13:55:46.798405] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-0c4fd346-a16b-4dbd-a630-84722b0618a4 has succeeded.
+[2024-06-05 13:55:47.051204] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 13:56:47.078723] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 13:56:47.079308] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-17a322b8-f81d-483a-ade9-dde159d50e68 has succeeded.
+[2024-06-05 13:56:47.332041] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 13:57:46.859943] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 13:57:46.860527] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-401a846c-1608-4834-90b8-ea00a49601e3 has succeeded.
+[2024-06-05 13:57:47.113282] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 13:58:47.140856] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 13:58:47.141573] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-d538de34-258b-4e13-9c90-0a239c027935 has succeeded.
+[2024-06-05 13:58:47.396184] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 13:59:46.923364] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 13:59:46.924014] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-f888d047-31d5-4fa2-9266-854078598fc4 has succeeded.
+[2024-06-05 13:59:47.176768] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 14:00:47.203285] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 14:00:47.203866] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-5795e534-9e2b-4b29-9a87-ec0ef07ed2b6 has succeeded.
+[2024-06-05 14:00:47.456433] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 14:01:46.983957] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 14:01:46.984289] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-d8b9f251-bc10-494d-8406-a3ccca619749 has succeeded.
+[2024-06-05 14:01:47.236422] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 14:02:46.763747] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 14:02:46.764428] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-5274805d-be83-4f61-b574-a697579df53a has succeeded.
+[2024-06-05 14:02:47.018781] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 14:03:47.046330] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 14:03:47.047005] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-0796bba7-533d-4418-8771-25a69fed7ffd has succeeded.
+[2024-06-05 14:03:47.299845] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 14:04:46.826764] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 14:04:46.827344] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-70a0b39a-0a13-421a-8706-120255c0142e has succeeded.
+[2024-06-05 14:04:47.081750] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 14:05:47.108791] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 14:05:47.109509] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-c20c93df-ed17-459c-8c4a-f47b402bc05a has succeeded.
+[2024-06-05 14:05:47.362391] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 14:06:46.890455] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 14:06:46.891100] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-a922c132-c9ea-4289-a46a-4d0971927981 has succeeded.
+[2024-06-05 14:06:47.143881] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 14:07:47.170701] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 14:07:47.171382] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-7d7ed9aa-fd68-4ade-b19e-f8719b957c25 has succeeded.
+[2024-06-05 14:07:47.423987] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 14:08:46.951325] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 14:08:46.952002] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-c7107794-7a94-4a58-9248-caed6fa44090 has succeeded.
+[2024-06-05 14:08:47.204935] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 14:09:47.231407] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 14:09:47.232151] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-aaa8b123-9cb5-454d-9036-290070c69c8a has succeeded.
+[2024-06-05 14:09:47.484939] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 14:10:47.011293] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 14:10:47.011923] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-420b76c7-0f09-4a53-970b-e32aa6422ae0 has succeeded.
+[2024-06-05 14:10:47.264722] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 14:11:46.790869] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 14:11:46.791443] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-3722bcbe-ab42-4bb7-aab2-ddfe6fd0fb3b has succeeded.
+[2024-06-05 14:11:47.044128] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 14:12:47.071891] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 14:12:47.072512] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-814e2c9f-46aa-4362-9b72-b15c0986454e has succeeded.
+[2024-06-05 14:12:47.325319] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 14:13:46.851292] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 14:13:46.851873] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-2034d707-a351-44a3-b692-004988d3688f has succeeded.
+[2024-06-05 14:13:47.104667] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 14:14:47.131439] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 14:14:47.131734] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-d1f39eea-f1fe-4828-845a-cca715ef436f has succeeded.
+[2024-06-05 14:14:47.384016] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 14:15:46.911152] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 14:15:46.911743] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-b3cfbb0b-cc21-468f-996b-eada6595dd64 has succeeded.
+[2024-06-05 14:15:47.164583] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 14:16:47.191404] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 14:16:47.192077] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-1bc7baf3-b773-4145-b249-0ca58473a495 has succeeded.
+[2024-06-05 14:16:47.444643] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 14:17:46.970885] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 14:17:46.971553] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-f4014190-fa87-475c-82b8-809409e4b339 has succeeded.
+[2024-06-05 14:17:47.224421] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 14:18:47.251849] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 14:18:47.252419] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-8943a7f4-3ae3-4b6c-8c01-3234f719e06b has succeeded.
+[2024-06-05 14:18:47.505112] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 14:19:47.030238] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 14:19:47.030888] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-566268bf-9ba2-476f-9d21-94ca8e27e80f has succeeded.
+[2024-06-05 14:19:47.284922] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 14:20:46.811760] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 14:20:46.812170] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-bdb8e584-d028-4495-a82b-c370f2b24fbf has succeeded.
+[2024-06-05 14:20:47.064109] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 14:21:47.091045] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 14:21:47.091625] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-3572bd08-4f21-4761-92a2-8f7396fcb771 has succeeded.
+[2024-06-05 14:21:47.344491] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 14:22:46.871354] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 14:22:46.871922] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-b594b199-fc19-4a17-916e-4eb002523d2a has succeeded.
+[2024-06-05 14:22:47.126385] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 14:23:47.153071] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 14:23:47.153346] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-10795f56-0ee6-409b-b0ee-0e6d6f8a46be has succeeded.
+[2024-06-05 14:23:47.405598] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 14:24:46.932345] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 14:24:46.933135] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-7fd17d68-28c8-4dc8-a186-2b185ab1a07f has succeeded.
+[2024-06-05 14:24:47.185874] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 14:25:47.210664] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 14:25:47.210891] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-f4a6df74-162e-448e-83c3-84cd76a5241c has succeeded.
+[2024-06-05 14:25:47.463008] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 14:26:46.988899] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 14:26:46.989710] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-2ab26193-d40d-4d59-8c56-802d3e861b2f has succeeded.
+[2024-06-05 14:26:47.242393] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 14:27:47.268154] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 14:27:47.268797] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-ec096bb4-2f3b-4cf7-bcc5-c9df72032747 has succeeded.
+[2024-06-05 14:27:47.521587] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 14:28:47.048273] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 14:28:47.049008] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-c4d8014c-1b20-4567-b85b-c4ee805bcb28 has succeeded.
+[2024-06-05 14:28:47.301689] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 14:29:46.827166] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 14:29:46.827867] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-dac1dd6c-0c43-40de-b16a-d31b3303ba01 has succeeded.
+[2024-06-05 14:29:47.080571] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 14:30:47.107637] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 14:30:47.108213] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-871636ff-65b0-4e63-b19e-645e6a685055 has succeeded.
+[2024-06-05 14:30:47.360798] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 14:31:46.888112] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 14:31:46.888784] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-2782e147-40b5-4944-97d5-4cb4f16304f8 has succeeded.
+[2024-06-05 14:31:47.141418] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 14:32:47.168842] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 14:32:47.169569] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-25b0cce4-04d0-458c-9d1c-ded365dff424 has succeeded.
+[2024-06-05 14:32:47.422181] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 14:33:46.949733] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 14:33:46.950427] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-24747c7a-a667-4ca3-ad0a-0f58e950bcdf has succeeded.
+[2024-06-05 14:33:47.203178] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 14:34:47.231071] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 14:34:47.231630] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-6dd2d932-5a9a-4b9a-9fd5-8ca7417c91f1 has succeeded.
+[2024-06-05 14:34:47.484327] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 14:35:47.011552] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 14:35:47.012260] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-47a9f06a-c28a-4a15-87b9-fe56b2c53546 has succeeded.
+[2024-06-05 14:35:47.264890] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 14:36:47.290967] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 14:36:47.291572] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-74d71aeb-c294-46cf-8106-5314f3bfefde has succeeded.
+[2024-06-05 14:36:47.544308] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 14:37:47.072030] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 14:37:47.072312] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-1d461637-192a-4e6c-9095-96e29c983767 has succeeded.
+[2024-06-05 14:37:47.324429] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 14:38:47.351549] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 14:38:47.352303] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-15a8b90a-705b-485a-87cc-9b7648983f91 has succeeded.
+[2024-06-05 14:38:47.605143] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 14:39:47.130266] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 14:39:47.130598] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-c1896d6a-ced7-4eea-80cc-ffaff4005750 has succeeded.
+[2024-06-05 14:39:47.382900] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 14:40:46.909506] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 14:40:46.910221] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-7f31628a-5d1b-4145-9261-f22987dcd9ff has succeeded.
+[2024-06-05 14:40:47.162818] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 14:41:47.189206] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 14:41:47.189871] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-3fee6d9c-c7f9-4533-9681-b049d991c68c has succeeded.
+[2024-06-05 14:41:47.442737] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 14:42:46.969008] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 14:42:46.969648] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-815228c5-0e42-4e70-be0e-f67f77bd1ff2 has succeeded.
+[2024-06-05 14:42:47.222269] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 14:43:47.249370] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 14:43:47.250068] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-db9d7c1b-d165-4472-a3e8-c9212a8c2b69 has succeeded.
+[2024-06-05 14:43:47.502746] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 14:44:47.029191] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 14:44:47.029789] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-4c423b62-dd46-4441-8a4e-51d451e74f65 has succeeded.
+[2024-06-05 14:44:47.282516] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 14:45:47.309505] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 14:45:47.310202] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-e3c3b419-fd4b-4799-b439-a9d30724c953 has succeeded.
+[2024-06-05 14:45:47.562877] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 14:46:47.089585] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 14:46:47.090237] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-0b44cf97-ee93-4850-adcc-6133125c637f has succeeded.
+[2024-06-05 14:46:47.343009] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 14:47:47.370765] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 14:47:47.371458] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-f231a11a-603f-4e6e-a60e-23ca4c391736 has succeeded.
+[2024-06-05 14:47:47.626448] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 14:48:47.154387] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 14:48:47.155030] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-2746484e-6db0-4977-9492-10a67b89851f has succeeded.
+[2024-06-05 14:48:47.407820] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 14:49:46.935718] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 14:49:46.936310] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-afd9cd40-e0d0-48fb-8aab-8b33854978e8 has succeeded.
+[2024-06-05 14:49:47.188765] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 14:50:47.216378] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 14:50:47.217114] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-327a5540-a1d4-47c8-ae6f-0063cbbee4c8 has succeeded.
+[2024-06-05 14:50:47.469517] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 14:51:46.995818] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 14:51:46.996299] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-c5941603-97ff-4886-abc1-0f086fdf68ec has succeeded.
+[2024-06-05 14:51:47.250387] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 14:52:47.276923] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 14:52:47.277526] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-0e819746-5efe-403d-97d2-6f4a4790fd15 has succeeded.
+[2024-06-05 14:52:47.530106] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 14:53:47.057484] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 14:53:47.058083] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-f22a5ee5-d104-432c-ba09-bfeb2f6773f0 has succeeded.
+[2024-06-05 14:53:47.312435] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 14:54:47.339810] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 14:54:47.340544] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-90b28db7-00b3-4241-a7a6-2f2f796f985b has succeeded.
+[2024-06-05 14:54:47.593528] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 14:55:47.121286] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 14:55:47.121873] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-25b526a8-6845-4bb4-bd5a-f61e8525cbc6 has succeeded.
+[2024-06-05 14:55:47.374557] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 14:56:47.401811] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 14:56:47.402490] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-ecb10bc4-2f4b-46d4-aafe-a16a8b93478a has succeeded.
+[2024-06-05 14:56:47.655226] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 14:57:47.183189] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 14:57:47.183864] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-2382c15c-274a-416b-9c33-143e41f5279b has succeeded.
+[2024-06-05 14:57:47.436551] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 14:58:47.463901] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 14:58:47.464505] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-477adb47-171a-40d1-b61c-24ce386676e0 has succeeded.
+[2024-06-05 14:58:47.717250] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 14:59:47.244560] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 14:59:47.245207] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-0af494a9-6498-43be-ac6c-fbbb6adaeb45 has succeeded.
+[2024-06-05 14:59:47.497831] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 15:00:47.024743] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 15:00:47.025440] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-f0e5c8cb-f67e-497a-9204-fa117bc1a004 has succeeded.
+[2024-06-05 15:00:47.278030] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 15:01:47.305608] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 15:01:47.306304] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-a388283f-0aa2-4ace-85fa-fefb55ce7d15 has succeeded.
+[2024-06-05 15:01:47.559225] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 15:02:47.086494] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 15:02:47.087203] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-d4089aae-6135-426a-b22c-bafee87f2408 has succeeded.
+[2024-06-05 15:02:47.340031] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 15:03:47.367710] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 15:03:47.368390] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-3695b25a-60f8-4eb3-a15c-2f00835e6b61 has succeeded.
+[2024-06-05 15:03:47.621019] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 15:04:47.149479] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 15:04:47.150067] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-24c46344-06d5-4a07-a041-b0a368801f37 has succeeded.
+[2024-06-05 15:04:47.402721] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 15:05:47.430982] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 15:05:47.431624] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-c2e5144a-b4c3-4833-b2d9-a9ffc0e8d7fb has succeeded.
+[2024-06-05 15:05:47.684571] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 15:06:47.212222] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 15:06:47.212885] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-c8699e67-be56-42f0-a715-c055b60cf78c has succeeded.
+[2024-06-05 15:06:47.465328] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 15:07:47.493441] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 15:07:47.493997] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-94969f44-6091-45cd-afe6-523300d7effc has succeeded.
+[2024-06-05 15:07:47.746746] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 15:08:47.274618] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 15:08:47.275289] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-23c376fb-5d26-469b-b943-7c75aa88ccef has succeeded.
+[2024-06-05 15:08:47.527992] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 15:09:47.055805] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 15:09:47.056524] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-a86593e2-8720-4917-965e-25fd03532d11 has succeeded.
+[2024-06-05 15:09:47.309007] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 15:10:47.337378] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 15:10:47.338033] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-41e40e46-dfb4-4c5a-a81c-8f792c29d651 has succeeded.
+[2024-06-05 15:10:47.590742] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 15:11:47.119184] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 15:11:47.119751] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-9351dd8e-73e2-4152-92eb-96c060510a4c has succeeded.
+[2024-06-05 15:11:47.372550] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 15:12:47.400703] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 15:12:47.401364] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-0baff6bf-b7a2-4deb-9e9c-5986f2d93467 has succeeded.
+[2024-06-05 15:12:47.654162] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 15:13:47.182305] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 15:13:47.183028] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-cad2b786-8d10-4749-a929-87c034e0c0a9 has succeeded.
+[2024-06-05 15:13:47.435669] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 15:14:47.462969] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 15:14:47.463572] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-a320413a-4026-427f-8aee-65e566032a69 has succeeded.
+[2024-06-05 15:14:47.716255] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 15:15:47.243582] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 15:15:47.244141] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-d4822506-42fa-49f9-bd44-98abbbfd4f70 has succeeded.
+[2024-06-05 15:15:47.496869] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 15:16:47.523882] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 15:16:47.524464] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-0fc1dfad-d992-4c9d-a1b2-72ee70d89ba8 has succeeded.
+[2024-06-05 15:16:47.777066] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 15:17:47.305197] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 15:17:47.305773] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-57ffd110-0738-4fdc-a23f-154411f7a0ec has succeeded.
+[2024-06-05 15:17:47.558523] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 15:18:47.085638] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 15:18:47.086189] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-b3d757b2-7561-4c6f-bdd4-3ee08965b9a7 has succeeded.
+[2024-06-05 15:18:47.338654] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 15:19:47.366780] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 15:19:47.367391] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-8fcee8de-4f1d-430a-9f6a-07f99c0076ec has succeeded.
+[2024-06-05 15:19:47.619936] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 15:20:47.147072] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 15:20:47.147674] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-bc383477-3614-47dd-8c00-d7097b2d3482 has succeeded.
+[2024-06-05 15:20:47.400384] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 15:21:47.428512] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 15:21:47.429118] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-593671d2-ba37-4e09-bf4a-d933fa5bdf4e has succeeded.
+[2024-06-05 15:21:47.681577] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 15:22:47.208883] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 15:22:47.209649] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-cce5dba0-2f1f-4718-a504-6d7813458a22 has succeeded.
+[2024-06-05 15:22:47.462402] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 15:23:47.490790] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 15:23:47.491672] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-df985385-4aa2-42c9-a703-74e5bf9d7b51 has succeeded.
+[2024-06-05 15:23:47.744306] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 15:24:47.271810] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 15:24:47.272454] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-bf216007-c4c8-49ee-aef5-d133e566d7c9 has succeeded.
+[2024-06-05 15:24:47.525069] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 15:25:47.553385] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 15:25:47.554077] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-c635bbf8-9843-4812-80f7-5e3868c0afbb has succeeded.
+[2024-06-05 15:25:47.806792] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 15:26:47.333785] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 15:26:47.334370] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-68b2b706-fe61-4208-8ae5-f9da339dc581 has succeeded.
+[2024-06-05 15:26:47.587073] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 15:27:47.115032] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 15:27:47.115580] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-99ed63b9-1aa2-4ed4-9559-a64dde98e343 has succeeded.
+[2024-06-05 15:27:47.368006] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 15:28:47.395054] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 15:28:47.395491] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-0333909b-ff70-43c5-9a57-34de02511aa3 has succeeded.
+[2024-06-05 15:28:47.647747] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 15:29:47.172457] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 15:29:47.173091] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-f3503169-c068-4b27-9685-b00ccd027b66 has succeeded.
+[2024-06-05 15:29:47.425815] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 15:30:47.452276] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 15:30:47.452855] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-4b9b6790-45a1-42c6-8b1f-a4e6e4a429ab has succeeded.
+[2024-06-05 15:30:47.707294] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 15:31:47.233536] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 15:31:47.234230] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-aebbd5ac-305e-4b08-8d36-7ae34c6d2979 has succeeded.
+[2024-06-05 15:31:47.486862] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 15:32:47.513735] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 15:32:47.514445] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-8497da27-be31-4de7-a201-607e6e59ec23 has succeeded.
+[2024-06-05 15:32:47.767061] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 15:33:47.294280] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 15:33:47.294849] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-84280cb1-3922-4e17-8243-c5e615a5e910 has succeeded.
+[2024-06-05 15:33:47.547649] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 15:34:47.574123] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 15:34:47.574733] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-cd2c74e1-3540-4a29-819c-2012d5e0649f has succeeded.
+[2024-06-05 15:34:47.827437] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 15:35:47.355520] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 15:35:47.356094] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-86ab8ba5-0f4c-46e1-ac9b-1c901ff23379 has succeeded.
+[2024-06-05 15:35:47.608855] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 15:36:47.636250] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 15:36:47.636827] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-e7fecce8-1dd9-40b0-a6cf-4fc195051a68 has succeeded.
+[2024-06-05 15:36:47.889371] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 15:37:47.417165] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 15:37:47.417773] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-facd8faa-1816-4db9-91d0-98d8b079910a has succeeded.
+[2024-06-05 15:37:47.670420] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 15:38:47.197770] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 15:38:47.198440] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-71576e2e-d5da-47d2-8c30-df2e114b43c5 has succeeded.
+[2024-06-05 15:38:47.451124] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 15:39:47.479125] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 15:39:47.479710] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-7d84c150-e91b-4eaf-8e60-da0a3416edbb has succeeded.
+[2024-06-05 15:39:47.732462] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 15:40:47.260270] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 15:40:47.260950] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-7b3f0855-5e49-41a6-aaae-8715af885a0c has succeeded.
+[2024-06-05 15:40:47.515884] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 15:41:47.543545] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 15:41:47.544101] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-5447fb39-48ca-419f-a727-fe784ba78752 has succeeded.
+[2024-06-05 15:41:47.798463] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 15:42:47.326447] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 15:42:47.327143] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-cddc9230-07fd-4d6f-a2cf-8c59970fccf9 has succeeded.
+[2024-06-05 15:42:47.579801] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 15:43:47.607550] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 15:43:47.608226] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-e8055029-2fa8-4799-ba74-26826be01343 has succeeded.
+[2024-06-05 15:43:47.861088] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 15:44:47.388556] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 15:44:47.389264] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-86750815-9971-4588-9243-b55a6a6b589e has succeeded.
+[2024-06-05 15:44:47.646637] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 15:45:47.674813] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 15:45:47.675514] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-2a87c056-e7db-4c4b-9095-89017b87fab3 has succeeded.
+[2024-06-05 15:45:47.928274] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 15:46:47.455791] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 15:46:47.456473] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-2fb42621-341e-47d5-9502-77aa50f2ebae has succeeded.
+[2024-06-05 15:46:47.709374] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 15:47:47.236455] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 15:47:47.236701] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-3d76d3a8-c256-421a-8d1c-ee3f3dbf5646 has succeeded.
+[2024-06-05 15:47:47.488642] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 15:48:47.515870] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 15:48:47.516597] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-5d35f83e-3eb9-439f-96e9-54644b37d9f5 has succeeded.
+[2024-06-05 15:48:47.769297] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 15:49:47.295887] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 15:49:47.296649] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-7efc479b-5733-43a4-892a-48beb625694a has succeeded.
+[2024-06-05 15:49:47.549275] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 15:50:47.575731] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 15:50:47.576227] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-6c3b7c72-a149-4ba2-8865-4ff6183affe2 has succeeded.
+[2024-06-05 15:50:47.828775] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 15:51:47.355984] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 15:51:47.356692] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-953d85be-5706-464c-a3bd-582937427d95 has succeeded.
+[2024-06-05 15:51:47.609502] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 15:52:47.635735] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 15:52:47.636479] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-e821bf2b-aa6c-4f9d-bec9-ce5292be785d has succeeded.
+[2024-06-05 15:52:47.889264] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 15:53:47.416846] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 15:53:47.417577] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-82cfea46-5e95-4705-af8d-4434c20054ff has succeeded.
+[2024-06-05 15:53:47.670307] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 15:54:47.698264] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 15:54:47.698625] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-f1fa0ad1-8fe8-4945-9e6f-c03cdf67d276 has succeeded.
+[2024-06-05 15:54:47.950814] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 15:55:47.476584] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 15:55:47.477332] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-333e6b75-d5b1-445d-bc44-04877b145e16 has succeeded.
+[2024-06-05 15:55:47.729990] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 15:56:47.257182] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 15:56:47.257835] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-07dbca40-320b-4bb9-83e4-ac1ecc2051a1 has succeeded.
+[2024-06-05 15:56:47.510319] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 15:57:47.538667] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 15:57:47.539369] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-08353710-407d-4ec1-b77d-edfe0d22a7d9 has succeeded.
+[2024-06-05 15:57:47.792063] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 15:58:47.320002] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 15:58:47.320702] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-a819d60b-00b5-4987-bb4e-1c6cc827788f has succeeded.
+[2024-06-05 15:58:47.573961] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 15:59:47.601261] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 15:59:47.601982] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-a94593cb-cd17-41cb-91ba-1bfa0875b48a has succeeded.
+[2024-06-05 15:59:47.854804] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 16:00:47.379301] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 16:00:47.379907] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-1521ed04-d6f5-41a0-ad25-7ff9cfa69a54 has succeeded.
+[2024-06-05 16:00:47.632700] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 16:01:47.659705] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 16:01:47.660401] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-d9aeaba7-31c5-4276-963b-74f6133e68a1 has succeeded.
+[2024-06-05 16:01:47.913112] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 16:02:47.440538] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 16:02:47.441219] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-3d6137f1-e365-4416-b3b6-c01ddbd30887 has succeeded.
+[2024-06-05 16:02:47.693977] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 16:03:47.722120] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 16:03:47.722838] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-39ae4d20-c93a-43a1-9c81-305fbb37f0b3 has succeeded.
+[2024-06-05 16:03:47.976107] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 16:04:47.503292] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 16:04:47.503941] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-1260b283-677d-45d4-87ca-5cd3c57291cf has succeeded.
+[2024-06-05 16:04:47.756875] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 16:05:47.784352] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 16:05:47.785106] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-2f86238f-7693-4a1e-be7a-a446525247e6 has succeeded.
+[2024-06-05 16:05:48.037932] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 16:06:47.565796] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 16:06:47.566523] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-61906419-3e7f-4976-841d-22cd43d12af1 has succeeded.
+[2024-06-05 16:06:47.819456] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 16:07:47.346510] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 16:07:47.347217] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-c1693b26-c064-4435-809c-a6d8eb006606 has succeeded.
+[2024-06-05 16:07:47.601269] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 16:08:47.628873] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 16:08:47.629623] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-3bb4dd60-f9ba-4d9e-881e-2a5c16227a20 has succeeded.
+[2024-06-05 16:08:47.882460] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 16:09:47.410091] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 16:09:47.410650] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-6696f45d-627e-4d38-913c-d73e52fd84a5 has succeeded.
+[2024-06-05 16:09:47.663216] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 16:10:47.691375] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 16:10:47.692060] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-0f896bbe-2967-4259-bdc4-184576075dd5 has succeeded.
+[2024-06-05 16:10:47.944770] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 16:11:47.472159] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 16:11:47.472845] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-b51841fc-0f33-4881-908f-7e6a76a7f064 has succeeded.
+[2024-06-05 16:11:47.725705] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 16:12:47.753262] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 16:12:47.753962] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-2577abd7-e39c-4f8d-b67a-45bc000da362 has succeeded.
+[2024-06-05 16:12:48.006667] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 16:13:47.534827] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 16:13:47.535404] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-128726bf-df99-4ee0-9893-d2a4381a529d has succeeded.
+[2024-06-05 16:13:47.789779] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 16:14:47.818001] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 16:14:47.818236] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-3c901ec9-0aef-422e-bdee-806adb590580 has succeeded.
+[2024-06-05 16:14:48.070219] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 16:15:47.620387] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 16:15:47.621218] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-d50037ec-2dcf-40f9-9bc9-9575080d3a8d has succeeded.
+[2024-06-05 16:15:47.873843] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 16:16:47.409922] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 16:16:47.410625] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-9b4d4fef-3014-4d19-902f-24b653f7ac07 has succeeded.
+[2024-06-05 16:16:47.665083] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 16:17:47.711162] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 16:17:47.711929] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-d98049e9-9659-4926-a7d1-99efb516ce18 has succeeded.
+[2024-06-05 16:17:47.964479] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 16:18:47.491917] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 16:18:47.492671] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-c839e546-00eb-4ab8-a4a1-a188c12cc8ab has succeeded.
+[2024-06-05 16:18:47.745303] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 16:19:47.772815] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 16:19:47.773557] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-4a6f8e51-67a2-4f6c-9ef8-e846821970be has succeeded.
+[2024-06-05 16:19:48.026292] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 16:20:47.553520] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 16:20:47.554247] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-7ff29ab7-53bd-41ce-9d7d-0e6d148a9f22 has succeeded.
+[2024-06-05 16:20:47.807018] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 16:21:47.835480] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 16:21:47.836171] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-6aa9c127-f47c-45d3-8d9e-4a1566781c7d has succeeded.
+[2024-06-05 16:21:48.088789] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 16:22:47.616266] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 16:22:47.616946] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-1a7d05a6-d82d-4f71-846f-0a0d4c1f66f5 has succeeded.
+[2024-06-05 16:22:47.869618] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 16:23:47.396583] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 16:23:47.397361] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-d4ed31ea-6871-4e73-90c0-ca25a47b2f11 has succeeded.
+[2024-06-05 16:23:47.649830] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 16:24:47.674615] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 16:24:47.676572] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-a56e43a8-e561-4c1b-a71b-6227610bc4df has succeeded.
+[2024-06-05 16:24:47.929128] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 16:25:47.456339] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 16:25:47.457113] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-c188b938-c92f-49b4-8daf-853eddc207d3 has succeeded.
+[2024-06-05 16:25:47.709776] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 16:26:47.736189] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 16:26:47.736608] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-b85f4b02-ed06-4815-8972-91743ff79955 has succeeded.
+[2024-06-05 16:26:47.991134] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 16:27:47.518148] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 16:27:47.518718] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-0bfafbf7-9f08-4f70-b081-383ab998db24 has succeeded.
+[2024-06-05 16:27:47.771241] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 16:28:47.799308] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 16:28:47.799890] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-0715c4d1-a65f-4be4-8234-cd2179ba4ca5 has succeeded.
+[2024-06-05 16:28:48.052523] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 16:29:47.578115] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 16:29:47.578800] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-b765e9ea-0f92-4300-aaf5-e531e8a2a088 has succeeded.
+[2024-06-05 16:29:47.831332] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 16:30:47.856025] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 16:30:47.856729] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-c9a63ae2-ce40-4e69-989d-50f8ccc80bb0 has succeeded.
+[2024-06-05 16:30:48.110185] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 16:31:47.636240] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 16:31:47.636958] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-15c88620-178d-4284-8d49-c68d6ccaa88e has succeeded.
+[2024-06-05 16:31:47.890085] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 16:32:47.916665] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 16:32:47.916949] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-c1312bfc-bcce-4c88-b1cc-158be81fb483 has succeeded.
+[2024-06-05 16:32:48.169012] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 16:33:47.695724] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 16:33:47.696118] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-e7605498-ca1b-45c6-bee7-1a2080820391 has succeeded.
+[2024-06-05 16:33:47.948199] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 16:34:47.474298] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 16:34:47.474891] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-31db4101-5dd1-4416-b684-d5e6d9ebcd1d has succeeded.
+[2024-06-05 16:34:47.727488] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 16:35:47.754852] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 16:35:47.755466] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-dfd9ccdb-8aaa-4e67-bbc9-a44d8a12d6d1 has succeeded.
+[2024-06-05 16:35:48.008198] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 16:36:47.536024] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 16:36:47.536703] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-dc06d677-efef-4bd6-b656-9cf530763bf4 has succeeded.
+[2024-06-05 16:36:47.791674] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 16:37:47.819638] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 16:37:47.820358] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-52765ff2-469d-4e81-ace3-e5672891655d has succeeded.
+[2024-06-05 16:37:48.073597] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 16:38:47.601142] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 16:38:47.601889] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-b00174ac-ce25-4edf-88d1-e05897901493 has succeeded.
+[2024-06-05 16:38:47.854942] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 16:39:47.883104] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 16:39:47.883788] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-1340138e-2f48-4392-9e3b-43c9de15923b has succeeded.
+[2024-06-05 16:39:48.137114] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 16:40:47.664869] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 16:40:47.665601] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-61df557f-530a-4f31-8922-e69d0229d0d6 has succeeded.
+[2024-06-05 16:40:47.918803] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 16:41:47.946866] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 16:41:47.947397] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-f163517a-971c-404c-856f-f71c65980c46 has succeeded.
+[2024-06-05 16:41:48.200451] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 16:42:47.727687] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 16:42:47.728312] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-4886828b-b2c5-4341-bae8-6e54b6dd15f1 has succeeded.
+[2024-06-05 16:42:47.981446] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 16:43:47.507991] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 16:43:47.508665] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-8c8dfe88-e080-4da1-9798-c077f89c9553 has succeeded.
+[2024-06-05 16:43:47.761206] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 16:44:47.788661] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 16:44:47.789361] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-22f7c71e-d654-4c58-b54f-82635111e874 has succeeded.
+[2024-06-05 16:44:48.044632] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 16:45:47.571468] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 16:45:47.572213] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-114dce48-13aa-4e9c-b981-425c63fac079 has succeeded.
+[2024-06-05 16:45:47.825386] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 16:46:47.852384] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 16:46:47.853127] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-cc9a19bc-5652-4ae7-8e4a-c25a90acad25 has succeeded.
+[2024-06-05 16:46:48.106437] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 16:47:47.632604] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 16:47:47.633261] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-c6e58dab-1b05-4c13-a3de-bbf88cb8cd0b has succeeded.
+[2024-06-05 16:47:47.886526] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 16:48:47.911894] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 16:48:47.912527] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-3e789cb9-ea11-4617-933e-0640e064510e has succeeded.
+[2024-06-05 16:48:48.165650] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 16:49:47.690983] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 16:49:47.691635] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-b4c2ef02-0ced-4c7e-92ee-1f53da41fd48 has succeeded.
+[2024-06-05 16:49:47.944871] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 16:50:47.970978] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 16:50:47.971658] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-d8fd9178-7efd-46b3-9d14-831fdd3f3642 has succeeded.
+[2024-06-05 16:50:48.224960] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 16:51:47.752648] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 16:51:47.753367] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-7c535c44-597e-43ef-bd23-b02463f782a6 has succeeded.
+[2024-06-05 16:51:48.016578] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 16:52:47.544213] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 16:52:47.544936] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-07822ad5-4caa-4042-899e-3b3c4f8e50b0 has succeeded.
+[2024-06-05 16:52:47.797658] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 16:53:47.825817] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 16:53:47.826458] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-05129242-8064-4d9f-b4f6-46e23f05d9ea has succeeded.
+[2024-06-05 16:53:48.079560] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 16:54:47.607971] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 16:54:47.608547] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-79c93ec9-0d13-4f17-8144-4f39c9e1552d has succeeded.
+[2024-06-05 16:54:47.861703] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 16:55:47.889249] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 16:55:47.889906] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-e5ce3d54-b8cb-4fe3-bf6e-378f0ba7a40c has succeeded.
+[2024-06-05 16:55:48.142976] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 16:56:47.670143] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 16:56:47.670829] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-0f393edb-9be4-4cd5-9835-a87589651aca has succeeded.
+[2024-06-05 16:56:47.924251] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 16:57:47.952100] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 16:57:47.952671] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-92b394bc-f274-40f0-aff4-032c58aff590 has succeeded.
+[2024-06-05 16:57:48.205536] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 16:58:47.731104] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 16:58:47.731310] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-fc124e85-be7c-4f1d-b5ff-c13ce78a5912 has succeeded.
+[2024-06-05 16:58:47.983390] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 16:59:48.008573] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 16:59:48.009288] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-7ec6859d-3f76-4027-b52b-717318d597f8 has succeeded.
+[2024-06-05 16:59:48.272042] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 17:00:47.795655] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 17:00:47.795921] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-cec400de-6646-4973-afdf-34acda9546a5 has succeeded.
+[2024-06-05 17:00:48.047767] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 17:01:48.063083] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 17:01:48.063332] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-8bac0dc8-f27f-437a-8e1b-1e24bea7b8a9 has succeeded.
+[2024-06-05 17:01:48.315439] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 17:02:47.832189] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 17:02:47.832523] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-1b3da225-c621-441a-bc92-66e624649a0f has succeeded.
+[2024-06-05 17:02:48.086349] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 17:03:47.600671] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 17:03:47.601238] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-f7eb789d-0b9c-4a0a-9655-348f5d8ad207 has succeeded.
+[2024-06-05 17:03:47.853167] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 17:04:47.867963] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 17:04:47.868238] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-39a8d3a1-7033-4f77-804a-44071d9b7757 has succeeded.
+[2024-06-05 17:04:48.122614] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 17:05:47.637654] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 17:05:47.637929] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-0cd62b32-bf03-4775-af07-269ef4820ed0 has succeeded.
+[2024-06-05 17:05:47.889884] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 17:06:47.904646] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 17:06:47.904912] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-d2df8211-e36e-461a-8017-3c7355eeb627 has succeeded.
+[2024-06-05 17:06:48.159031] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 17:07:47.673355] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 17:07:47.673671] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-2e45410c-a1f7-4276-892b-e3ecc7f8b472 has succeeded.
+[2024-06-05 17:07:47.928091] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 17:08:47.942066] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 17:08:47.942326] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-0c34cc8e-cde5-47da-a308-7e589875cc7a has succeeded.
+[2024-06-05 17:08:48.194573] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 17:09:47.708874] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 17:09:47.709225] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-14d651f1-0862-40d9-989a-057c04af85dc has succeeded.
+[2024-06-05 17:09:47.961691] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 17:10:47.975756] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 17:10:47.976064] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-02e25883-de68-459a-8918-0e0198cc6665 has succeeded.
+[2024-06-05 17:10:48.228149] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 17:11:47.742544] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 17:11:47.742856] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-1ae2b924-cfb5-497c-8ffb-fac0bc6703b7 has succeeded.
+[2024-06-05 17:11:47.994900] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 17:12:48.008655] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 17:12:48.008945] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-6cfa97fd-5e50-4db2-8936-af1154f486ff has succeeded.
+[2024-06-05 17:12:48.261473] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 17:13:47.775739] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 17:13:47.776013] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-ea4682e7-e5b0-4292-af2e-049b55c27175 has succeeded.
+[2024-06-05 17:13:48.028208] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 17:14:48.042696] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 17:14:48.042954] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-4b506f1f-9ca8-4bf3-80b8-470d7f200630 has succeeded.
+[2024-06-05 17:14:48.297275] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 17:15:47.811302] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 17:15:47.811570] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-164bc4c9-f6de-42b4-bbed-b8c61beac522 has succeeded.
+[2024-06-05 17:15:48.063983] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 17:16:48.078390] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 17:16:48.078640] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-85082a8a-f666-4530-912c-a9fbb23a383c has succeeded.
+[2024-06-05 17:16:48.330542] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 17:17:47.852169] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 17:17:47.852850] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-e04497ea-16fe-4689-b7ea-6ec06ed19b0f has succeeded.
+[2024-06-05 17:17:48.106274] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 17:18:48.133859] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 17:18:48.134431] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-f3046ff5-bd8b-47f6-a5e4-9d37f7c735f1 has succeeded.
+[2024-06-05 17:18:48.387668] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 17:19:47.915114] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 17:19:47.915802] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-ed4057c7-81c6-49fa-b825-ab95294ed4fe has succeeded.
+[2024-06-05 17:19:48.170406] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 17:20:47.697764] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 17:20:47.698347] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-55bfb107-1bc9-46a2-8548-988d2cd13d35 has succeeded.
+[2024-06-05 17:20:47.951141] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 17:21:47.975315] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 17:21:47.975574] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-970ffcc6-4128-494e-950f-bc860327c39d has succeeded.
+[2024-06-05 17:21:48.227681] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 17:22:47.755579] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 17:22:47.756609] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-963c4eae-89b4-43f2-9092-f98a259fe250 has succeeded.
+[2024-06-05 17:22:48.010823] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 17:23:48.038267] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 17:23:48.039001] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-612a0909-ae5e-4b79-8387-92c6391c82b8 has succeeded.
+[2024-06-05 17:23:48.292171] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 17:24:47.817116] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 17:24:47.817774] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-6e6d9a61-67b5-444f-941b-fe18908aa67e has succeeded.
+[2024-06-05 17:24:48.071173] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 17:25:48.095866] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 17:25:48.096142] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-0beb7817-b8e5-46c8-b9e0-3314204c2546 has succeeded.
+[2024-06-05 17:25:48.348558] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 17:26:47.866233] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 17:26:47.867264] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-9321bc75-070c-4951-a188-9982f72ee747 has succeeded.
+[2024-06-05 17:26:48.119388] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 17:27:48.142850] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 17:27:48.143555] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-6874daf3-a071-40ca-840c-c6809e479eca has succeeded.
+[2024-06-05 17:27:48.396834] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 17:28:47.923231] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 17:28:47.923841] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-02330b30-31fc-47af-aa1b-467cdaea7c33 has succeeded.
+[2024-06-05 17:28:48.176977] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 17:29:48.204399] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 17:29:48.205111] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-f143a7bb-0b2d-484a-9b9b-419f1f4c54a5 has succeeded.
+[2024-06-05 17:29:48.458063] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 17:30:47.985389] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 17:30:47.985980] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-57b04179-b173-4e2c-9a7b-ee26d8715880 has succeeded.
+[2024-06-05 17:30:48.239319] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 17:31:47.766083] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 17:31:47.766790] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-80c4f96b-df58-419a-9797-90052990a3cc has succeeded.
+[2024-06-05 17:31:48.019564] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 17:32:48.046366] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 17:32:48.047073] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-da4e292b-bf15-463b-ac47-fa6419dedc33 has succeeded.
+[2024-06-05 17:32:48.301954] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 17:33:47.829193] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 17:33:47.829766] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-0d957f6e-1dd3-4aff-b95d-00a13741e7e3 has succeeded.
+[2024-06-05 17:33:48.082811] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 17:34:48.110121] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 17:34:48.110843] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-dc6772ab-7dcb-4836-ac2a-4f8c6b5c12e2 has succeeded.
+[2024-06-05 17:34:48.363886] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 17:35:47.892357] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 17:35:47.893080] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-21e79a00-16e5-48a5-833f-97292028f6bf has succeeded.
+[2024-06-05 17:35:48.146443] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 17:36:48.174939] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 17:36:48.175609] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-6c3e034f-c0a5-4c55-af2b-6d9bee07ed39 has succeeded.
+[2024-06-05 17:36:48.428793] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 17:37:47.956675] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 17:37:47.957375] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-16ae89b6-756b-4eec-bb36-e6479e7a7891 has succeeded.
+[2024-06-05 17:37:48.211852] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 17:38:48.239979] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 17:38:48.240675] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-b01d1b63-78c4-4299-8796-bb505fd24972 has succeeded.
+[2024-06-05 17:38:48.493962] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 17:39:48.021224] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 17:39:48.022033] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-2a8d70da-67a5-42d7-9a95-b84d96673757 has succeeded.
+[2024-06-05 17:39:48.275198] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 17:40:47.798258] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 17:40:47.798995] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-bc00d599-59a0-4890-a328-6ab42b7b05e1 has succeeded.
+[2024-06-05 17:40:48.051751] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 17:41:48.079921] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 17:41:48.080595] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-95ff623d-e3fa-4a22-a95a-46acfe1f642b has succeeded.
+[2024-06-05 17:41:48.333648] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 17:42:47.861504] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 17:42:47.862071] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-756a5849-54da-41e0-b82f-bf25748d3ed7 has succeeded.
+[2024-06-05 17:42:48.114488] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 17:43:48.142795] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 17:43:48.143465] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-63e7d90d-9584-4c74-a87a-4e4fd666fe77 has succeeded.
+[2024-06-05 17:43:48.396414] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 17:44:47.923935] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 17:44:47.924560] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-056e1017-5bf2-49b7-a0dd-5b6897aa3d21 has succeeded.
+[2024-06-05 17:44:48.177579] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 17:45:48.205798] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 17:45:48.206396] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-02756ec1-6e46-4b98-bca6-eb871f5329a4 has succeeded.
+[2024-06-05 17:45:48.459369] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 17:46:47.987883] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 17:46:47.988533] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-a57e55a4-d3f8-45eb-a356-b4411984c519 has succeeded.
+[2024-06-05 17:46:48.241522] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 17:47:48.269675] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 17:47:48.270382] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-89e7e6d0-704c-4e10-b2e5-315e58e442e1 has succeeded.
+[2024-06-05 17:47:48.523574] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 17:48:48.051842] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 17:48:48.052531] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-a78092c2-eb96-435e-9676-e5bf63e327e4 has succeeded.
+[2024-06-05 17:48:48.305502] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 17:49:48.333106] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 17:49:48.333821] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-a43a1bb0-ec8d-4a5e-a01d-9eeff8c78bfc has succeeded.
+[2024-06-05 17:49:48.587021] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 17:50:48.113283] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 17:50:48.113753] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-465cf99f-8562-4a4f-a416-53ecbbf77b15 has succeeded.
+[2024-06-05 17:50:48.366268] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 17:51:47.890875] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 17:51:47.891585] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-c777e47e-6617-49fa-a8c3-c9d574354950 has succeeded.
+[2024-06-05 17:51:48.144237] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 17:52:48.169986] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 17:52:48.170677] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-ad6dbb31-8eff-4149-a21d-732e75153398 has succeeded.
+[2024-06-05 17:52:48.423851] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 17:53:47.946728] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 17:53:47.947448] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-9512b250-59d7-4921-9ede-71c1a0b433a0 has succeeded.
+[2024-06-05 17:53:48.200201] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 17:54:48.222206] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 17:54:48.222445] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-c505f777-9524-4fc6-99e7-9ce06a690bd5 has succeeded.
+[2024-06-05 17:54:48.474952] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 17:55:47.999873] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 17:55:48.000473] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-7f482c29-34cf-4482-917b-d5205af1760c has succeeded.
+[2024-06-05 17:55:48.253716] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 17:56:48.280040] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 17:56:48.280758] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-a660b700-6f1e-4552-ac9e-5ac7915cfdc6 has succeeded.
+[2024-06-05 17:56:48.533896] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 17:57:48.061821] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 17:57:48.062560] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-72375bf2-99bd-4d59-a807-fbc2e8e45447 has succeeded.
+[2024-06-05 17:57:48.315930] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 17:58:48.343132] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 17:58:48.343824] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-981ab7d0-094d-462d-8429-6e27e2692c24 has succeeded.
+[2024-06-05 17:58:48.596925] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 17:59:48.124151] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 17:59:48.124831] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-fcd0ee53-3003-4750-84b4-94167ce0c488 has succeeded.
+[2024-06-05 17:59:48.378015] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 18:00:48.405089] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 18:00:48.405781] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-1b159f0c-f162-4768-82f3-e9b488422344 has succeeded.
+[2024-06-05 18:00:48.658900] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 18:01:48.186206] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 18:01:48.186771] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-9dde18bd-a9e6-4557-8ae9-43602bc16ee9 has succeeded.
+[2024-06-05 18:01:48.440014] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 18:02:47.967994] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 18:02:47.968451] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-4b0a8b8d-7ab7-4845-9027-fecdb8f3ed8b has succeeded.
+[2024-06-05 18:02:48.220777] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 18:03:48.249196] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 18:03:48.249844] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-30a54d2d-6548-472f-b9c2-b8cb8e480b49 has succeeded.
+[2024-06-05 18:03:48.502825] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 18:04:48.030800] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 18:04:48.031487] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-189734a0-7c1d-444c-b01a-02e2b50d5f24 has succeeded.
+[2024-06-05 18:04:48.286067] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 18:05:48.313760] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 18:05:48.314330] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-970984ef-46a9-4302-97b5-d9025b2d40e6 has succeeded.
+[2024-06-05 18:05:48.567381] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 18:14:12.892752] [heexDataCollector] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-05 18:14:12.892994] [heexDataCollector] [info] DataCollector::performRequest | Generating metadata for event E-49e5d47e-601e-4c46-afdd-da8e077a6056 has succeeded.
+[2024-06-05 18:14:13.145585] [heexDataCollector] [info] DataCollector::handleJobLogic | Metadata has been successfully collected! Metadata is now ready to upload.
+[2024-06-05 18:14:22.351516] [heexDataCollector] [fatal]  has been terminated by signal SIGTERM (15)

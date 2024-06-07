@@ -1,0 +1,276 @@
+[2024-06-07 11:21:06.822954] [heexDataUploader] [info] HeexDataUploader 2.39.1
+[2024-06-07 11:21:06.823240] [heexDataUploader] [info] Logging to file at /home/abhimanyu/Heex_SDK_2_39_1/kernel/./logs/heexDataUploader.log
+[2024-06-07 11:21:06.828657] [heexDataUploader] [info] DatabaseManager | Opened database successfully
+[2024-06-07 11:21:06.830517] [heexDataUploader] [info] SystemConf hash : 09fe74935c8dc36e0ae4360d5272d144
+[2024-06-07 11:21:06.832799] [heexDataUploader] [info] DataUploader::isHreEnv | The file /home/abhimanyu/Heex_SDK_2_39_1/kernel/hreInstallers/hreHash.json does not exist or is not accessible.
+[2024-06-07 11:21:06.832860] [heexDataUploader] [info] This is not a HRE environement. No need to create the HreOtaManager instance.
+[2024-06-07 11:21:06.832908] [heexDataUploader] [info] Current environment is not a HRE one, no HreOtaManager instance shall be created.
+[2024-06-07 11:21:06.832933] [heexDataUploader] [info] RestApiManager::setApiAddress | API Address is now set to https://api.exail.heex.io/metadata-service/
+[2024-06-07 11:21:06.832953] [heexDataUploader] [info] RestApiManager::setApiAddress | API Address is now set to https://api.exail.heex.io/recordings-service/
+[2024-06-07 11:21:06.832973] [heexDataUploader] [info] DataUploader::performAuthToService | Authentification request try on metadata_service
+[2024-06-07 11:21:06.840691] [heexDataUploader] [info] RestApiManager::performAuthentificationRequest | Performing call to https://api.exail.heex.io/metadata-service/companies/1/embedded_systems/login
+[2024-06-07 11:21:07.167636] [heexDataUploader] [info] RestApiManager::performAuthentificationRequest | Auth succeed. Bearer Token has been set to a new value that is not empty.
+[2024-06-07 11:21:07.167803] [heexDataUploader] [info] DataUploader::performAuthToService | Authentification request try on recordings_service
+[2024-06-07 11:21:07.168658] [heexDataUploader] [info] RestApiManager::performAuthentificationRequest | Performing call to https://api.exail.heex.io/recordings-service/companies/1/embedded_systems/login
+[2024-06-07 11:21:07.446868] [heexDataUploader] [info] RestApiManager::performAuthentificationRequest | Auth succeed. Bearer Token has been set to a new value that is not empty.
+[2024-06-07 11:21:07.447397] [heexDataUploader] [info] Credentials stored to local storage with success
+[2024-06-07 11:21:07.447578] [heexDataUploader] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-07 11:21:07.447634] [heexDataUploader] [info] DataUploader::handleJobLogic | Performing operation on the current top request: { service_type = 'metadata (0)', priority = '50', state = 'CompleteCollection (3)', filepath = '/home/abhimanyu/Heex_SDK_2_39_1/kernel/outbox/Metadata-E-5e724cdf-68c4-4a2a-acd0-750a31c9f619.json', createdAt = '2024-06-07T09:21:07.018497', attempts = '0', eventUuid ='E-5e724cdf-68c4-4a2a-acd0-750a31c9f619', triggerUuid = 'T-HEEXfee95bcc-2892-41e1-bf0a-b70eb2f24750' } 
+[2024-06-07 11:21:07.447702] [heexDataUploader] [info] RestApiManager::performRequest | Performing call to https://api.exail.heex.io/metadata-service/companies/1/trigger_instances/T-HEEXfee95bcc-2892-41e1-bf0a-b70eb2f24750/metadata/upload?systemUuid=ES-52a234c7-f227-4e6c-ae77-a4533154fec1&systemConfHash=09fe74935c8dc36e0ae4360d5272d144 for uniqueEventId E-5e724cdf-68c4-4a2a-acd0-750a31c9f619 transmitting file /home/abhimanyu/Heex_SDK_2_39_1/kernel/outbox/Metadata-E-5e724cdf-68c4-4a2a-acd0-750a31c9f619.json
+[2024-06-07 11:21:07.448234] [heexDataUploader] [info] Uploading 0% (0 / 0) 	 Download (0 / 0)
+[2024-06-07 11:21:08.011587] [heexDataUploader] [info] RestApiManager::performRequest | Received CURLE_OK code with 200 http code from Heex metadata API.
+[2024-06-07 11:21:08.011643] [heexDataUploader] [info] DataUploader::performRequest | Sending metadata for event E-5e724cdf-68c4-4a2a-acd0-750a31c9f619 has succeeded.
+[2024-06-07 11:21:08.011728] [heexDataUploader] [info] DataUploader::deleteMetadata | Deleting metadata file for event E-5e724cdf-68c4-4a2a-acd0-750a31c9f619 has succeeded for file /home/abhimanyu/Heex_SDK_2_39_1/kernel/outbox/Metadata-E-5e724cdf-68c4-4a2a-acd0-750a31c9f619.json .
+[2024-06-07 11:21:08.011762] [heexDataUploader] [info] DataUploader::performRequest | All operation on metadata for event E-5e724cdf-68c4-4a2a-acd0-750a31c9f619 has been performed.
+[2024-06-07 11:21:08.011775] [heexDataUploader] [info] DataUploader::handleJobLogic | Operations have returned the request code 0 with progression = { service_type = 'metadata (0)', priority = '50', state = 'CompleteUpload (10)', filepath = '', createdAt = '2024-06-07T09:21:07.018497', attempts = '0', eventUuid ='E-5e724cdf-68c4-4a2a-acd0-750a31c9f619', triggerUuid = 'T-HEEXfee95bcc-2892-41e1-bf0a-b70eb2f24750' } 
+[2024-06-07 11:21:08.264000] [heexDataUploader] [info] DataUploader::handleJobLogic | Jobs upload has been successfully uploaded and will be removed from the jobs database.
+[2024-06-07 11:22:07.291920] [heexDataUploader] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-07 11:22:07.292128] [heexDataUploader] [info] DataUploader::handleJobLogic | Performing operation on the current top request: { service_type = 'metadata (0)', priority = '50', state = 'CompleteCollection (3)', filepath = '/home/abhimanyu/Heex_SDK_2_39_1/kernel/outbox/Metadata-E-c4bdd36d-55d8-4e43-9502-049507b681c2.json', createdAt = '2024-06-07T09:22:06.989257', attempts = '0', eventUuid ='E-c4bdd36d-55d8-4e43-9502-049507b681c2', triggerUuid = 'T-HEEXfee95bcc-2892-41e1-bf0a-b70eb2f24750' } 
+[2024-06-07 11:22:07.292298] [heexDataUploader] [info] RestApiManager::performRequest | Performing call to https://api.exail.heex.io/metadata-service/companies/1/trigger_instances/T-HEEXfee95bcc-2892-41e1-bf0a-b70eb2f24750/metadata/upload?systemUuid=ES-52a234c7-f227-4e6c-ae77-a4533154fec1&systemConfHash=09fe74935c8dc36e0ae4360d5272d144 for uniqueEventId E-c4bdd36d-55d8-4e43-9502-049507b681c2 transmitting file /home/abhimanyu/Heex_SDK_2_39_1/kernel/outbox/Metadata-E-c4bdd36d-55d8-4e43-9502-049507b681c2.json
+[2024-06-07 11:22:07.318961] [heexDataUploader] [info] Uploading 0% (0 / 0) 	 Download (0 / 0)
+[2024-06-07 11:22:07.953819] [heexDataUploader] [info] RestApiManager::performRequest | Received CURLE_OK code with 200 http code from Heex metadata API.
+[2024-06-07 11:22:07.953950] [heexDataUploader] [info] DataUploader::performRequest | Sending metadata for event E-c4bdd36d-55d8-4e43-9502-049507b681c2 has succeeded.
+[2024-06-07 11:22:07.954432] [heexDataUploader] [info] New SystemConf hash : e1bb1f4f5dd2b0f5f6215c950966786f
+[2024-06-07 11:22:07.954531] [heexDataUploader] [info] RestApiManager::setApiAddress | API Address is now set to https://api.exail.heex.io/metadata-service/
+[2024-06-07 11:22:07.954594] [heexDataUploader] [info] RestApiManager::setApiAddress | API Address is now set to https://api.exail.heex.io/recordings-service/
+[2024-06-07 11:22:07.954649] [heexDataUploader] [info] DataUploader::performAuthToService | Authentification request try on metadata_service
+[2024-06-07 11:22:07.954708] [heexDataUploader] [info] RestApiManager::performAuthentificationRequest | Performing call to https://api.exail.heex.io/metadata-service/companies/1/embedded_systems/login
+[2024-06-07 11:22:08.237715] [heexDataUploader] [info] RestApiManager::performAuthentificationRequest | Auth succeed. Bearer Token has been set to a new value that is not empty.
+[2024-06-07 11:22:08.237850] [heexDataUploader] [info] DataUploader::performAuthToService | Authentification request try on recordings_service
+[2024-06-07 11:22:08.238724] [heexDataUploader] [info] RestApiManager::performAuthentificationRequest | Performing call to https://api.exail.heex.io/recordings-service/companies/1/embedded_systems/login
+[2024-06-07 11:22:08.522526] [heexDataUploader] [info] RestApiManager::performAuthentificationRequest | Auth succeed. Bearer Token has been set to a new value that is not empty.
+[2024-06-07 11:22:08.523896] [heexDataUploader] [info] Credentials stored to local storage with success
+[2024-06-07 11:22:08.524172] [heexDataUploader] [info] DataUploader::deleteMetadata | Deleting metadata file for event E-c4bdd36d-55d8-4e43-9502-049507b681c2 has succeeded for file /home/abhimanyu/Heex_SDK_2_39_1/kernel/outbox/Metadata-E-c4bdd36d-55d8-4e43-9502-049507b681c2.json .
+[2024-06-07 11:22:08.524278] [heexDataUploader] [info] DataUploader::performRequest | All operation on metadata for event E-c4bdd36d-55d8-4e43-9502-049507b681c2 has been performed.
+[2024-06-07 11:22:08.524340] [heexDataUploader] [info] DataUploader::handleJobLogic | Operations have returned the request code 0 with progression = { service_type = 'metadata (0)', priority = '50', state = 'CompleteUpload (10)', filepath = '', createdAt = '2024-06-07T09:22:06.989257', attempts = '0', eventUuid ='E-c4bdd36d-55d8-4e43-9502-049507b681c2', triggerUuid = 'T-HEEXfee95bcc-2892-41e1-bf0a-b70eb2f24750' } 
+[2024-06-07 11:22:08.777445] [heexDataUploader] [info] DataUploader::handleJobLogic | Jobs upload has been successfully uploaded and will be removed from the jobs database.
+[2024-06-07 11:22:10.778761] [heexDataUploader] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-07 11:22:10.778971] [heexDataUploader] [info] DataUploader::handleJobLogic | Performing operation on the current top request: { service_type = 'metadata (0)', priority = '50', state = 'CompleteCollection (3)', filepath = '/home/abhimanyu/Heex_SDK_2_39_1/kernel/outbox/Metadata-E-45ed96d8-a3a0-44c5-bd0e-b629a256920f.json', createdAt = '2024-06-07T09:22:09.922052', attempts = '0', eventUuid ='E-45ed96d8-a3a0-44c5-bd0e-b629a256920f', triggerUuid = 'T-HEEXfee95bcc-2892-41e1-bf0a-b70eb2f24750' } 
+[2024-06-07 11:22:10.779172] [heexDataUploader] [info] RestApiManager::performRequest | Performing call to https://api.exail.heex.io/metadata-service/companies/1/trigger_instances/T-HEEXfee95bcc-2892-41e1-bf0a-b70eb2f24750/metadata/upload?systemUuid=ES-52a234c7-f227-4e6c-ae77-a4533154fec1&systemConfHash=e1bb1f4f5dd2b0f5f6215c950966786f for uniqueEventId E-45ed96d8-a3a0-44c5-bd0e-b629a256920f transmitting file /home/abhimanyu/Heex_SDK_2_39_1/kernel/outbox/Metadata-E-45ed96d8-a3a0-44c5-bd0e-b629a256920f.json
+[2024-06-07 11:22:10.780435] [heexDataUploader] [info] Uploading 0% (0 / 0) 	 Download (0 / 0)
+[2024-06-07 11:22:11.305650] [heexDataUploader] [info] RestApiManager::performRequest | Received CURLE_OK code with 200 http code from Heex metadata API.
+[2024-06-07 11:22:11.305785] [heexDataUploader] [info] DataUploader::performRequest | Sending metadata for event E-45ed96d8-a3a0-44c5-bd0e-b629a256920f has succeeded.
+[2024-06-07 11:22:11.306023] [heexDataUploader] [info] DataUploader::deleteMetadata | Deleting metadata file for event E-45ed96d8-a3a0-44c5-bd0e-b629a256920f has succeeded for file /home/abhimanyu/Heex_SDK_2_39_1/kernel/outbox/Metadata-E-45ed96d8-a3a0-44c5-bd0e-b629a256920f.json .
+[2024-06-07 11:22:11.306096] [heexDataUploader] [info] DataUploader::performRequest | All operation on metadata for event E-45ed96d8-a3a0-44c5-bd0e-b629a256920f has been performed.
+[2024-06-07 11:22:11.306150] [heexDataUploader] [info] DataUploader::handleJobLogic | Operations have returned the request code 0 with progression = { service_type = 'metadata (0)', priority = '50', state = 'CompleteUpload (10)', filepath = '', createdAt = '2024-06-07T09:22:09.922052', attempts = '0', eventUuid ='E-45ed96d8-a3a0-44c5-bd0e-b629a256920f', triggerUuid = 'T-HEEXfee95bcc-2892-41e1-bf0a-b70eb2f24750' } 
+[2024-06-07 11:22:11.559208] [heexDataUploader] [info] DataUploader::handleJobLogic | Jobs upload has been successfully uploaded and will be removed from the jobs database.
+[2024-06-07 11:22:39.411386] [heexDataUploader] [info] HeexDataUploader 2.39.1
+[2024-06-07 11:22:39.411475] [heexDataUploader] [info] Logging to file at /home/abhimanyu/Heex_SDK_2_39_1/kernel/./logs/heexDataUploader.log
+[2024-06-07 11:22:39.412088] [heexDataUploader] [info] DatabaseManager | Opened database successfully
+[2024-06-07 11:22:39.412627] [heexDataUploader] [info] SystemConf hash : e1bb1f4f5dd2b0f5f6215c950966786f
+[2024-06-07 11:22:39.412766] [heexDataUploader] [info] DataUploader::isHreEnv | The file /home/abhimanyu/Heex_SDK_2_39_1/kernel/hreInstallers/hreHash.json does not exist or is not accessible.
+[2024-06-07 11:22:39.412801] [heexDataUploader] [info] This is not a HRE environement. No need to create the HreOtaManager instance.
+[2024-06-07 11:22:39.412833] [heexDataUploader] [info] Current environment is not a HRE one, no HreOtaManager instance shall be created.
+[2024-06-07 11:22:39.412855] [heexDataUploader] [info] RestApiManager::setApiAddress | API Address is now set to https://api.exail.heex.io/metadata-service/
+[2024-06-07 11:22:39.412871] [heexDataUploader] [info] RestApiManager::setApiAddress | API Address is now set to https://api.exail.heex.io/recordings-service/
+[2024-06-07 11:22:39.412892] [heexDataUploader] [info] DataUploader::performAuthToService | Authentification request try on metadata_service
+[2024-06-07 11:22:39.414243] [heexDataUploader] [info] RestApiManager::performAuthentificationRequest | Performing call to https://api.exail.heex.io/metadata-service/companies/1/embedded_systems/login
+[2024-06-07 11:22:39.674521] [heexDataUploader] [info] RestApiManager::performAuthentificationRequest | Auth succeed. Bearer Token has been set to a new value that is not empty.
+[2024-06-07 11:22:39.674670] [heexDataUploader] [info] DataUploader::performAuthToService | Authentification request try on recordings_service
+[2024-06-07 11:22:39.675567] [heexDataUploader] [info] RestApiManager::performAuthentificationRequest | Performing call to https://api.exail.heex.io/recordings-service/companies/1/embedded_systems/login
+[2024-06-07 11:22:39.945162] [heexDataUploader] [info] RestApiManager::performAuthentificationRequest | Auth succeed. Bearer Token has been set to a new value that is not empty.
+[2024-06-07 11:22:39.946433] [heexDataUploader] [info] Credentials stored to local storage with success
+[2024-06-07 11:23:00.184485] [heexDataUploader] [info] HeexDataUploader 2.39.1
+[2024-06-07 11:23:00.184764] [heexDataUploader] [info] Logging to file at /home/abhimanyu/Heex_SDK_2_39_1/kernel/./logs/heexDataUploader.log
+[2024-06-07 11:23:00.186421] [heexDataUploader] [info] DatabaseManager | Opened database successfully
+[2024-06-07 11:23:00.188315] [heexDataUploader] [info] SystemConf hash : e1bb1f4f5dd2b0f5f6215c950966786f
+[2024-06-07 11:23:00.188719] [heexDataUploader] [info] DataUploader::isHreEnv | The file /home/abhimanyu/Heex_SDK_2_39_1/kernel/hreInstallers/hreHash.json does not exist or is not accessible.
+[2024-06-07 11:23:00.188807] [heexDataUploader] [info] This is not a HRE environement. No need to create the HreOtaManager instance.
+[2024-06-07 11:23:00.188923] [heexDataUploader] [info] Current environment is not a HRE one, no HreOtaManager instance shall be created.
+[2024-06-07 11:23:00.189008] [heexDataUploader] [info] RestApiManager::setApiAddress | API Address is now set to https://api.exail.heex.io/metadata-service/
+[2024-06-07 11:23:00.189080] [heexDataUploader] [info] RestApiManager::setApiAddress | API Address is now set to https://api.exail.heex.io/recordings-service/
+[2024-06-07 11:23:00.189162] [heexDataUploader] [info] DataUploader::performAuthToService | Authentification request try on metadata_service
+[2024-06-07 11:23:00.193785] [heexDataUploader] [info] RestApiManager::performAuthentificationRequest | Performing call to https://api.exail.heex.io/metadata-service/companies/1/embedded_systems/login
+[2024-06-07 11:23:00.468073] [heexDataUploader] [info] RestApiManager::performAuthentificationRequest | Auth succeed. Bearer Token has been set to a new value that is not empty.
+[2024-06-07 11:23:00.468196] [heexDataUploader] [info] DataUploader::performAuthToService | Authentification request try on recordings_service
+[2024-06-07 11:23:00.469012] [heexDataUploader] [info] RestApiManager::performAuthentificationRequest | Performing call to https://api.exail.heex.io/recordings-service/companies/1/embedded_systems/login
+[2024-06-07 11:23:00.740476] [heexDataUploader] [info] RestApiManager::performAuthentificationRequest | Auth succeed. Bearer Token has been set to a new value that is not empty.
+[2024-06-07 11:23:00.741603] [heexDataUploader] [info] Credentials stored to local storage with success
+[2024-06-07 11:23:10.246500] [heexDataUploader] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-07 11:23:10.246675] [heexDataUploader] [info] DataUploader::handleJobLogic | Performing operation on the current top request: { service_type = 'metadata (0)', priority = '50', state = 'CompleteCollection (3)', filepath = '/home/abhimanyu/Heex_SDK_2_39_1/kernel/outbox/Metadata-E-ca63d79b-a2ed-4488-adf6-63950df770b0.json', createdAt = '2024-06-07T09:23:09.921769', attempts = '0', eventUuid ='E-ca63d79b-a2ed-4488-adf6-63950df770b0', triggerUuid = 'T-HEEXfee95bcc-2892-41e1-bf0a-b70eb2f24750' } 
+[2024-06-07 11:23:10.246836] [heexDataUploader] [info] RestApiManager::performRequest | Performing call to https://api.exail.heex.io/metadata-service/companies/1/trigger_instances/T-HEEXfee95bcc-2892-41e1-bf0a-b70eb2f24750/metadata/upload?systemUuid=ES-52a234c7-f227-4e6c-ae77-a4533154fec1&systemConfHash=e1bb1f4f5dd2b0f5f6215c950966786f for uniqueEventId E-ca63d79b-a2ed-4488-adf6-63950df770b0 transmitting file /home/abhimanyu/Heex_SDK_2_39_1/kernel/outbox/Metadata-E-ca63d79b-a2ed-4488-adf6-63950df770b0.json
+[2024-06-07 11:23:10.276485] [heexDataUploader] [info] Uploading 0% (0 / 0) 	 Download (0 / 0)
+[2024-06-07 11:23:10.460793] [heexDataUploader] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-07 11:23:10.460980] [heexDataUploader] [info] DataUploader::handleJobLogic | Performing operation on the current top request: { service_type = 'metadata (0)', priority = '50', state = 'CompleteCollection (3)', filepath = '/home/abhimanyu/Heex_SDK_2_39_1/kernel/outbox/Metadata-E-ca63d79b-a2ed-4488-adf6-63950df770b0.json', createdAt = '2024-06-07T09:23:09.921769', attempts = '0', eventUuid ='E-ca63d79b-a2ed-4488-adf6-63950df770b0', triggerUuid = 'T-HEEXfee95bcc-2892-41e1-bf0a-b70eb2f24750' } 
+[2024-06-07 11:23:10.461104] [heexDataUploader] [info] RestApiManager::performRequest | Performing call to https://api.exail.heex.io/metadata-service/companies/1/trigger_instances/T-HEEXfee95bcc-2892-41e1-bf0a-b70eb2f24750/metadata/upload?systemUuid=ES-52a234c7-f227-4e6c-ae77-a4533154fec1&systemConfHash=e1bb1f4f5dd2b0f5f6215c950966786f for uniqueEventId E-ca63d79b-a2ed-4488-adf6-63950df770b0 transmitting file /home/abhimanyu/Heex_SDK_2_39_1/kernel/outbox/Metadata-E-ca63d79b-a2ed-4488-adf6-63950df770b0.json
+[2024-06-07 11:23:10.462206] [heexDataUploader] [info] Uploading 0% (0 / 0) 	 Download (0 / 0)
+[2024-06-07 11:23:10.587209] [heexDataUploader] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-07 11:23:10.587386] [heexDataUploader] [info] DataUploader::handleJobLogic | Performing operation on the current top request: { service_type = 'metadata (0)', priority = '50', state = 'CompleteCollection (3)', filepath = '/home/abhimanyu/Heex_SDK_2_39_1/kernel/outbox/Metadata-E-ca63d79b-a2ed-4488-adf6-63950df770b0.json', createdAt = '2024-06-07T09:23:09.921769', attempts = '0', eventUuid ='E-ca63d79b-a2ed-4488-adf6-63950df770b0', triggerUuid = 'T-HEEXfee95bcc-2892-41e1-bf0a-b70eb2f24750' } 
+[2024-06-07 11:23:10.587546] [heexDataUploader] [info] RestApiManager::performRequest | Performing call to https://api.exail.heex.io/metadata-service/companies/1/trigger_instances/T-HEEXfee95bcc-2892-41e1-bf0a-b70eb2f24750/metadata/upload?systemUuid=ES-52a234c7-f227-4e6c-ae77-a4533154fec1&systemConfHash=e1bb1f4f5dd2b0f5f6215c950966786f for uniqueEventId E-ca63d79b-a2ed-4488-adf6-63950df770b0 transmitting file /home/abhimanyu/Heex_SDK_2_39_1/kernel/outbox/Metadata-E-ca63d79b-a2ed-4488-adf6-63950df770b0.json
+[2024-06-07 11:23:10.588717] [heexDataUploader] [info] Uploading 0% (0 / 0) 	 Download (0 / 0)
+[2024-06-07 11:23:10.731117] [heexDataUploader] [info] RestApiManager::performRequest | Received CURLE_OK code with 400 http code from Heex metadata API.
+[2024-06-07 11:23:10.731248] [heexDataUploader] [info] RestApiManager::performRequest | Msg received has length of: 196
+[2024-06-07 11:23:10.731329] [heexDataUploader] [info] RestApiManager::performRequest | Sdk Code: 400
+[2024-06-07 11:23:10.731394] [heexDataUploader] [info] RestApiManager::performRequest | Header buffer: HTTP/1.1 400 Bad Request
+Date: Fri, 07 Jun 2024 09:23:10 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 196
+Connection: keep-alive
+Systemconfhashcleaned: e1bb1f4f5dd2b0f5f6215c950966786f
+
+
+[2024-06-07 11:23:10.731516] [heexDataUploader] [info] RestApiManager::performRequest | Msg buffer: {"code":"[{\"message\":\"Event uniqueEventId has to be unique\",\"field\":\"uniqueEventId\",\"validation\":\"unique\"}]","message":"Cannot create Event","status":"400 Bad Request","success":false}
+[2024-06-07 11:23:10.731595] [heexDataUploader] [error] RestApiManager::performRequest | CURLE_OK and answer with 400 code.
+[2024-06-07 11:23:10.731663] [heexDataUploader] [error] DataUploader::performRequest | Sending metadata for event E-ca63d79b-a2ed-4488-adf6-63950df770b0 has failed.
+[2024-06-07 11:23:10.731722] [heexDataUploader] [info] DataUploader::handleJobLogic | Operations have returned the request code 400 with progression = { service_type = 'metadata (0)', priority = '50', state = 'ReadyToRetryUpload (8)', filepath = '/home/abhimanyu/Heex_SDK_2_39_1/kernel/outbox/Metadata-E-ca63d79b-a2ed-4488-adf6-63950df770b0.json', createdAt = '2024-06-07T09:23:09.921769', attempts = '0', eventUuid ='E-ca63d79b-a2ed-4488-adf6-63950df770b0', triggerUuid = 'T-HEEXfee95bcc-2892-41e1-bf0a-b70eb2f24750' } 
+[2024-06-07 11:23:10.731853] [heexDataUploader] [error] DataUploader::handleJobProcessingErrors | Request has encountered an error code : STATUS_CODE (400)
+[2024-06-07 11:23:10.793328] [heexDataUploader] [info] RestApiManager::performRequest | Received CURLE_OK code with 200 http code from Heex metadata API.
+[2024-06-07 11:23:10.793481] [heexDataUploader] [info] DataUploader::performRequest | Sending metadata for event E-ca63d79b-a2ed-4488-adf6-63950df770b0 has succeeded.
+[2024-06-07 11:23:10.793712] [heexDataUploader] [info] DataUploader::deleteMetadata | Deleting metadata file for event E-ca63d79b-a2ed-4488-adf6-63950df770b0 has succeeded for file /home/abhimanyu/Heex_SDK_2_39_1/kernel/outbox/Metadata-E-ca63d79b-a2ed-4488-adf6-63950df770b0.json .
+[2024-06-07 11:23:10.793805] [heexDataUploader] [info] DataUploader::performRequest | All operation on metadata for event E-ca63d79b-a2ed-4488-adf6-63950df770b0 has been performed.
+[2024-06-07 11:23:10.793875] [heexDataUploader] [info] DataUploader::handleJobLogic | Operations have returned the request code 0 with progression = { service_type = 'metadata (0)', priority = '50', state = 'CompleteUpload (10)', filepath = '', createdAt = '2024-06-07T09:23:09.921769', attempts = '0', eventUuid ='E-ca63d79b-a2ed-4488-adf6-63950df770b0', triggerUuid = 'T-HEEXfee95bcc-2892-41e1-bf0a-b70eb2f24750' } 
+[2024-06-07 11:23:10.828889] [heexDataUploader] [info] RestApiManager::performRequest | Received CURLE_OK code with 400 http code from Heex metadata API.
+[2024-06-07 11:23:10.829011] [heexDataUploader] [info] RestApiManager::performRequest | Msg received has length of: 196
+[2024-06-07 11:23:10.829053] [heexDataUploader] [info] RestApiManager::performRequest | Sdk Code: 400
+[2024-06-07 11:23:10.829089] [heexDataUploader] [info] RestApiManager::performRequest | Header buffer: HTTP/1.1 400 Bad Request
+Date: Fri, 07 Jun 2024 09:23:10 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 196
+Connection: keep-alive
+Systemconfhashcleaned: e1bb1f4f5dd2b0f5f6215c950966786f
+
+
+[2024-06-07 11:23:10.829140] [heexDataUploader] [info] RestApiManager::performRequest | Msg buffer: {"code":"[{\"message\":\"Event uniqueEventId has to be unique\",\"field\":\"uniqueEventId\",\"validation\":\"unique\"}]","message":"Cannot create Event","status":"400 Bad Request","success":false}
+[2024-06-07 11:23:10.829176] [heexDataUploader] [error] RestApiManager::performRequest | CURLE_OK and answer with 400 code.
+[2024-06-07 11:23:10.829214] [heexDataUploader] [error] DataUploader::performRequest | Sending metadata for event E-ca63d79b-a2ed-4488-adf6-63950df770b0 has failed.
+[2024-06-07 11:23:10.829259] [heexDataUploader] [info] DataUploader::handleJobLogic | Operations have returned the request code 400 with progression = { service_type = 'metadata (0)', priority = '50', state = 'ReadyToRetryUpload (8)', filepath = '/home/abhimanyu/Heex_SDK_2_39_1/kernel/outbox/Metadata-E-ca63d79b-a2ed-4488-adf6-63950df770b0.json', createdAt = '2024-06-07T09:23:09.921769', attempts = '0', eventUuid ='E-ca63d79b-a2ed-4488-adf6-63950df770b0', triggerUuid = 'T-HEEXfee95bcc-2892-41e1-bf0a-b70eb2f24750' } 
+[2024-06-07 11:23:10.829384] [heexDataUploader] [error] DataUploader::handleJobProcessingErrors | Request has encountered an error code : STATUS_CODE (400)
+[2024-06-07 11:23:10.985466] [heexDataUploader] [error] DataUploader::handleJobProcessingErrors | Discarding the current request job. Job info: { service_type = 'metadata (0)', priority = '50', state = 'ReadyToRetryUpload (8)', filepath = '/home/abhimanyu/Heex_SDK_2_39_1/kernel/outbox/Metadata-E-ca63d79b-a2ed-4488-adf6-63950df770b0.json', createdAt = '2024-06-07T09:23:09.921769', attempts = '0', eventUuid ='E-ca63d79b-a2ed-4488-adf6-63950df770b0', triggerUuid = 'T-HEEXfee95bcc-2892-41e1-bf0a-b70eb2f24750' } 
+[2024-06-07 11:23:11.044210] [heexDataUploader] [info] DataUploader::handleJobLogic | Jobs upload has been successfully uploaded and will be removed from the jobs database.
+[2024-06-07 11:23:11.079618] [heexDataUploader] [error] DataUploader::handleJobProcessingErrors | Discarding the current request job. Job info: { service_type = 'metadata (0)', priority = '50', state = 'ReadyToRetryUpload (8)', filepath = '/home/abhimanyu/Heex_SDK_2_39_1/kernel/outbox/Metadata-E-ca63d79b-a2ed-4488-adf6-63950df770b0.json', createdAt = '2024-06-07T09:23:09.921769', attempts = '0', eventUuid ='E-ca63d79b-a2ed-4488-adf6-63950df770b0', triggerUuid = 'T-HEEXfee95bcc-2892-41e1-bf0a-b70eb2f24750' } 
+[2024-06-07 11:24:10.512172] [heexDataUploader] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-07 11:24:10.512367] [heexDataUploader] [info] DataUploader::handleJobLogic | Performing operation on the current top request: { service_type = 'metadata (0)', priority = '50', state = 'CompleteCollection (3)', filepath = '/home/abhimanyu/Heex_SDK_2_39_1/kernel/outbox/Metadata-E-ab78e982-db5c-461a-91c4-cfe52199e1c8.json', createdAt = '2024-06-07T09:24:09.931542', attempts = '0', eventUuid ='E-ab78e982-db5c-461a-91c4-cfe52199e1c8', triggerUuid = 'T-HEEXfee95bcc-2892-41e1-bf0a-b70eb2f24750' } 
+[2024-06-07 11:24:10.512503] [heexDataUploader] [info] RestApiManager::performRequest | Performing call to https://api.exail.heex.io/metadata-service/companies/1/trigger_instances/T-HEEXfee95bcc-2892-41e1-bf0a-b70eb2f24750/metadata/upload?systemUuid=ES-52a234c7-f227-4e6c-ae77-a4533154fec1&systemConfHash=e1bb1f4f5dd2b0f5f6215c950966786f for uniqueEventId E-ab78e982-db5c-461a-91c4-cfe52199e1c8 transmitting file /home/abhimanyu/Heex_SDK_2_39_1/kernel/outbox/Metadata-E-ab78e982-db5c-461a-91c4-cfe52199e1c8.json
+[2024-06-07 11:24:10.531568] [heexDataUploader] [info] Uploading 0% (0 / 0) 	 Download (0 / 0)
+[2024-06-07 11:24:10.570560] [heexDataUploader] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-07 11:24:10.570735] [heexDataUploader] [info] DataUploader::handleJobLogic | Performing operation on the current top request: { service_type = 'metadata (0)', priority = '50', state = 'CompleteCollection (3)', filepath = '/home/abhimanyu/Heex_SDK_2_39_1/kernel/outbox/Metadata-E-ab78e982-db5c-461a-91c4-cfe52199e1c8.json', createdAt = '2024-06-07T09:24:09.931542', attempts = '0', eventUuid ='E-ab78e982-db5c-461a-91c4-cfe52199e1c8', triggerUuid = 'T-HEEXfee95bcc-2892-41e1-bf0a-b70eb2f24750' } 
+[2024-06-07 11:24:10.570847] [heexDataUploader] [info] RestApiManager::performRequest | Performing call to https://api.exail.heex.io/metadata-service/companies/1/trigger_instances/T-HEEXfee95bcc-2892-41e1-bf0a-b70eb2f24750/metadata/upload?systemUuid=ES-52a234c7-f227-4e6c-ae77-a4533154fec1&systemConfHash=e1bb1f4f5dd2b0f5f6215c950966786f for uniqueEventId E-ab78e982-db5c-461a-91c4-cfe52199e1c8 transmitting file /home/abhimanyu/Heex_SDK_2_39_1/kernel/outbox/Metadata-E-ab78e982-db5c-461a-91c4-cfe52199e1c8.json
+[2024-06-07 11:24:10.572062] [heexDataUploader] [info] Uploading 0% (0 / 0) 	 Download (0 / 0)
+[2024-06-07 11:24:10.607324] [heexDataUploader] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-07 11:24:10.607456] [heexDataUploader] [info] DataUploader::handleJobLogic | Performing operation on the current top request: { service_type = 'metadata (0)', priority = '50', state = 'CompleteCollection (3)', filepath = '/home/abhimanyu/Heex_SDK_2_39_1/kernel/outbox/Metadata-E-ab78e982-db5c-461a-91c4-cfe52199e1c8.json', createdAt = '2024-06-07T09:24:09.931542', attempts = '0', eventUuid ='E-ab78e982-db5c-461a-91c4-cfe52199e1c8', triggerUuid = 'T-HEEXfee95bcc-2892-41e1-bf0a-b70eb2f24750' } 
+[2024-06-07 11:24:10.607543] [heexDataUploader] [info] RestApiManager::performRequest | Performing call to https://api.exail.heex.io/metadata-service/companies/1/trigger_instances/T-HEEXfee95bcc-2892-41e1-bf0a-b70eb2f24750/metadata/upload?systemUuid=ES-52a234c7-f227-4e6c-ae77-a4533154fec1&systemConfHash=e1bb1f4f5dd2b0f5f6215c950966786f for uniqueEventId E-ab78e982-db5c-461a-91c4-cfe52199e1c8 transmitting file /home/abhimanyu/Heex_SDK_2_39_1/kernel/outbox/Metadata-E-ab78e982-db5c-461a-91c4-cfe52199e1c8.json
+[2024-06-07 11:24:10.608256] [heexDataUploader] [info] Uploading 0% (0 / 0) 	 Download (0 / 0)
+[2024-06-07 11:24:11.090517] [heexDataUploader] [info] RestApiManager::performRequest | Received CURLE_OK code with 200 http code from Heex metadata API.
+[2024-06-07 11:24:11.090580] [heexDataUploader] [info] DataUploader::performRequest | Sending metadata for event E-ab78e982-db5c-461a-91c4-cfe52199e1c8 has succeeded.
+[2024-06-07 11:24:11.090682] [heexDataUploader] [info] DataUploader::deleteMetadata | Deleting metadata file for event E-ab78e982-db5c-461a-91c4-cfe52199e1c8 has succeeded for file /home/abhimanyu/Heex_SDK_2_39_1/kernel/outbox/Metadata-E-ab78e982-db5c-461a-91c4-cfe52199e1c8.json .
+[2024-06-07 11:24:11.090720] [heexDataUploader] [info] DataUploader::performRequest | All operation on metadata for event E-ab78e982-db5c-461a-91c4-cfe52199e1c8 has been performed.
+[2024-06-07 11:24:11.090737] [heexDataUploader] [info] DataUploader::handleJobLogic | Operations have returned the request code 0 with progression = { service_type = 'metadata (0)', priority = '50', state = 'CompleteUpload (10)', filepath = '', createdAt = '2024-06-07T09:24:09.931542', attempts = '0', eventUuid ='E-ab78e982-db5c-461a-91c4-cfe52199e1c8', triggerUuid = 'T-HEEXfee95bcc-2892-41e1-bf0a-b70eb2f24750' } 
+[2024-06-07 11:24:11.104825] [heexDataUploader] [info] RestApiManager::performRequest | Received CURLE_OK code with 200 http code from Heex metadata API.
+[2024-06-07 11:24:11.104873] [heexDataUploader] [info] DataUploader::performRequest | Sending metadata for event E-ab78e982-db5c-461a-91c4-cfe52199e1c8 has succeeded.
+[2024-06-07 11:24:11.104900] [heexDataUploader] [error] DataUploader::deleteMetadata | Deleting recording archive for event E-ab78e982-db5c-461a-91c4-cfe52199e1c8 has failed with access error for file /home/abhimanyu/Heex_SDK_2_39_1/kernel/outbox/Metadata-E-ab78e982-db5c-461a-91c4-cfe52199e1c8.json .
+[2024-06-07 11:24:11.104919] [heexDataUploader] [info] DataUploader::handleJobLogic | Operations have returned the request code -15 with progression = { service_type = 'metadata (0)', priority = '50', state = 'ReadyToCleanUpl (9)', filepath = '/home/abhimanyu/Heex_SDK_2_39_1/kernel/outbox/Metadata-E-ab78e982-db5c-461a-91c4-cfe52199e1c8.json', createdAt = '2024-06-07T09:24:09.931542', attempts = '0', eventUuid ='E-ab78e982-db5c-461a-91c4-cfe52199e1c8', triggerUuid = 'T-HEEXfee95bcc-2892-41e1-bf0a-b70eb2f24750' } 
+[2024-06-07 11:24:11.104954] [heexDataUploader] [error] DataUploader::handleJobProcessingErrors | Request has encountered an error code : DeletionError (-15)
+[2024-06-07 11:24:11.128087] [heexDataUploader] [info] RestApiManager::performRequest | Received CURLE_OK code with 200 http code from Heex metadata API.
+[2024-06-07 11:24:11.128138] [heexDataUploader] [info] DataUploader::performRequest | Sending metadata for event E-ab78e982-db5c-461a-91c4-cfe52199e1c8 has succeeded.
+[2024-06-07 11:24:11.128173] [heexDataUploader] [error] DataUploader::deleteMetadata | Deleting recording archive for event E-ab78e982-db5c-461a-91c4-cfe52199e1c8 has failed with access error for file /home/abhimanyu/Heex_SDK_2_39_1/kernel/outbox/Metadata-E-ab78e982-db5c-461a-91c4-cfe52199e1c8.json .
+[2024-06-07 11:24:11.128192] [heexDataUploader] [info] DataUploader::handleJobLogic | Operations have returned the request code -15 with progression = { service_type = 'metadata (0)', priority = '50', state = 'ReadyToCleanUpl (9)', filepath = '/home/abhimanyu/Heex_SDK_2_39_1/kernel/outbox/Metadata-E-ab78e982-db5c-461a-91c4-cfe52199e1c8.json', createdAt = '2024-06-07T09:24:09.931542', attempts = '0', eventUuid ='E-ab78e982-db5c-461a-91c4-cfe52199e1c8', triggerUuid = 'T-HEEXfee95bcc-2892-41e1-bf0a-b70eb2f24750' } 
+[2024-06-07 11:24:11.128222] [heexDataUploader] [error] DataUploader::handleJobProcessingErrors | Request has encountered an error code : DeletionError (-15)
+[2024-06-07 11:24:11.343029] [heexDataUploader] [info] DataUploader::handleJobLogic | Jobs upload has been successfully uploaded and will be removed from the jobs database.
+[2024-06-07 11:24:52.961170] [heexDataUploader] [info] HeexDataUploader 2.39.1
+[2024-06-07 11:24:52.961236] [heexDataUploader] [info] Logging to file at /home/abhimanyu/Heex_SDK_2_39_1/kernel/./logs/heexDataUploader.log
+[2024-06-07 11:24:52.961799] [heexDataUploader] [info] DatabaseManager | Opened database successfully
+[2024-06-07 11:24:52.962329] [heexDataUploader] [info] SystemConf hash : e1bb1f4f5dd2b0f5f6215c950966786f
+[2024-06-07 11:24:52.962491] [heexDataUploader] [info] DataUploader::isHreEnv | The file /home/abhimanyu/Heex_SDK_2_39_1/kernel/hreInstallers/hreHash.json does not exist or is not accessible.
+[2024-06-07 11:24:52.962523] [heexDataUploader] [info] This is not a HRE environement. No need to create the HreOtaManager instance.
+[2024-06-07 11:24:52.962552] [heexDataUploader] [info] Current environment is not a HRE one, no HreOtaManager instance shall be created.
+[2024-06-07 11:24:52.962572] [heexDataUploader] [info] RestApiManager::setApiAddress | API Address is now set to https://api.exail.heex.io/metadata-service/
+[2024-06-07 11:24:52.962589] [heexDataUploader] [info] RestApiManager::setApiAddress | API Address is now set to https://api.exail.heex.io/recordings-service/
+[2024-06-07 11:24:52.962607] [heexDataUploader] [info] DataUploader::performAuthToService | Authentification request try on metadata_service
+[2024-06-07 11:24:52.963814] [heexDataUploader] [info] RestApiManager::performAuthentificationRequest | Performing call to https://api.exail.heex.io/metadata-service/companies/1/embedded_systems/login
+[2024-06-07 11:24:53.228842] [heexDataUploader] [info] RestApiManager::performAuthentificationRequest | Auth succeed. Bearer Token has been set to a new value that is not empty.
+[2024-06-07 11:24:53.228965] [heexDataUploader] [info] DataUploader::performAuthToService | Authentification request try on recordings_service
+[2024-06-07 11:24:53.229662] [heexDataUploader] [info] RestApiManager::performAuthentificationRequest | Performing call to https://api.exail.heex.io/recordings-service/companies/1/embedded_systems/login
+[2024-06-07 11:24:53.559992] [heexDataUploader] [info] RestApiManager::performAuthentificationRequest | Auth succeed. Bearer Token has been set to a new value that is not empty.
+[2024-06-07 11:24:53.561100] [heexDataUploader] [info] Credentials stored to local storage with success
+[2024-06-07 11:25:10.370584] [heexDataUploader] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-07 11:25:10.370745] [heexDataUploader] [info] DataUploader::handleJobLogic | Performing operation on the current top request: { service_type = 'metadata (0)', priority = '50', state = 'CompleteCollection (3)', filepath = '/home/abhimanyu/Heex_SDK_2_39_1/kernel/outbox/Metadata-E-cde6471a-8624-499d-8994-ef711a862dd5.json', createdAt = '2024-06-07T09:25:09.936850', attempts = '0', eventUuid ='E-cde6471a-8624-499d-8994-ef711a862dd5', triggerUuid = 'T-HEEXfee95bcc-2892-41e1-bf0a-b70eb2f24750' } 
+[2024-06-07 11:25:10.370920] [heexDataUploader] [info] RestApiManager::performRequest | Performing call to https://api.exail.heex.io/metadata-service/companies/1/trigger_instances/T-HEEXfee95bcc-2892-41e1-bf0a-b70eb2f24750/metadata/upload?systemUuid=ES-52a234c7-f227-4e6c-ae77-a4533154fec1&systemConfHash=e1bb1f4f5dd2b0f5f6215c950966786f for uniqueEventId E-cde6471a-8624-499d-8994-ef711a862dd5 transmitting file /home/abhimanyu/Heex_SDK_2_39_1/kernel/outbox/Metadata-E-cde6471a-8624-499d-8994-ef711a862dd5.json
+[2024-06-07 11:25:10.371845] [heexDataUploader] [info] Uploading 0% (0 / 0) 	 Download (0 / 0)
+[2024-06-07 11:25:10.380511] [heexDataUploader] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-07 11:25:10.380664] [heexDataUploader] [info] DataUploader::handleJobLogic | Performing operation on the current top request: { service_type = 'metadata (0)', priority = '50', state = 'CompleteCollection (3)', filepath = '/home/abhimanyu/Heex_SDK_2_39_1/kernel/outbox/Metadata-E-cde6471a-8624-499d-8994-ef711a862dd5.json', createdAt = '2024-06-07T09:25:09.936850', attempts = '0', eventUuid ='E-cde6471a-8624-499d-8994-ef711a862dd5', triggerUuid = 'T-HEEXfee95bcc-2892-41e1-bf0a-b70eb2f24750' } 
+[2024-06-07 11:25:10.380774] [heexDataUploader] [info] RestApiManager::performRequest | Performing call to https://api.exail.heex.io/metadata-service/companies/1/trigger_instances/T-HEEXfee95bcc-2892-41e1-bf0a-b70eb2f24750/metadata/upload?systemUuid=ES-52a234c7-f227-4e6c-ae77-a4533154fec1&systemConfHash=e1bb1f4f5dd2b0f5f6215c950966786f for uniqueEventId E-cde6471a-8624-499d-8994-ef711a862dd5 transmitting file /home/abhimanyu/Heex_SDK_2_39_1/kernel/outbox/Metadata-E-cde6471a-8624-499d-8994-ef711a862dd5.json
+[2024-06-07 11:25:10.381697] [heexDataUploader] [info] Uploading 0% (0 / 0) 	 Download (0 / 0)
+[2024-06-07 11:25:10.404438] [heexDataUploader] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-07 11:25:10.404584] [heexDataUploader] [info] DataUploader::handleJobLogic | Performing operation on the current top request: { service_type = 'metadata (0)', priority = '50', state = 'CompleteCollection (3)', filepath = '/home/abhimanyu/Heex_SDK_2_39_1/kernel/outbox/Metadata-E-cde6471a-8624-499d-8994-ef711a862dd5.json', createdAt = '2024-06-07T09:25:09.936850', attempts = '0', eventUuid ='E-cde6471a-8624-499d-8994-ef711a862dd5', triggerUuid = 'T-HEEXfee95bcc-2892-41e1-bf0a-b70eb2f24750' } 
+[2024-06-07 11:25:10.404681] [heexDataUploader] [info] RestApiManager::performRequest | Performing call to https://api.exail.heex.io/metadata-service/companies/1/trigger_instances/T-HEEXfee95bcc-2892-41e1-bf0a-b70eb2f24750/metadata/upload?systemUuid=ES-52a234c7-f227-4e6c-ae77-a4533154fec1&systemConfHash=e1bb1f4f5dd2b0f5f6215c950966786f for uniqueEventId E-cde6471a-8624-499d-8994-ef711a862dd5 transmitting file /home/abhimanyu/Heex_SDK_2_39_1/kernel/outbox/Metadata-E-cde6471a-8624-499d-8994-ef711a862dd5.json
+[2024-06-07 11:25:10.405563] [heexDataUploader] [info] Uploading 0% (0 / 0) 	 Download (0 / 0)
+[2024-06-07 11:25:10.568972] [heexDataUploader] [info] DatabaseManager | getHighestPriorityJob | Found a job
+[2024-06-07 11:25:10.569172] [heexDataUploader] [info] DataUploader::handleJobLogic | Performing operation on the current top request: { service_type = 'metadata (0)', priority = '50', state = 'CompleteCollection (3)', filepath = '/home/abhimanyu/Heex_SDK_2_39_1/kernel/outbox/Metadata-E-cde6471a-8624-499d-8994-ef711a862dd5.json', createdAt = '2024-06-07T09:25:09.936850', attempts = '0', eventUuid ='E-cde6471a-8624-499d-8994-ef711a862dd5', triggerUuid = 'T-HEEXfee95bcc-2892-41e1-bf0a-b70eb2f24750' } 
+[2024-06-07 11:25:10.569308] [heexDataUploader] [info] RestApiManager::performRequest | Performing call to https://api.exail.heex.io/metadata-service/companies/1/trigger_instances/T-HEEXfee95bcc-2892-41e1-bf0a-b70eb2f24750/metadata/upload?systemUuid=ES-52a234c7-f227-4e6c-ae77-a4533154fec1&systemConfHash=e1bb1f4f5dd2b0f5f6215c950966786f for uniqueEventId E-cde6471a-8624-499d-8994-ef711a862dd5 transmitting file /home/abhimanyu/Heex_SDK_2_39_1/kernel/outbox/Metadata-E-cde6471a-8624-499d-8994-ef711a862dd5.json
+[2024-06-07 11:25:10.588805] [heexDataUploader] [info] Uploading 0% (0 / 0) 	 Download (0 / 0)
+[2024-06-07 11:25:11.009027] [heexDataUploader] [info] RestApiManager::performRequest | Received CURLE_OK code with 200 http code from Heex metadata API.
+[2024-06-07 11:25:11.009170] [heexDataUploader] [info] DataUploader::performRequest | Sending metadata for event E-cde6471a-8624-499d-8994-ef711a862dd5 has succeeded.
+[2024-06-07 11:25:11.009427] [heexDataUploader] [info] DataUploader::deleteMetadata | Deleting metadata file for event E-cde6471a-8624-499d-8994-ef711a862dd5 has succeeded for file /home/abhimanyu/Heex_SDK_2_39_1/kernel/outbox/Metadata-E-cde6471a-8624-499d-8994-ef711a862dd5.json .
+[2024-06-07 11:25:11.009535] [heexDataUploader] [info] DataUploader::performRequest | All operation on metadata for event E-cde6471a-8624-499d-8994-ef711a862dd5 has been performed.
+[2024-06-07 11:25:11.009614] [heexDataUploader] [info] DataUploader::handleJobLogic | Operations have returned the request code 0 with progression = { service_type = 'metadata (0)', priority = '50', state = 'CompleteUpload (10)', filepath = '', createdAt = '2024-06-07T09:25:09.936850', attempts = '0', eventUuid ='E-cde6471a-8624-499d-8994-ef711a862dd5', triggerUuid = 'T-HEEXfee95bcc-2892-41e1-bf0a-b70eb2f24750' } 
+[2024-06-07 11:25:11.023208] [heexDataUploader] [info] RestApiManager::performRequest | Received CURLE_OK code with 200 http code from Heex metadata API.
+[2024-06-07 11:25:11.023342] [heexDataUploader] [info] DataUploader::performRequest | Sending metadata for event E-cde6471a-8624-499d-8994-ef711a862dd5 has succeeded.
+[2024-06-07 11:25:11.071478] [heexDataUploader] [info] RestApiManager::performRequest | Received CURLE_OK code with 200 http code from Heex metadata API.
+[2024-06-07 11:25:11.071611] [heexDataUploader] [info] DataUploader::performRequest | Sending metadata for event E-cde6471a-8624-499d-8994-ef711a862dd5 has succeeded.
+[2024-06-07 11:25:11.071717] [heexDataUploader] [error] DataUploader::deleteMetadata | Deleting recording archive for event E-cde6471a-8624-499d-8994-ef711a862dd5 has failed with access error for file /home/abhimanyu/Heex_SDK_2_39_1/kernel/outbox/Metadata-E-cde6471a-8624-499d-8994-ef711a862dd5.json .
+[2024-06-07 11:25:11.071769] [heexDataUploader] [info] DataUploader::handleJobLogic | Operations have returned the request code -15 with progression = { service_type = 'metadata (0)', priority = '50', state = 'ReadyToCleanUpl (9)', filepath = '/home/abhimanyu/Heex_SDK_2_39_1/kernel/outbox/Metadata-E-cde6471a-8624-499d-8994-ef711a862dd5.json', createdAt = '2024-06-07T09:25:09.936850', attempts = '0', eventUuid ='E-cde6471a-8624-499d-8994-ef711a862dd5', triggerUuid = 'T-HEEXfee95bcc-2892-41e1-bf0a-b70eb2f24750' } 
+[2024-06-07 11:25:11.071839] [heexDataUploader] [error] DataUploader::handleJobProcessingErrors | Request has encountered an error code : DeletionError (-15)
+[2024-06-07 11:30:10.222300] [heexDataUploader] [info] HeexDataUploader 2.39.1
+[2024-06-07 11:30:10.222397] [heexDataUploader] [info] Logging to file at /home/abhimanyu/Heex_SDK_2_39_1/kernel/./logs/heexDataUploader.log
+[2024-06-07 11:30:10.223036] [heexDataUploader] [info] DatabaseManager | Opened database successfully
+[2024-06-07 11:30:10.223545] [heexDataUploader] [info] SystemConf hash : e1bb1f4f5dd2b0f5f6215c950966786f
+[2024-06-07 11:30:10.223664] [heexDataUploader] [info] DataUploader::isHreEnv | The file /home/abhimanyu/Heex_SDK_2_39_1/kernel/hreInstallers/hreHash.json does not exist or is not accessible.
+[2024-06-07 11:30:10.223719] [heexDataUploader] [info] This is not a HRE environement. No need to create the HreOtaManager instance.
+[2024-06-07 11:30:10.223747] [heexDataUploader] [info] Current environment is not a HRE one, no HreOtaManager instance shall be created.
+[2024-06-07 11:30:10.223798] [heexDataUploader] [info] RestApiManager::setApiAddress | API Address is now set to https://api.exail.heex.io/metadata-service/
+[2024-06-07 11:30:10.223820] [heexDataUploader] [info] RestApiManager::setApiAddress | API Address is now set to https://api.exail.heex.io/recordings-service/
+[2024-06-07 11:30:10.223849] [heexDataUploader] [info] DataUploader::performAuthToService | Authentification request try on metadata_service
+[2024-06-07 11:30:10.224968] [heexDataUploader] [info] RestApiManager::performAuthentificationRequest | Performing call to https://api.exail.heex.io/metadata-service/companies/1/embedded_systems/login
+[2024-06-07 11:30:10.512116] [heexDataUploader] [info] RestApiManager::performAuthentificationRequest | Auth succeed. Bearer Token has been set to a new value that is not empty.
+[2024-06-07 11:30:10.512241] [heexDataUploader] [info] DataUploader::performAuthToService | Authentification request try on recordings_service
+[2024-06-07 11:30:10.513159] [heexDataUploader] [info] RestApiManager::performAuthentificationRequest | Performing call to https://api.exail.heex.io/recordings-service/companies/1/embedded_systems/login
+[2024-06-07 11:30:10.795586] [heexDataUploader] [info] RestApiManager::performAuthentificationRequest | Auth succeed. Bearer Token has been set to a new value that is not empty.
+[2024-06-07 11:30:10.796829] [heexDataUploader] [info] Credentials stored to local storage with success
+[2024-06-07 11:33:56.765845] [heexDataUploader] [info] HeexDataUploader 2.39.1
+[2024-06-07 11:33:56.765913] [heexDataUploader] [info] Logging to file at /home/abhimanyu/Heex_SDK_2_39_1/kernel/./logs/heexDataUploader.log
+[2024-06-07 11:33:56.766529] [heexDataUploader] [info] DatabaseManager | Opened database successfully
+[2024-06-07 11:33:56.767070] [heexDataUploader] [info] SystemConf hash : e1bb1f4f5dd2b0f5f6215c950966786f
+[2024-06-07 11:33:56.767252] [heexDataUploader] [info] DataUploader::isHreEnv | The file /home/abhimanyu/Heex_SDK_2_39_1/kernel/hreInstallers/hreHash.json does not exist or is not accessible.
+[2024-06-07 11:33:56.767294] [heexDataUploader] [info] This is not a HRE environement. No need to create the HreOtaManager instance.
+[2024-06-07 11:33:56.767339] [heexDataUploader] [info] Current environment is not a HRE one, no HreOtaManager instance shall be created.
+[2024-06-07 11:33:56.767380] [heexDataUploader] [info] RestApiManager::setApiAddress | API Address is now set to https://api.exail.heex.io/metadata-service/
+[2024-06-07 11:33:56.767395] [heexDataUploader] [info] RestApiManager::setApiAddress | API Address is now set to https://api.exail.heex.io/recordings-service/
+[2024-06-07 11:33:56.767410] [heexDataUploader] [info] DataUploader::performAuthToService | Authentification request try on metadata_service
+[2024-06-07 11:33:56.768553] [heexDataUploader] [info] RestApiManager::performAuthentificationRequest | Performing call to https://api.exail.heex.io/metadata-service/companies/1/embedded_systems/login
+[2024-06-07 11:33:57.044076] [heexDataUploader] [info] RestApiManager::performAuthentificationRequest | Auth succeed. Bearer Token has been set to a new value that is not empty.
+[2024-06-07 11:33:57.044229] [heexDataUploader] [info] DataUploader::performAuthToService | Authentification request try on recordings_service
+[2024-06-07 11:33:57.045087] [heexDataUploader] [info] RestApiManager::performAuthentificationRequest | Performing call to https://api.exail.heex.io/recordings-service/companies/1/embedded_systems/login
+[2024-06-07 11:33:57.318933] [heexDataUploader] [info] RestApiManager::performAuthentificationRequest | Auth succeed. Bearer Token has been set to a new value that is not empty.
+[2024-06-07 11:33:57.320260] [heexDataUploader] [info] Credentials stored to local storage with success
+[2024-06-07 14:42:54.004909] [heexDataUploader] [info] HeexDataUploader 2.39.1
+[2024-06-07 14:42:54.005101] [heexDataUploader] [info] Logging to file at /home/abhimanyu/Heex_SDK_2_39_1/kernel/./logs/heexDataUploader.log
+[2024-06-07 14:42:54.006419] [heexDataUploader] [info] DatabaseManager | Opened database successfully
+[2024-06-07 14:42:54.007643] [heexDataUploader] [info] SystemConf hash : e1bb1f4f5dd2b0f5f6215c950966786f
+[2024-06-07 14:42:54.007941] [heexDataUploader] [info] DataUploader::isHreEnv | The file /home/abhimanyu/Heex_SDK_2_39_1/kernel/hreInstallers/hreHash.json does not exist or is not accessible.
+[2024-06-07 14:42:54.007990] [heexDataUploader] [info] This is not a HRE environement. No need to create the HreOtaManager instance.
+[2024-06-07 14:42:54.008050] [heexDataUploader] [info] Current environment is not a HRE one, no HreOtaManager instance shall be created.
+[2024-06-07 14:42:54.008086] [heexDataUploader] [info] RestApiManager::setApiAddress | API Address is now set to https://api.exail.heex.io/metadata-service/
+[2024-06-07 14:42:54.008115] [heexDataUploader] [info] RestApiManager::setApiAddress | API Address is now set to https://api.exail.heex.io/recordings-service/
+[2024-06-07 14:42:54.008146] [heexDataUploader] [info] DataUploader::performAuthToService | Authentification request try on metadata_service
+[2024-06-07 14:42:54.010682] [heexDataUploader] [info] RestApiManager::performAuthentificationRequest | Performing call to https://api.exail.heex.io/metadata-service/companies/1/embedded_systems/login
+[2024-06-07 14:42:54.315127] [heexDataUploader] [info] RestApiManager::performAuthentificationRequest | Auth succeed. Bearer Token has been set to a new value that is not empty.
+[2024-06-07 14:42:54.315502] [heexDataUploader] [info] DataUploader::performAuthToService | Authentification request try on recordings_service
+[2024-06-07 14:42:54.316137] [heexDataUploader] [info] RestApiManager::performAuthentificationRequest | Performing call to https://api.exail.heex.io/recordings-service/companies/1/embedded_systems/login
+[2024-06-07 14:42:54.566850] [heexDataUploader] [info] RestApiManager::performAuthentificationRequest | Auth succeed. Bearer Token has been set to a new value that is not empty.
+[2024-06-07 14:42:54.568004] [heexDataUploader] [info] Credentials stored to local storage with success
+[2024-06-07 15:31:28.532010] [heexDataUploader] [info] HeexDataUploader 2.39.1
+[2024-06-07 15:31:28.532115] [heexDataUploader] [info] Logging to file at /home/abhimanyu/Heex_SDK_2_39_1/kernel/./logs/heexDataUploader.log
+[2024-06-07 15:31:28.532786] [heexDataUploader] [info] DatabaseManager | Opened database successfully
+[2024-06-07 15:31:28.533296] [heexDataUploader] [info] SystemConf hash : e1bb1f4f5dd2b0f5f6215c950966786f
+[2024-06-07 15:31:28.533434] [heexDataUploader] [info] DataUploader::isHreEnv | The file /home/abhimanyu/Heex_SDK_2_39_1/kernel/hreInstallers/hreHash.json does not exist or is not accessible.
+[2024-06-07 15:31:28.533464] [heexDataUploader] [info] This is not a HRE environement. No need to create the HreOtaManager instance.
+[2024-06-07 15:31:28.533500] [heexDataUploader] [info] Current environment is not a HRE one, no HreOtaManager instance shall be created.
+[2024-06-07 15:31:28.533532] [heexDataUploader] [info] RestApiManager::setApiAddress | API Address is now set to https://api.exail.heex.io/metadata-service/
+[2024-06-07 15:31:28.533557] [heexDataUploader] [info] RestApiManager::setApiAddress | API Address is now set to https://api.exail.heex.io/recordings-service/
+[2024-06-07 15:31:28.533584] [heexDataUploader] [info] DataUploader::performAuthToService | Authentification request try on metadata_service
+[2024-06-07 15:31:28.535079] [heexDataUploader] [info] RestApiManager::performAuthentificationRequest | Performing call to https://api.exail.heex.io/metadata-service/companies/1/embedded_systems/login
+[2024-06-07 15:31:28.901907] [heexDataUploader] [info] RestApiManager::performAuthentificationRequest | Auth succeed. Bearer Token has been set to a new value that is not empty.
+[2024-06-07 15:31:28.901973] [heexDataUploader] [info] DataUploader::performAuthToService | Authentification request try on recordings_service
+[2024-06-07 15:31:28.902292] [heexDataUploader] [info] RestApiManager::performAuthentificationRequest | Performing call to https://api.exail.heex.io/recordings-service/companies/1/embedded_systems/login
+[2024-06-07 15:31:29.182380] [heexDataUploader] [info] RestApiManager::performAuthentificationRequest | Auth succeed. Bearer Token has been set to a new value that is not empty.
+[2024-06-07 15:31:29.183118] [heexDataUploader] [info] Credentials stored to local storage with success

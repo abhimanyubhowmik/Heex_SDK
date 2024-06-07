@@ -1,0 +1,8 @@
+[2024-06-05 12:07:31.834826] [GetStartedRecorder] [info] ------------------- Running R-db7ee743-7104-4ebb-878f-7c8ea6d7b8d1(1.0.0) (1.0.0) using SDK 2.37.1-------------------
+[2024-06-05 12:07:31.835132] [GetStartedRecorder] [info] Logging to file at /home/abhimanyu/Documents/Heex_SDK_2_37_1/get-started/cpp/./logs/GetStartedRecorder.log
+[2024-06-05 12:07:31.835664] [GetStartedRecorder] [info] GetStartedRecorder | R-db7ee743-7104-4ebb-878f-7c8ea6d7b8d1(1.0.0) 127.0.0.1 4243 
+[2024-06-05 12:07:31.835986] [GetStartedRecorder] [info] Connection to heexCore service 127.0.0.1:4243 from R-db7ee743-7104-4ebb-878f-7c8ea6d7b8d1
+[2024-06-05 12:07:31.845912] [GetStartedRecorder] [info] Identification "R-db7ee743-7104-4ebb-878f-7c8ea6d7b8d1" "2024-06-05T10:07:31.845756" "1.0.0" "2.37.1" "DefaultType"
+
+[2024-06-05 12:07:31.906738] [GetStartedRecorder] [info] Setting constant value md5 = dd551ec3c1e4deef375344b1aef030f4
+[2024-06-05 12:07:55.831555] [GetStartedRecorder] [info] ::addContextValue Replacing older value  by 48.8580644000, 2.3850982000 for key position

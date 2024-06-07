@@ -1,0 +1,38 @@
+[2024-06-07 11:20:42.119041] [rosEdgeInMemoryBuffer] [info] ------------------- Running D-c3e3f4ed-e3b9-4d39-921f-2e6e1c7834ca(1.0.0) (1.0.0) using SDK 2.39.1-------------------
+[2024-06-07 11:20:42.119199] [rosEdgeInMemoryBuffer] [info] Logging to file at /home/abhimanyu/Heex_SDK_2_39_1/samples/ROS1/ros-edge/./logs/rosEdgeInMemoryBuffer.log
+[2024-06-07 11:20:42.121454] [rosEdgeInMemoryBuffer] [info] ------------------- Running R-a5d42923-d4e8-4eb3-8f58-a19ee0b0370b(1.0.0) (1.0.0) using SDK 2.39.1-------------------
+[2024-06-07 11:21:04.872947] [rosEdgeInMemoryBuffer] [info] Connection to heexCore service 127.0.0.1:4242 from D-c3e3f4ed-e3b9-4d39-921f-2e6e1c7834ca
+[2024-06-07 11:21:04.872883] [rosEdgeInMemoryBuffer] [info] Connection to heexCore service 127.0.0.1:4243 from R-a5d42923-d4e8-4eb3-8f58-a19ee0b0370b
+[2024-06-07 11:21:04.883371] [rosEdgeInMemoryBuffer] [info] Identification "D-c3e3f4ed-e3b9-4d39-921f-2e6e1c7834ca" "2024-06-07T09:21:04.883124" "1.0.0" "2.39.1" "DefaultType"
+
+[2024-06-07 11:21:04.883336] [rosEdgeInMemoryBuffer] [info] Identification "R-a5d42923-d4e8-4eb3-8f58-a19ee0b0370b" "2024-06-07T09:21:04.883158" "1.0.0" "2.39.1" "DefaultType"
+
+[2024-06-07 11:22:06.678088] [rosEdgeInMemoryBuffer] [info] ------------------- Running D-c3e3f4ed-e3b9-4d39-921f-2e6e1c7834ca(1.0.0) (1.0.0) using SDK 2.39.1-------------------
+[2024-06-07 11:22:06.678170] [rosEdgeInMemoryBuffer] [info] Logging to file at /home/abhimanyu/Heex_SDK_2_39_1/samples/ROS1/ros-edge/./logs/rosEdgeInMemoryBuffer.log
+[2024-06-07 11:22:06.678380] [rosEdgeInMemoryBuffer] [info] Connection to heexCore service 127.0.0.1:4242 from D-c3e3f4ed-e3b9-4d39-921f-2e6e1c7834ca
+[2024-06-07 11:22:06.680521] [rosEdgeInMemoryBuffer] [info] ------------------- Running R-a5d42923-d4e8-4eb3-8f58-a19ee0b0370b(1.0.0) (1.0.0) using SDK 2.39.1-------------------
+[2024-06-07 11:22:06.680731] [rosEdgeInMemoryBuffer] [info] Connection to heexCore service 127.0.0.1:4243 from R-a5d42923-d4e8-4eb3-8f58-a19ee0b0370b
+[2024-06-07 11:22:06.688431] [rosEdgeInMemoryBuffer] [info] Identification "D-c3e3f4ed-e3b9-4d39-921f-2e6e1c7834ca" "2024-06-07T09:22:06.688383" "1.0.0" "2.39.1" "DefaultType"
+
+[2024-06-07 11:22:06.690749] [rosEdgeInMemoryBuffer] [info] Identification "R-a5d42923-d4e8-4eb3-8f58-a19ee0b0370b" "2024-06-07T09:22:06.690712" "1.0.0" "2.39.1" "DefaultType"
+
+[2024-06-07 11:22:09.802239] [rosEdgeInMemoryBuffer] [info] Setting constant value md5 = e1bb1f4f5dd2b0f5f6215c950966786f
+[2024-06-07 11:22:09.802408] [rosEdgeInMemoryBuffer] [info] Receiving ValueConfiguration CV-c4644aba-797b-42a9-9be0-c2a219df5b07 for sunny-weather-cv(D-c3e3f4ed-e3b9-4d39-921f-2e6e1c7834ca) with values : ==["true"],==
+[2024-06-07 11:22:09.802567] [rosEdgeInMemoryBuffer] [info] Setting constant value md5 = e1bb1f4f5dd2b0f5f6215c950966786f
+[2024-06-07 11:24:24.477948] [rosEdgeInMemoryBuffer] [info] ------------------- Running D-c3e3f4ed-e3b9-4d39-921f-2e6e1c7834ca(1.0.0) (1.0.0) using SDK 2.39.1-------------------
+[2024-06-07 11:24:24.478025] [rosEdgeInMemoryBuffer] [info] Logging to file at /home/abhimanyu/Heex_SDK_2_39_1/samples/ROS1/ros-edge/./logs/rosEdgeInMemoryBuffer.log
+[2024-06-07 11:24:24.478239] [rosEdgeInMemoryBuffer] [info] Connection to heexCore service 127.0.0.1:4242 from D-c3e3f4ed-e3b9-4d39-921f-2e6e1c7834ca
+[2024-06-07 11:24:24.480361] [rosEdgeInMemoryBuffer] [info] ------------------- Running R-a5d42923-d4e8-4eb3-8f58-a19ee0b0370b(1.0.0) (1.0.0) using SDK 2.39.1-------------------
+[2024-06-07 11:24:24.480529] [rosEdgeInMemoryBuffer] [info] Connection to heexCore service 127.0.0.1:4243 from R-a5d42923-d4e8-4eb3-8f58-a19ee0b0370b
+[2024-06-07 11:24:24.488303] [rosEdgeInMemoryBuffer] [info] Identification "D-c3e3f4ed-e3b9-4d39-921f-2e6e1c7834ca" "2024-06-07T09:24:24.488252" "1.0.0" "2.39.1" "DefaultType"
+
+[2024-06-07 11:24:24.490581] [rosEdgeInMemoryBuffer] [info] Identification "R-a5d42923-d4e8-4eb3-8f58-a19ee0b0370b" "2024-06-07T09:24:24.490527" "1.0.0" "2.39.1" "DefaultType"
+
+[2024-06-07 11:24:24.535181] [rosEdgeInMemoryBuffer] [info] Setting constant value md5 = e1bb1f4f5dd2b0f5f6215c950966786f
+[2024-06-07 11:24:24.535285] [rosEdgeInMemoryBuffer] [info] Receiving ValueConfiguration CV-c4644aba-797b-42a9-9be0-c2a219df5b07 for sunny-weather-cv(D-c3e3f4ed-e3b9-4d39-921f-2e6e1c7834ca) with values : ==["true"],==
+[2024-06-07 11:24:24.539158] [rosEdgeInMemoryBuffer] [info] Setting constant value md5 = e1bb1f4f5dd2b0f5f6215c950966786f
+[2024-06-07 11:33:44.543469] [rosEdgeInMemoryBuffer] [info] ------------------- Running D-c3e3f4ed-e3b9-4d39-921f-2e6e1c7834ca(1.0.0) (1.0.0) using SDK 2.39.1-------------------
+[2024-06-07 11:33:44.543581] [rosEdgeInMemoryBuffer] [info] Logging to file at /home/abhimanyu/Heex_SDK_2_39_1/samples/ROS1/ros-edge/./logs/rosEdgeInMemoryBuffer.log
+[2024-06-07 11:33:44.543871] [rosEdgeInMemoryBuffer] [info] Connection to heexCore service 127.0.0.1:4242 from D-c3e3f4ed-e3b9-4d39-921f-2e6e1c7834ca
+[2024-06-07 11:33:44.545996] [rosEdgeInMemoryBuffer] [info] ------------------- Running R-a5d42923-d4e8-4eb3-8f58-a19ee0b0370b(1.0.0) (1.0.0) using SDK 2.39.1-------------------
+[2024-06-07 11:33:44.546275] [rosEdgeInMemoryBuffer] [info] Connection to heexCore service 127.0.0.1:4243 from R-a5d42923-d4e8-4eb3-8f58-a19ee0b0370b

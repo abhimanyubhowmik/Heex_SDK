@@ -1,0 +1,10 @@
+[2024-06-05 12:07:00.483234] [heexPeriodicMonitor] [info] Heex SDK version : 2.37.1
+[2024-06-05 12:07:00.483650] [heexPeriodicMonitor] [info] Periodic monitor can be called with [uuid] [rate]
+[2024-06-05 12:07:00.483771] [heexPeriodicMonitor] [info] ./agents/builtin/heexPeriodicMonitor will be exposed as D-HEEX0c75df6c-397f-414e-9147-fae79a72b050(1.1.0) try to connect to 127.0.0.1:4242 time will flow normally as rate = 1.0
+[2024-06-05 12:07:00.486090] [heexPeriodicMonitor] [info] ------------------- Running D-HEEX0c75df6c-397f-414e-9147-fae79a72b050(1.1.0) (1.0.0) using SDK 2.37.1-------------------
+[2024-06-05 12:07:00.486219] [heexPeriodicMonitor] [info] Logging to file at /home/abhimanyu/Documents/Heex_SDK_2_37_1/./logs/heexPeriodicMonitor.log
+[2024-06-05 12:07:00.487439] [heexPeriodicMonitor] [info] Connection to heexCore service 127.0.0.1:4242 from D-HEEX0c75df6c-397f-414e-9147-fae79a72b050
+[2024-06-05 12:07:00.497166] [heexPeriodicMonitor] [info] Identification "D-HEEX0c75df6c-397f-414e-9147-fae79a72b050" "2024-06-05T10:07:00.496983" "1.1.0" "2.37.1" "DefaultType"
+
+[2024-06-05 12:07:00.543737] [heexPeriodicMonitor] [info] Setting constant value md5 = dd551ec3c1e4deef375344b1aef030f4
+[2024-06-05 12:07:00.544029] [heexPeriodicMonitor] [info] Receiving ValueConfiguration CV-HEEX96fe2a19-ae6c-4c06-a958-243f9702d146 for periodic(D-HEEX0c75df6c-397f-414e-9147-fae79a72b050) with values : ==[["Above",60]],==
